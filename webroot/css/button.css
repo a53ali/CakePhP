@@ -1,0 +1,18 @@
+/* CSS used here will be applied after bootstrap.css */
+.badgeHolder {
+    width: 100px;
+    padding: 20px;
+    margin: auto;
+}
+.badge-btn {
+    background: #1b5591;
+    border-radius: 17px;
+    padding: 7px 14px;
+    top: 10px;
+}
+.badge-xs {
+    font-size: 9px;
+    background: #d8e7fc;
+    padding: 5px;
+    color: #333;
+}

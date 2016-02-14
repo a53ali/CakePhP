@@ -19,7 +19,8 @@ SET time_zone = "+00:00";
 --
 -- Database: `cake`
 --
-
+CREATE DATABASE IF NOT EXISTS cake;
+USE cake;
 -- --------------------------------------------------------
 
 --
@@ -38,7 +39,6 @@ CREATE TABLE IF NOT EXISTS `timeoffrequest` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
-
 --
 -- Table structure for table `users`
 --

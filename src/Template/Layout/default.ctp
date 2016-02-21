@@ -108,8 +108,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                                     echo $this->request->session()->read('Auth.User.id');
                                     echo '">';
                                     echo 'Account';
-                                } else {
-                                    echo '<a href="/login"';
                                 }
                                 ?>
                             </a>

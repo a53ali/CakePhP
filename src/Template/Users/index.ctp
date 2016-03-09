@@ -31,8 +31,8 @@
                     <td><?= $this->Number->format($user->id) ?></td>
                     <td><?= h($user->username) ?></td>
                     <td><?= h($user->role) ?></td>
-                    <td><?= h($user->created) ?></td>
-                    <td><?= h($user->modified) ?></td>
+                    <td><?= h($user->created->format('m/d/y , h:i A')) ?></td>
+                    <td><?= h($user->modified->format('m/d/y , h:i A')) ?></td>
                 </tr>
             <?php endforeach; ?>
             </tbody>

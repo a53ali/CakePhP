@@ -103,7 +103,7 @@
 
                         <div class="col-md-8">
                             <div class="form-control">
-                                <?= h($user->created) ?>
+                                <?= h($user->created->format('m/d/y')) ?>
                             </div>
                         </div>
                     </div>
@@ -111,7 +111,7 @@
                         <label class="col-md-3 control-label"><?= __('Date Updated:') ?></label>
                         <div class="col-md-8">
                             <div class="form-control">
-                                <?= h($user->modified) ?>
+                                <?= h($user->modified->format('m/d/y')) ?>
                             </div>
                         </div>
                     </div>

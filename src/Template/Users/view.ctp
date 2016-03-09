@@ -1,6 +1,6 @@
 <script>
-    $(document).ready(function(){
-        $("#hide").click(function(){
+    $(document).ready(function () {
+        $("#hide").click(function () {
             $("#mytimeoff").toggle();
         });
         $("#mytimeoff").hide();
@@ -123,23 +123,23 @@
                             <table class="table table-striped">
                                 <thead>
                                 <tr>
-                                    <th><?= $this->Paginator->sort('start (MM/DD/YY)') ?></th>
-                                    <th><?= $this->Paginator->sort('end (MM/DD/YY)') ?></th>
+                                    <th class="actions"><?= __('') ?></th>
+                                    <th><?= $this->Paginator->sort('start') ?></th>
+                                    <th><?= $this->Paginator->sort('end ') ?></th>
                                     <th><?= $this->Paginator->sort('Approval Status') ?></th>
-                                    <th class="actions"><?= __('Actions') ?></th>
                                 </tr>
                                 </thead>
                                 <tbody>
                                 <?php foreach ($timeoffrequest as $timeoffrequest): ?>
                                     <tr>
-                                        <td><?= str_replace("/", "/", substr($timeoffrequest->start, 0, -10)) ?></td>
-                                        <td><?= str_replace("/", "/", substr($timeoffrequest->end, 0, -10)) ?></td>
-                                        <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : 'Approved' ?></td>
                                         <td class="actions">
                                             <?= $this->Html->link(__('View'),
                                                 ['controller' => 'timeoffrequest', 'action' => 'view', $timeoffrequest->id,
                                                     'class' => 'icon-eye-open']) ?>
                                         </td>
+                                        <td><?= $timeoffrequest->start->format('d, M Y'); ?></td>
+                                        <td><?= $timeoffrequest->end->format('d, M Y') ?></td>
+                                        <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : 'Approved' ?></td>
                                     </tr>
                                 <?php endforeach; ?>
                                 </tbody>

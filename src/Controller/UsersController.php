@@ -38,20 +38,7 @@ class UsersController extends AppController
         $this->set('user', $user);
         $this->set('_serialize', ['user']);
 
-        $this->loadModel('timeoffrequest');
-        $tors = $this->timeoffrequest->find('all')
-            ->where(['user_id IS' => intval($id)]);
-
-        /*foreach ($tors as $row) {
-            debug($row->user_id);
-            debug(intval($id));
-        }*/
-
-        $this->set('timeoffrequest', $this->paginate($tors));
-        $this->set('_serialize', ['timeoffrequest']);
-
-        //$row = $tors->first();
-        //pr($row);
+        $this->getUsersTimeOffRequest($id);
     }
 
     /**
@@ -151,5 +138,26 @@ class UsersController extends AppController
     public function logout()
     {
         return $this->redirect($this->Auth->logout());
+    }
+
+    /**
+     * @param $id
+     */
+    public function getUsersTimeOffRequest($id)
+    {
+        $this->loadModel('timeoffrequest');
+        $tors = $this->timeoffrequest->find('all')
+            ->where(['user_id IS' => intval($id)]);
+
+        /*foreach ($tors as $row) {
+            debug($row->user_id);
+            debug(intval($id));
+        }*/
+
+        $this->set('timeoffrequest', $this->paginate($tors));
+        $this->set('_serialize', ['timeoffrequest']);
+
+        //$row = $tors->first();
+        //pr($row);
     }
 }

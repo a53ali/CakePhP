@@ -38,10 +38,13 @@ class UsersController extends AppController
         $this->set('_serialize', ['user']);
 
         $this->loadModel('timeoffrequest');
-        $tors = $this->timeoffrequest->find('all', [
-            'user_id' => $id
-        ]);
+        $tors = $this->timeoffrequest->find('all')
+        ->where(['user_id IS' => intval($id)]);
 
+/*foreach ($tors as $row) {
+    debug($row->user_id);
+    debug(intval($id));
+}*/
 
         $this->set('timeoffrequest', $this->paginate($tors));
         $this->set('_serialize', ['timeoffrequest']);

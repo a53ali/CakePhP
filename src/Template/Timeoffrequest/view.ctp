@@ -20,16 +20,12 @@
                 <td><?= $timeoffrequest->has('user') ? $this->Html->link($timeoffrequest->user->username, ['controller' => 'Users', 'action' => 'view', $timeoffrequest->user->id]) : '' ?></td>
             </tr>
             <tr>
-                <th><?= __('SMessage') ?></th>
+                <th><?= __('Message To Manager') ?></th>
                 <td><?= h($timeoffrequest->sMessage) ?></td>
             </tr>
             <tr>
-                <th><?= __('Id') ?></th>
-                <td><?= $this->Number->format($timeoffrequest->id) ?></td>
-            </tr>
-            <tr>
-                <th><?= __('KApprovalStatus') ?></th>
-                <td><?= h($timeoffrequest->kApprovalStatus) ?></td>
+                <th><?= __('Approval Status') ?></th>
+                <td><?=  $timeoffrequest->kApprovalStatus == '1' ?  'Pending': 'Approved' ?></td>
             </tr>
             <tr>
                 <th><?= __('Start') ?></th>

@@ -1,3 +1,11 @@
+<script>
+$(document).ready(function(){
+    $("#hide").click(function(){
+        $("#mytimeoff").toggle();
+    });
+    $("#mytimeoff").hide();
+});
+</script>
 <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
     <ul class="nav">
         <li class="heading"><?= __('Actions') ?></li>
@@ -100,13 +108,49 @@
                     </div>
                     <div class="form-group">
                         <label class="col-md-3 control-label"><?= __('Date Updated:') ?></label>
-
                         <div class="col-md-8">
                             <div class="form-control">
                                 <?= h($user->modified) ?>
                             </div>
                         </div>
                     </div>
+<h2>
+            <a id="hide" class="sub-header"><?= __('My Time Off Requests') ?>
+            </a>
+    </h2>            <div id= "mytimeoff" class="table-responsive timeoffrequest index large-9 medium-8 columns content">
+                    <table class="table table-striped">
+                        <thead>
+                        <tr>
+                            <th><?= $this->Paginator->sort('start (MM/DD/YY)') ?></th>
+                            <th><?= $this->Paginator->sort('end (MM/DD/YY)') ?></th>
+                            <th><?= $this->Paginator->sort('Approval Status') ?></th>
+                            <th class="actions"><?= __('Actions') ?></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <?php foreach ($timeoffrequest as $timeoffrequest): ?>
+                        <tr>
+                            <td><?=  str_replace("/","/", substr($timeoffrequest->start, 0, -10)) ?></td>
+                            <td><?= str_replace("/","/", substr($timeoffrequest->end, 0, -10)) ?></td>
+                            <td><?=  $timeoffrequest->kApprovalStatus == '1' ?  'Pending': 'Approved' ?></td>
+                            <td class="actions">
+                                <?= $this->Html->link(__('View'),
+                                    ['controller' => 'timeoffrequest' , 'action' => 'view', $timeoffrequest->id,
+                                     'class' => 'icon-eye-open']) ?>
+                            </td>
+                        </tr>
+                        <?php endforeach; ?>
+                    </tbody>
+                </table>
+                <div class="paginator">
+                    <ul class="pagination">
+                        <?= $this->Paginator->prev('< ' . __('previous')) ?>
+                        <?= $this->Paginator->numbers() ?>
+                        <?= $this->Paginator->next(__('next') . ' >') ?>
+                    </ul>
+                </div>
+            </div>
+
                 </div>
             </form>
             </div>

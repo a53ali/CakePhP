@@ -727,3 +727,510 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 
 
 
+2016-03-09 03:44:58 Notice: Notice (8): Undefined variable: timeoffrequest in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/view.ctp, line 132
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: pageCount in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 668]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::numbers() - CORE/src/View/Helper/PaginatorHelper.php, line 668
+include - APP/Template/Users/view.ctp, line 154
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: pageCount in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 589]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 589
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 593]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 593
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: perPage in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 596]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 596
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 597
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 598
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: page in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 611]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 611
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: current in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 613]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 613
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:44:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 614]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 614
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:56:46 Notice: Notice (8): Undefined variable: timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:56:53 Notice: Notice (8): Undefined variable: timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:46 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:47 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:48 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined variable: timeoffrequest in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/view.ctp, line 132
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: pageCount in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 668]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::numbers() - CORE/src/View/Helper/PaginatorHelper.php, line 668
+include - APP/Template/Users/view.ctp, line 154
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: pageCount in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 589]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 589
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 593]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 593
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: perPage in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 596]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 596
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 597]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 597
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 598]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 598
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: page in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 611]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 611
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: current in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 613]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 613
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:58:58 Notice: Notice (8): Undefined index: count in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/PaginatorHelper.php, line 614]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\View\Helper\PaginatorHelper::counter() - CORE/src/View/Helper/PaginatorHelper.php, line 614
+include - APP/Template/Users/view.ctp, line 157
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:59:16 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:59:18 Notice: Notice (8): Undefined variable: Timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:00:02 Notice: Notice (8): Undefined variable: timeoffrequest in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 40
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:04:59 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 42]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 42
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:05:33 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:05:34 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:09:16 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:11:29 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:12:44 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:12:44 Notice: Notice (8): Use of undefined constant tors - assumed 'tors' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 46]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 46
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:13:58 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:14:22 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 04:14:36 Notice: Notice (8): Use of undefined constant id - assumed 'id' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 43]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+App\Controller\UsersController::view() - APP/Controller/UsersController.php, line 43
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+

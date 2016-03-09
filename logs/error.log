@@ -53805,3 +53805,389 @@ Stack Trace:
 2016-03-09 03:32:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-09 03:32:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-09 03:32:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:39:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:44:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:44:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/view.ctp, line 132
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:46:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:50:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:50:01 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/src/Controller/UsersController.php(44): Cake\Controller\Controller->paginate(false)
+#1 [internal function]: App\Controller\UsersController->view('16')
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-03-09 03:51:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:51:06 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/src/Controller/UsersController.php(43): Cake\Controller\Controller->paginate(false)
+#1 [internal function]: App\Controller\UsersController->view('16')
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-03-09 03:51:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:51:07 Error: [RuntimeException] Unable to locate an object compatible with paginate.
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/src/Controller/UsersController.php(43): Cake\Controller\Controller->paginate(false)
+#1 [internal function]: App\Controller\UsersController->view('16')
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#5 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#6 {main}
+
+
+2016-03-09 03:56:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:56:46 Error: Fatal Error (1): Call to a member function findByid() on null in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:56:46 Error: [Cake\Error\FatalErrorException] Call to a member function findByid() on null
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/home/adil/Cake...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:56:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:56:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:56:53 Error: Fatal Error (1): Call to a member function findByid() on null in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:56:53 Error: [Cake\Error\FatalErrorException] Call to a member function findByid() on null
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/home/adil/Cake...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:58:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:58:46 Error: Fatal Error (1): Call to a member function findByid() on null in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:58:46 Error: [Cake\Error\FatalErrorException] Call to a member function findByid() on null
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/home/adil/Cake...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:58:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:58:47 Error: Fatal Error (1): Call to a member function findByid() on null in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:58:47 Error: [Cake\Error\FatalErrorException] Call to a member function findByid() on null
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/home/adil/Cake...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:58:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:58:48 Error: Fatal Error (1): Call to a member function findByid() on null in [/home/adil/CakePhP/src/Controller/UsersController.php, line 40]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:58:48 Error: [Cake\Error\FatalErrorException] Call to a member function findByid() on null
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to a membe...', '/home/adil/Cake...', 40)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:58:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:58:58 Warning: Warning (2): Invalid argument supplied for foreach() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 132]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+include - APP/Template/Users/view.ctp, line 132
+Cake\View\View::_evaluate() - CORE/src/View/View.php, line 971
+Cake\View\View::_render() - CORE/src/View/View.php, line 931
+Cake\View\View::render() - CORE/src/View/View.php, line 579
+Cake\Controller\Controller::render() - CORE/src/Controller/Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:59:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:59:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:00:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:00:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:02:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:04:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:05:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:05:34 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:05:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:05:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:05:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:06:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:09:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:09:05 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:09:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:09:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:11:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:12:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:12:44 Error: [Cake\Database\Exception] SQLSTATE[42S02]: Base table or view not found: 1146 Table 'cake.tors' doesn't exist
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(96): Cake\Database\Schema\Collection->_reflect('Column', 'tors', Array, Object(Cake\Database\Schema\Table))
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(64): Cake\Database\Schema\Collection->describe('tors', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(423): Cake\Database\Schema\CachedCollection->describe('tors')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Query.php(173): Cake\ORM\Table->schema()
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Query.php(131): Cake\ORM\Query->addDefaultTypes(Object(Cake\ORM\Table))
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(Cake\ORM\Table))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(931): Cake\ORM\Table->query()
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Component/PaginatorComponent.php(166): Cake\ORM\Table->find('all', Array)
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(688): Cake\Controller\Component\PaginatorComponent->paginate(Object(Cake\ORM\Table), Array)
+#9 /home/adil/CakePhP/src/Controller/UsersController.php(46): Cake\Controller\Controller->paginate('tors')
+#10 [internal function]: App\Controller\UsersController->view('16')
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#12 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#14 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#15 {main}
+
+
+2016-03-09 04:13:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:14:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:14:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:14:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:14:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:15:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:16:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:17:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:18:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:18:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:19:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:19:10 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /users/view/1?class=icon-eye-open
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 /home/adil/CakePhP/src/Controller/UsersController.php(36): Cake\ORM\Table->get('1', Array)
+#2 [internal function]: App\Controller\UsersController->view('1')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-09 04:19:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:19:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:19:15 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /users/edit/1
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 /home/adil/CakePhP/src/Controller/UsersController.php(89): Cake\ORM\Table->get('1', Array)
+#2 [internal function]: App\Controller\UsersController->edit('1')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-09 04:19:16 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:21:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:21:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:22:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:24:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:24:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:25:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:26:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:28:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:28:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:28:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:36:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:36:54 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 127]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:36:54 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/home/adil/Cake...', 127)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:37:15 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:37:15 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF), expecting ',' or ';' in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:37:15 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF), expecting ',' or ';'
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/home/adil/Cake...', 128)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:38:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:38:54 Error: Fatal Error (1): Call to undefined function php() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:38:54 Error: [Cake\Error\FatalErrorException] Call to undefined function php()
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/home/adil/Cake...', 128)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:38:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:38:55 Error: Fatal Error (1): Call to undefined function php() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:38:55 Error: [Cake\Error\FatalErrorException] Call to undefined function php()
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/home/adil/Cake...', 128)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:38:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:38:55 Error: Fatal Error (1): Call to undefined function php() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:38:55 Error: [Cake\Error\FatalErrorException] Call to undefined function php()
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/home/adil/Cake...', 128)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:38:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:38:55 Error: Fatal Error (1): Call to undefined function php() in [/home/adil/CakePhP/src/Template/Users/view.ctp, line 128]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 04:38:55 Error: [Cake\Error\FatalErrorException] Call to undefined function php()
+Request URL: /users/view/16
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', '/home/adil/Cake...', 128)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 04:41:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:42:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:42:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:43:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:43:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:43:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:44:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:44:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:45:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:47:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:48:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:09 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:49:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:50:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:54:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:55:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:55:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:55:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:56:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:57:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 04:57:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 05:01:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 05:03:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 05:03:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 05:04:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.

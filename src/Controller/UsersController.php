@@ -36,6 +36,18 @@ class UsersController extends AppController
         ]);
         $this->set('user', $user);
         $this->set('_serialize', ['user']);
+
+        $this->loadModel('timeoffrequest');
+        $tors = $this->timeoffrequest->find('all', [
+            'user_id' => $id
+        ]);
+
+
+        $this->set('timeoffrequest', $this->paginate($tors));
+        $this->set('_serialize', ['timeoffrequest']);
+
+        //$row = $tors->first();
+        //pr($row);
     }
 
     /**

@@ -1,10 +1,10 @@
 <div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-    <ul class="side-nav">
+    <ul class="nav">
         <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('Edit Timeoffrequest'), ['action' => 'edit', $timeoffrequest->id]) ?> </li>
-        <li><?= $this->Form->postLink(__('Delete Timeoffrequest'), ['action' => 'delete', $timeoffrequest->id], ['confirm' => __('Are you sure you want to delete # {0}?', $timeoffrequest->id)]) ?> </li>
-        <li><?= $this->Html->link(__('List Timeoffrequest'), ['action' => 'index']) ?> </li>
-        <li><?= $this->Html->link(__('New Timeoffrequest'), ['action' => 'add']) ?> </li>
+        <li><?= $this->Html->link(__('Edit Time Off Request'), ['action' => 'edit', $timeoffrequest->id]) ?> </li>
+        <li><?= $this->Form->postLink(__('Delete Time Off Request'), ['action' => 'delete', $timeoffrequest->id], ['confirm' => __('Are you sure you want to delete # {0}?', $timeoffrequest->id)]) ?> </li>
+        <li><?= $this->Html->link(__('List Time Off Request'), ['action' => 'index']) ?> </li>
+        <li><?= $this->Html->link(__('New Time Off Request'), ['action' => 'add']) ?> </li>
         <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?> </li>
         <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?> </li>
     </ul>

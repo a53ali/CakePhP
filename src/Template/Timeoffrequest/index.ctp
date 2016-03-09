@@ -8,7 +8,7 @@
 </div>
 <!-- main area -->
 <div class="col-xs-12 col-sm-9">
-    <h2 class="sub-header"><?= __('Timeoffrequest') ?></h2>
+    <h2 class="sub-header"><?= __('Time Off Request') ?></h2>
     <div class="table-responsive timeoffrequest index large-9 medium-8 columns content">
         <table class="table table-striped">
             <thead>
@@ -26,10 +26,10 @@
             <?php foreach ($timeoffrequest as $timeoffrequest): ?>
                 <tr>
                     <td><?= $timeoffrequest->has('user') ? $this->Html->link($timeoffrequest->user->username, ['controller' => 'Users', 'action' => 'view', $timeoffrequest->user->id]) : '' ?></td>
-                    <td><?= str_replace("/", "-", substr($timeoffrequest->start, 0, -10)) ?></td>
-                    <td><?= str_replace("/", "-", substr($timeoffrequest->end, 0, -10)) ?></td>
-                    <td><?= h($timeoffrequest->created) ?></td>
-                    <td><?= h($timeoffrequest->modified) ?></td>
+                    <td><?= str_replace("/", "/", substr($timeoffrequest->start, 0, -10)) ?></td>
+                    <td><?= str_replace("/", "/", substr($timeoffrequest->end, 0, -10)) ?></td>
+                    <td><?= h(substr($timeoffrequest->created, 0, -10)) ?></td>
+                    <td><?= h(substr($timeoffrequest->modified, 0, -10)) ?></td>
                     <td><?= h($timeoffrequest->sMessage) ?></td>
                     <td class="actions">
                         <?= $this->Html->link(__('View'),

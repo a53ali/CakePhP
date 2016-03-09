@@ -125,7 +125,8 @@ abstract class Cell
         Response $response = null,
         EventManager $eventManager = null,
         array $cellOptions = []
-    ) {
+    )
+    {
         $this->eventManager($eventManager);
         $this->request = $request;
         $this->response = $response;

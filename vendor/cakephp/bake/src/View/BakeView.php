@@ -84,7 +84,8 @@ class BakeView extends View
         Response $response = null,
         EventManager $eventManager = null,
         array $viewOptions = []
-    ) {
+    )
+    {
         parent::__construct($request, $response, $eventManager, $viewOptions);
 
         $bakeTemplates = dirname(dirname(__FILE__)) . DS . 'Template' . DS;

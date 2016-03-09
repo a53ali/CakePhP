@@ -227,7 +227,7 @@ class TablePrefixAdapter extends AdapterWrapper
      */
     public function getPrefix()
     {
-        return (string) $this->getOption('table_prefix');
+        return (string)$this->getOption('table_prefix');
     }
 
     /**
@@ -237,7 +237,7 @@ class TablePrefixAdapter extends AdapterWrapper
      */
     public function getSuffix()
     {
-        return (string) $this->getOption('table_suffix');
+        return (string)$this->getOption('table_suffix');
     }
 
     /**

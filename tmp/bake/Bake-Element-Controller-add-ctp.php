@@ -15,38 +15,38 @@
 $compact = ["'" . $singularName . "'"];
 ?>
 
-    /**
-     * Add method
-     *
-     * @return void Redirects on successful add, renders view otherwise.
-     */
-    public function add()
-    {
-        $<?= $singularName ?> = $this-><?= $currentModelName ?>->newEntity();
-        if ($this->request->is('post')) {
-            $<?= $singularName ?> = $this-><?= $currentModelName ?>->patchEntity($<?= $singularName ?>, $this->request->data);
-            if ($this-><?= $currentModelName; ?>->save($<?= $singularName ?>)) {
-                $this->Flash->success(__('The <?= strtolower($singularHumanName) ?> has been saved.'));
-                return $this->redirect(['action' => 'index']);
-            } else {
-                $this->Flash->error(__('The <?= strtolower($singularHumanName) ?> could not be saved. Please, try again.'));
-            }
-        }
+/**
+* Add method
+*
+* @return void Redirects on successful add, renders view otherwise.
+*/
+public function add()
+{
+$<?= $singularName ?> = $this-><?= $currentModelName ?>->newEntity();
+if ($this->request->is('post')) {
+$<?= $singularName ?> = $this-><?= $currentModelName ?>->patchEntity($<?= $singularName ?>, $this->request->data);
+if ($this-><?= $currentModelName; ?>->save($<?= $singularName ?>)) {
+$this->Flash->success(__('The <?= strtolower($singularHumanName) ?> has been saved.'));
+return $this->redirect(['action' => 'index']);
+} else {
+$this->Flash->error(__('The <?= strtolower($singularHumanName) ?> could not be saved. Please, try again.'));
+}
+}
 <?php
-        $associations = array_merge(
-            $this->Bake->aliasExtractor($modelObj, 'BelongsTo'),
-            $this->Bake->aliasExtractor($modelObj, 'BelongsToMany')
-        );
-        foreach ($associations as $assoc):
-            $association = $modelObj->association($assoc);
-            $otherName = $association->target()->alias();
-            $otherPlural = $this->_variableName($otherName);
+$associations = array_merge(
+    $this->Bake->aliasExtractor($modelObj, 'BelongsTo'),
+    $this->Bake->aliasExtractor($modelObj, 'BelongsToMany')
+);
+foreach ($associations as $assoc):
+    $association = $modelObj->association($assoc);
+    $otherName = $association->target()->alias();
+    $otherPlural = $this->_variableName($otherName);
+    ?>
+    $<?= $otherPlural ?> = $this-><?= $currentModelName ?>-><?= $otherName ?>->find('list', ['limit' => 200]);
+    <?php
+    $compact[] = "'$otherPlural'";
+endforeach;
 ?>
-        $<?= $otherPlural ?> = $this-><?= $currentModelName ?>-><?= $otherName ?>->find('list', ['limit' => 200]);
-<?php
-            $compact[] = "'$otherPlural'";
-        endforeach;
-?>
-        $this->set(compact(<?= join(', ', $compact) ?>));
-        $this->set('_serialize', ['<?=$singularName?>']);
-    }
+$this->set(compact(<?= join(', ', $compact) ?>));
+$this->set('_serialize', ['<?= $singularName ?>']);
+}

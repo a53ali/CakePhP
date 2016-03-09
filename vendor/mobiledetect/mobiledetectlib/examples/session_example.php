@@ -65,7 +65,9 @@ function layoutTypes()
 function initLayoutType()
 {
     // Safety check.
-    if (!class_exists('Mobile_Detect')) { return 'classic'; }
+    if (!class_exists('Mobile_Detect')) {
+        return 'classic';
+    }
 
     $detect = new Mobile_Detect;
     $isMobile = $detect->isMobile();
@@ -74,7 +76,7 @@ function initLayoutType()
     $layoutTypes = layoutTypes();
 
     // Set the layout type.
-    if ( isset($_GET['layoutType']) ) {
+    if (isset($_GET['layoutType'])) {
 
         $layoutType = $_GET['layoutType'];
 
@@ -86,14 +88,16 @@ function initLayoutType()
 
         } else {
 
-            $layoutType =  $_SESSION['layoutType'];
+            $layoutType = $_SESSION['layoutType'];
 
         }
 
     }
 
     // Fallback. If everything fails choose classic layout.
-    if ( !in_array($layoutType, $layoutTypes) ) { $layoutType = 'classic'; }
+    if (!in_array($layoutType, $layoutTypes)) {
+        $layoutType = 'classic';
+    }
 
     // Store the layout type for future use.
     $_SESSION['layoutType'] = $layoutType;
@@ -117,17 +121,18 @@ $layoutType = initLayoutType();
  */
 ?>
 
-<?php if(!isset($_GET['page'])): ?>
+<?php if (!isset($_GET['page'])): ?>
 
     <!-- example page #1 -->
     <h1>Demo page number one.</h1>
     <p>You can go to page <a href="<?php echo $_SERVER['PHP_SELF']; ?>?page=two">two</a>.</p>
     <p>Showing you the <b><?php echo $layoutType; ?></b> version.</p>
-    <p><b>Note:</b> When running this test using the same browser with multiple User-Agents, clear your cookies/session before each test.</p>
+    <p><b>Note:</b> When running this test using the same browser with multiple User-Agents, clear your cookies/session
+        before each test.</p>
 
 <?php endif; ?>
 
-<?php if(isset($_GET['page']) && $_GET['page']=='two'): ?>
+<?php if (isset($_GET['page']) && $_GET['page'] == 'two'): ?>
 
     <!-- example page #2 -->
     <h1>Demo page number two.</h1>
@@ -136,9 +141,9 @@ $layoutType = initLayoutType();
 
 <?php endif; ?>
 
-<!-- Footer links example. Change this as you like. -->
-<?php foreach(layoutTypes() as $_layoutType): ?>
-    <?php if($_layoutType == $layoutType): ?>
+    <!-- Footer links example. Change this as you like. -->
+<?php foreach (layoutTypes() as $_layoutType): ?>
+    <?php if ($_layoutType == $layoutType): ?>
         <?php echo strtoupper($_layoutType); ?>
     <?php else: ?>
         <a href="<?php echo $_SERVER['PHP_SELF']; ?>?layoutType=<?php echo $_layoutType; ?>"><?php echo strtoupper($_layoutType); ?></a>

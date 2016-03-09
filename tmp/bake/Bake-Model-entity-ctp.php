@@ -33,51 +33,51 @@ if (!isset($fields) || $fields !== false) {
 }
 ?>
 <CakePHPBakeOpenTagphp
-namespace <?= $namespace ?>\Model\Entity;
+    namespace <?= $namespace ?>\Model\Entity;
 
-use Cake\ORM\Entity;
+    use Cake\ORM\Entity;
 
 /**
- * <?= $name ?> Entity.
+* <?= $name ?> Entity.
 <?php if ($propertyHintMap): ?>
- *
-<?php foreach ($propertyHintMap as $property => $type): ?>
-<?php if ($type): ?>
- * @property <?= $type ?> $<?= $property ?>
+    *
+    <?php foreach ($propertyHintMap as $property => $type): ?>
+        <?php if ($type): ?>
+            * @property <?= $type ?> $<?= $property ?>
 
-<?php else: ?>
- * @property $<?= $property ?>
+        <?php else: ?>
+            * @property $<?= $property ?>
 
+        <?php endif; ?>
+    <?php endforeach; ?>
 <?php endif; ?>
-<?php endforeach; ?>
-<?php endif; ?>
- */
+*/
 class <?= $name ?> extends Entity
 {
 <?php if (!empty($accessible)): ?>
 
     /**
-     * Fields that can be mass assigned using newEntity() or patchEntity().
-     *
-     * Note that when '*' is set to true, this allows all unspecified fields to
-     * be mass assigned. For security purposes, it is advised to set '*' to false
-     * (or remove it), and explicitly make individual fields accessible as needed.
-     *
-     * @var array
-     */
+    * Fields that can be mass assigned using newEntity() or patchEntity().
+    *
+    * Note that when '*' is set to true, this allows all unspecified fields to
+    * be mass assigned. For security purposes, it is advised to set '*' to false
+    * (or remove it), and explicitly make individual fields accessible as needed.
+    *
+    * @var array
+    */
     protected $_accessible = [
-<?php foreach ($accessible as $field => $value): ?>
+    <?php foreach ($accessible as $field => $value): ?>
         '<?= $field ?>' => <?= $value ?>,
-<?php endforeach; ?>
+    <?php endforeach; ?>
     ];
 <?php endif ?>
 <?php if (!empty($hidden)): ?>
 
     /**
-     * Fields that are excluded from JSON an array versions of the entity.
-     *
-     * @var array
-     */
+    * Fields that are excluded from JSON an array versions of the entity.
+    *
+    * @var array
+    */
     protected $_hidden = [<?= $this->Bake->stringifyList($hidden) ?>];
 <?php endif ?>
 <?php if (empty($accessible) && empty($hidden)): ?>

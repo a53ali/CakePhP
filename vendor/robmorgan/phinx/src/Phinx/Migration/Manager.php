@@ -122,7 +122,7 @@ class Manager
                     $output->writeln(json_encode($migrations));
                     break;
                 default:
-                    $output->writeln('<info>Unsupported format: '.$format.'</info>');
+                    $output->writeln('<info>Unsupported format: ' . $format . '</info>');
                     break;
             }
         }
@@ -132,16 +132,16 @@ class Manager
     /**
      * Migrate to the version of the database on a given date.
      *
-     * @param string    $environment Environment
-     * @param \DateTime $dateTime    Date to migrate to
+     * @param string $environment Environment
+     * @param \DateTime $dateTime Date to migrate to
      *
      * @return void
      */
     public function migrateToDateTime($environment, \DateTime $dateTime)
     {
-        $env            = $this->getEnvironment($environment);
-        $versions       = array_keys($this->getMigrations());
-        $dateString     = $dateTime->format('Ymdhis');
+        $env = $this->getEnvironment($environment);
+        $versions = array_keys($this->getMigrations());
+        $dateString = $dateTime->format('Ymdhis');
         $earlierVersion = null;
         foreach ($versions as $version) {
             if ($version > $dateString) {
@@ -165,22 +165,22 @@ class Manager
     /**
      * Roll back to the version of the database on a given date.
      *
-     * @param string    $environment Environment
-     * @param \DateTime $dateTime    Date to roll back to
+     * @param string $environment Environment
+     * @param \DateTime $dateTime Date to roll back to
      *
      * @return void
      */
     public function rollbackToDateTime($environment, \DateTime $dateTime)
     {
-        $env        = $this->getEnvironment($environment);
-        $versions   = $env->getVersions();
+        $env = $this->getEnvironment($environment);
+        $versions = $env->getVersions();
         $dateString = $dateTime->format('Ymdhis');
         sort($versions);
         $laterVersion = null;
         foreach (array_reverse($versions) as $version) {
             if ($version < $dateString) {
                 if (!is_null($laterVersion)) {
-                    $this->getOutput()->writeln('Rolling back to version '.$version);
+                    $this->getOutput()->writeln('Rolling back to version ' . $version);
                 }
                 return $this->rollback($environment, $version);
             }

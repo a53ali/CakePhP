@@ -147,9 +147,9 @@ class SqliteSchema extends BaseSchema
         $table->addColumn($row['name'], $field);
         if ($row['pk']) {
             $constraint = (array)$table->constraint('primary') + [
-                'type' => Table::CONSTRAINT_PRIMARY,
-                'columns' => []
-            ];
+                    'type' => Table::CONSTRAINT_PRIMARY,
+                    'columns' => []
+                ];
             $constraint['columns'] = array_merge($constraint['columns'], [$row['name']]);
             $table->addConstraint('primary', $constraint);
         }

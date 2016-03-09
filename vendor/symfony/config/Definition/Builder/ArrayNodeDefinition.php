@@ -142,7 +142,7 @@ class ArrayNodeDefinition extends NodeDefinition implements ParentNodeDefinition
      * Sets a normalization rule for XML configurations.
      *
      * @param string $singular The key to remap
-     * @param string $plural   The plural of the key for irregular plurals
+     * @param string $plural The plural of the key for irregular plurals
      *
      * @return ArrayNodeDefinition
      */
@@ -176,8 +176,8 @@ class ArrayNodeDefinition extends NodeDefinition implements ParentNodeDefinition
      *
      * This method is applicable to prototype nodes only.
      *
-     * @param string $name          The name of the key
-     * @param bool   $removeKeyItem Whether or not the key item should be removed.
+     * @param string $name The name of the key
+     * @param bool $removeKeyItem Whether or not the key item should be removed.
      *
      * @return ArrayNodeDefinition
      */
@@ -226,17 +226,16 @@ class ArrayNodeDefinition extends NodeDefinition implements ParentNodeDefinition
             ->treatTrueLike(array('enabled' => true))
             ->treatNullLike(array('enabled' => true))
             ->beforeNormalization()
-                ->ifArray()
-                ->then(function ($v) {
-                    $v['enabled'] = isset($v['enabled']) ? $v['enabled'] : true;
+            ->ifArray()
+            ->then(function ($v) {
+                $v['enabled'] = isset($v['enabled']) ? $v['enabled'] : true;
 
-                    return $v;
-                })
+                return $v;
+            })
             ->end()
             ->children()
-                ->booleanNode('enabled')
-                    ->defaultFalse()
-        ;
+            ->booleanNode('enabled')
+            ->defaultFalse();
 
         return $this;
     }
@@ -256,9 +255,8 @@ class ArrayNodeDefinition extends NodeDefinition implements ParentNodeDefinition
             ->treatTrueLike(array('enabled' => true))
             ->treatNullLike(array('enabled' => true))
             ->children()
-                ->booleanNode('enabled')
-                    ->defaultTrue()
-        ;
+            ->booleanNode('enabled')
+            ->defaultTrue();
 
         return $this;
     }
@@ -302,7 +300,7 @@ class ArrayNodeDefinition extends NodeDefinition implements ParentNodeDefinition
      */
     public function normalizeKeys($bool)
     {
-        $this->normalizeKeys = (bool) $bool;
+        $this->normalizeKeys = (bool)$bool;
 
         return $this;
     }

@@ -15,84 +15,107 @@
 use Cake\Utility\Inflector;
 
 $fields = collection($fields)
-    ->filter(function($field) use ($schema) {
+    ->filter(function ($field) use ($schema) {
         return $schema->columnType($field) !== 'binary';
     });
 ?>
 <nav class="large-3 medium-4 columns" id="actions-sidebar">
     <ul class="side-nav">
-        <li class="heading"><CakePHPBakeOpenTag= __('Actions') CakePHPBakeCloseTag></li>
-<?php if (strpos($action, 'add') === false): ?>
-        <li><CakePHPBakeOpenTag= $this->Form->postLink(
+        <li class="heading">
+            <CakePHPBakeOpenTag
+            = __('Actions') CakePHPBakeCloseTag>
+        </li>
+        <?php if (strpos($action, 'add') === false): ?>
+            <li>
+                <CakePHPBakeOpenTag
+                = $this->Form->postLink(
                 __('Delete'),
                 ['action' => 'delete', $<?= $singularVar ?>-><?= $primaryKey[0] ?>],
                 ['confirm' => __('Are you sure you want to delete # {0}?', $<?= $singularVar ?>-><?= $primaryKey[0] ?>)]
-            )
-        CakePHPBakeCloseTag></li>
-<?php endif; ?>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('List <?= $pluralHumanName ?>'), ['action' => 'index']) CakePHPBakeCloseTag></li>
-<?php
+                )
+                CakePHPBakeCloseTag>
+            </li>
+        <?php endif; ?>
+        <li>
+            <CakePHPBakeOpenTag
+            = $this->Html->link(__('List <?= $pluralHumanName ?>'), ['action' => 'index']) CakePHPBakeCloseTag>
+        </li>
+        <?php
         $done = [];
         foreach ($associations as $type => $data) {
             foreach ($data as $alias => $details) {
                 if ($details['controller'] !== $this->name && !in_array($details['controller'], $done)) {
-?>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('List <?= $this->_pluralHumanName($alias) ?>'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'index']) ?></li>
-        <li><CakePHPBakeOpenTag= $this->Html->link(__('New <?= $this->_singularHumanName($alias) ?>'), ['controller' => '<?= $details['controller'] ?>', 'action' => 'add']) ?></li>
-<?php
+                    ?>
+                    <li>
+                        <CakePHPBakeOpenTag
+                        = $this->Html->link(__('List <?= $this->_pluralHumanName($alias) ?>'), ['controller' =>
+                        '<?= $details['controller'] ?>', 'action' => 'index']) ?>
+                    </li>
+                    <li>
+                        <CakePHPBakeOpenTag
+                        = $this->Html->link(__('New <?= $this->_singularHumanName($alias) ?>'), ['controller' =>
+                        '<?= $details['controller'] ?>', 'action' => 'add']) ?>
+                    </li>
+                    <?php
                     $done[] = $details['controller'];
                 }
             }
         }
-?>
+        ?>
     </ul>
 </nav>
 <div class="<?= $pluralVar ?> form large-9 medium-8 columns content">
-    <CakePHPBakeOpenTag= $this->Form->create($<?= $singularVar ?>) CakePHPBakeCloseTag>
+    <CakePHPBakeOpenTag
+    = $this->Form->create($<?= $singularVar ?>) CakePHPBakeCloseTag>
     <fieldset>
-        <legend><CakePHPBakeOpenTag= __('<?= Inflector::humanize($action) ?> <?= $singularHumanName ?>') CakePHPBakeCloseTag></legend>
+        <legend>
+            <CakePHPBakeOpenTag
+            = __('<?= Inflector::humanize($action) ?> <?= $singularHumanName ?>') CakePHPBakeCloseTag>
+        </legend>
         <CakePHPBakeOpenTagphp
-<?php
-        foreach ($fields as $field) {
+            <?php
+            foreach ($fields as $field) {
             if (in_array($field, $primaryKey)) {
                 continue;
             }
             if (isset($keyFields[$field])) {
-                $fieldData = $schema->column($field);
-                if (!empty($fieldData['null'])) {
-?>
+            $fieldData = $schema->column($field);
+            if (!empty($fieldData['null'])) {
+            ?>
             echo $this->Form->input('<?= $field ?>', ['options' => $<?= $keyFields[$field] ?>, 'empty' => true]);
-<?php
-                } else {
-?>
-            echo $this->Form->input('<?= $field ?>', ['options' => $<?= $keyFields[$field] ?>]);
-<?php
-                }
-                continue;
+            <?php
+            } else {
+                ?>
+                echo $this->Form->input('<?= $field ?>', ['options' => $<?= $keyFields[$field] ?>]);
+                <?php
+            }
+            continue;
             }
             if (!in_array($field, ['created', 'modified', 'updated'])) {
                 $fieldData = $schema->column($field);
                 if (($fieldData['type'] === 'date') && (!empty($fieldData['null']))) {
-?>
-            echo $this->Form->input('<?= $field ?>', ['empty' => true]);
-<?php
+                    ?>
+                    echo $this->Form->input('<?= $field ?>', ['empty' => true]);
+                    <?php
                 } else {
-?>
-            echo $this->Form->input('<?= $field ?>');
-<?php
+                    ?>
+                    echo $this->Form->input('<?= $field ?>');
+                    <?php
                 }
             }
-        }
-        if (!empty($associations['BelongsToMany'])) {
-            foreach ($associations['BelongsToMany'] as $assocName => $assocData) {
-?>
-            echo $this->Form->input('<?= $assocData['property'] ?>._ids', ['options' => $<?= $assocData['variable'] ?>]);
-<?php
             }
-        }
-?>
-        CakePHPBakeCloseTag>
+            if (!empty($associations['BelongsToMany'])) {
+                foreach ($associations['BelongsToMany'] as $assocName => $assocData) {
+                    ?>
+                    echo $this->Form->input('<?= $assocData['property'] ?>._ids', ['options' => $<?= $assocData['variable'] ?>]);
+                    <?php
+                }
+            }
+            ?>
+            CakePHPBakeCloseTag>
     </fieldset>
-    <CakePHPBakeOpenTag= $this->Form->button(__('Submit')) CakePHPBakeCloseTag>
-    <CakePHPBakeOpenTag= $this->Form->end() CakePHPBakeCloseTag>
+    <CakePHPBakeOpenTag
+    = $this->Form->button(__('Submit')) CakePHPBakeCloseTag>
+    <CakePHPBakeOpenTag
+    = $this->Form->end() CakePHPBakeCloseTag>
 </div>

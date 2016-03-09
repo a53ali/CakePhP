@@ -52,7 +52,7 @@ class ExceptionCaster
 
     public static function castErrorException(\ErrorException $e, array $a, Stub $stub, $isNested)
     {
-        if (isset($a[$s = Caster::PREFIX_PROTECTED.'severity'], self::$errorTypes[$a[$s]])) {
+        if (isset($a[$s = Caster::PREFIX_PROTECTED . 'severity'], self::$errorTypes[$a[$s]])) {
             $a[$s] = new ConstStub(self::$errorTypes[$a[$s]], $a[$s]);
         }
 
@@ -64,18 +64,18 @@ class ExceptionCaster
         $prefix = Caster::PREFIX_PROTECTED;
         $xPrefix = "\0Exception\0";
 
-        if (isset($a[$xPrefix.'previous'], $a[$xPrefix.'trace'][0])) {
-            $b = (array) $a[$xPrefix.'previous'];
-            $b[$xPrefix.'trace'][0] += array(
-                'file' => $b[$prefix.'file'],
-                'line' => $b[$prefix.'line'],
+        if (isset($a[$xPrefix . 'previous'], $a[$xPrefix . 'trace'][0])) {
+            $b = (array)$a[$xPrefix . 'previous'];
+            $b[$xPrefix . 'trace'][0] += array(
+                'file' => $b[$prefix . 'file'],
+                'line' => $b[$prefix . 'line'],
             );
-            array_splice($b[$xPrefix.'trace'], -1 - count($a[$xPrefix.'trace']));
-            static::filterTrace($b[$xPrefix.'trace'], false);
-            $a[Caster::PREFIX_VIRTUAL.'trace'] = $b[$xPrefix.'trace'];
+            array_splice($b[$xPrefix . 'trace'], -1 - count($a[$xPrefix . 'trace']));
+            static::filterTrace($b[$xPrefix . 'trace'], false);
+            $a[Caster::PREFIX_VIRTUAL . 'trace'] = $b[$xPrefix . 'trace'];
         }
 
-        unset($a[$xPrefix.'trace'], $a[$xPrefix.'previous'], $a[$prefix.'code'], $a[$prefix.'file'], $a[$prefix.'line']);
+        unset($a[$xPrefix . 'trace'], $a[$xPrefix . 'previous'], $a[$prefix . 'code'], $a[$prefix . 'file'], $a[$prefix . 'line']);
 
         return $a;
     }
@@ -100,7 +100,7 @@ class ExceptionCaster
 
         foreach ($trace as &$t) {
             $t = array(
-                'call' => (isset($t['class']) ? $t['class'].$t['type'] : '').$t['function'].'()',
+                'call' => (isset($t['class']) ? $t['class'] . $t['type'] : '') . $t['function'] . '()',
                 'file' => isset($t['line']) ? "{$t['file']}:{$t['line']}" : '',
                 'args' => &$t['args'],
             );
@@ -113,9 +113,9 @@ class ExceptionCaster
 
     private static function filterExceptionArray(array $a, $xPrefix, $filter)
     {
-        if (isset($a[$xPrefix.'trace'])) {
-            $trace = $a[$xPrefix.'trace'];
-            unset($a[$xPrefix.'trace']); // Ensures the trace is always last
+        if (isset($a[$xPrefix . 'trace'])) {
+            $trace = $a[$xPrefix . 'trace'];
+            unset($a[$xPrefix . 'trace']); // Ensures the trace is always last
         } else {
             $trace = array();
         }
@@ -124,13 +124,13 @@ class ExceptionCaster
             static::filterTrace($trace, static::$traceArgs);
 
             if (null !== $trace) {
-                $a[$xPrefix.'trace'] = $trace;
+                $a[$xPrefix . 'trace'] = $trace;
             }
         }
-        if (empty($a[$xPrefix.'previous'])) {
-            unset($a[$xPrefix.'previous']);
+        if (empty($a[$xPrefix . 'previous'])) {
+            unset($a[$xPrefix . 'previous']);
         }
-        unset($a[$xPrefix.'string'], $a[Caster::PREFIX_DYNAMIC.'xdebug_message'], $a[Caster::PREFIX_DYNAMIC.'__destructorException']);
+        unset($a[$xPrefix . 'string'], $a[Caster::PREFIX_DYNAMIC . 'xdebug_message'], $a[Caster::PREFIX_DYNAMIC . '__destructorException']);
 
         return $a;
     }

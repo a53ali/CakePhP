@@ -336,10 +336,10 @@ class EagerLoader
 
         foreach ($this->attachableAssociations($repository) as $loadable) {
             $config = $loadable->config() + [
-                'aliasPath' => $loadable->aliasPath(),
-                'propertyPath' => $loadable->propertyPath(),
-                'includeFields' => $includeFields,
-            ];
+                    'aliasPath' => $loadable->aliasPath(),
+                    'propertyPath' => $loadable->propertyPath(),
+                    'includeFields' => $includeFields,
+                ];
             $loadable->instance()->attachTo($query, $config);
         }
     }

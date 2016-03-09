@@ -21,7 +21,7 @@ class FileResourceTest extends \PHPUnit_Framework_TestCase
 
     protected function setUp()
     {
-        $this->file = realpath(sys_get_temp_dir()).'/tmp.xml';
+        $this->file = realpath(sys_get_temp_dir()) . '/tmp.xml';
         $this->time = time();
         touch($this->file, $this->time);
         $this->resource = new FileResource($this->file);
@@ -39,7 +39,7 @@ class FileResourceTest extends \PHPUnit_Framework_TestCase
 
     public function testToString()
     {
-        $this->assertSame(realpath($this->file), (string) $this->resource);
+        $this->assertSame(realpath($this->file), (string)$this->resource);
     }
 
     public function testIsFresh()
@@ -48,7 +48,7 @@ class FileResourceTest extends \PHPUnit_Framework_TestCase
         $this->assertTrue($this->resource->isFresh($this->time + 10), '->isFresh() returns true if the resource has not changed');
         $this->assertFalse($this->resource->isFresh($this->time - 86400), '->isFresh() returns false if the resource has been updated');
 
-        $resource = new FileResource('/____foo/foobar'.mt_rand(1, 999999));
+        $resource = new FileResource('/____foo/foobar' . mt_rand(1, 999999));
         $this->assertFalse($resource->isFresh($this->time), '->isFresh() returns false if the resource does not exist');
     }
 

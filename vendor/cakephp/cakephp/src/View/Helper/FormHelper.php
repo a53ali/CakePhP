@@ -391,11 +391,11 @@ class FormHelper extends Helper
                 $options['type'] = ($isCreate) ? 'post' : 'put';
             // Move on
             case 'post':
-            // Move on
+                // Move on
             case 'put':
-            // Move on
+                // Move on
             case 'delete':
-            // Set patch method
+                // Set patch method
             case 'patch':
                 $append .= $this->hidden('_method', [
                     'name' => '_method',
@@ -802,9 +802,9 @@ class FormHelper extends Helper
             $labelFor = $this->_domId($fieldName);
         }
         $attrs = $options + [
-            'for' => $labelFor,
-            'text' => $text,
-        ];
+                'for' => $labelFor,
+                'text' => $text,
+            ];
         if (isset($options['input'])) {
             if (is_array($options['input'])) {
                 $attrs = $options['input'] + $attrs;

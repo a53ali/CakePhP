@@ -23,14 +23,13 @@ class MergeTest extends \PHPUnit_Framework_TestCase
         $tb = new TreeBuilder();
         $tree = $tb
             ->root('root', 'array')
-                ->children()
-                    ->node('foo', 'scalar')
-                        ->cannotBeOverwritten()
-                    ->end()
-                ->end()
+            ->children()
+            ->node('foo', 'scalar')
+            ->cannotBeOverwritten()
             ->end()
-            ->buildTree()
-        ;
+            ->end()
+            ->end()
+            ->buildTree();
 
         $a = array(
             'foo' => 'bar',
@@ -48,24 +47,23 @@ class MergeTest extends \PHPUnit_Framework_TestCase
         $tb = new TreeBuilder();
         $tree = $tb
             ->root('root', 'array')
-                ->children()
-                    ->node('foo', 'scalar')->end()
-                    ->node('bar', 'scalar')->end()
-                    ->node('unsettable', 'array')
-                        ->canBeUnset()
-                        ->children()
-                            ->node('foo', 'scalar')->end()
-                            ->node('bar', 'scalar')->end()
-                        ->end()
-                    ->end()
-                    ->node('unsetted', 'array')
-                        ->canBeUnset()
-                        ->prototype('scalar')->end()
-                    ->end()
-                ->end()
+            ->children()
+            ->node('foo', 'scalar')->end()
+            ->node('bar', 'scalar')->end()
+            ->node('unsettable', 'array')
+            ->canBeUnset()
+            ->children()
+            ->node('foo', 'scalar')->end()
+            ->node('bar', 'scalar')->end()
             ->end()
-            ->buildTree()
-        ;
+            ->end()
+            ->node('unsetted', 'array')
+            ->canBeUnset()
+            ->prototype('scalar')->end()
+            ->end()
+            ->end()
+            ->end()
+            ->buildTree();
 
         $a = array(
             'foo' => 'bar',
@@ -99,17 +97,17 @@ class MergeTest extends \PHPUnit_Framework_TestCase
         $tb = new TreeBuilder();
         $tree = $tb
             ->root('config', 'array')
-                ->children()
-                    ->node('test', 'array')
-                        ->disallowNewKeysInSubsequentConfigs()
-                        ->useAttributeAsKey('key')
-                        ->prototype('array')
-                            ->children()
-                                ->node('value', 'scalar')->end()
-                            ->end()
-                        ->end()
-                    ->end()
-                ->end()
+            ->children()
+            ->node('test', 'array')
+            ->disallowNewKeysInSubsequentConfigs()
+            ->useAttributeAsKey('key')
+            ->prototype('array')
+            ->children()
+            ->node('value', 'scalar')->end()
+            ->end()
+            ->end()
+            ->end()
+            ->end()
             ->end()
             ->buildTree();
 
@@ -134,18 +132,17 @@ class MergeTest extends \PHPUnit_Framework_TestCase
 
         $tree = $tb
             ->root('config', 'array')
-                ->children()
-                    ->node('no_deep_merging', 'array')
-                        ->performNoDeepMerging()
-                        ->children()
-                            ->node('foo', 'scalar')->end()
-                            ->node('bar', 'scalar')->end()
-                        ->end()
-                    ->end()
-                ->end()
+            ->children()
+            ->node('no_deep_merging', 'array')
+            ->performNoDeepMerging()
+            ->children()
+            ->node('foo', 'scalar')->end()
+            ->node('bar', 'scalar')->end()
             ->end()
-            ->buildTree()
-        ;
+            ->end()
+            ->end()
+            ->end()
+            ->buildTree();
 
         $a = array(
             'no_deep_merging' => array(
@@ -173,14 +170,13 @@ class MergeTest extends \PHPUnit_Framework_TestCase
 
         $tree = $tb
             ->root('config', 'array')
-                ->children()
-                    ->arrayNode('append_elements')
-                        ->prototype('scalar')->end()
-                    ->end()
-                ->end()
+            ->children()
+            ->arrayNode('append_elements')
+            ->prototype('scalar')->end()
             ->end()
-            ->buildTree()
-        ;
+            ->end()
+            ->end()
+            ->buildTree();
 
         $a = array(
             'append_elements' => array('a', 'b'),

@@ -14,8 +14,8 @@
  */
 ?>
 <CakePHPBakeOpenTagphp
-use Cake\Routing\Router;
+    use Cake\Routing\Router;
 
-Router::plugin('<?= $plugin ?>', function ($routes) {
-    $routes->fallbacks('DashedRoute');
+    Router::plugin('<?= $plugin ?>', function ($routes) {
+$routes->fallbacks('DashedRoute');
 });

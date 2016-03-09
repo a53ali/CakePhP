@@ -54,9 +54,9 @@ class AssertHtmlTestCase extends TestCase
         $input = '<p><strong>' . $value . '</strong></p>';
         $pattern = [
             '<p',
-                '<strong',
-                    $value,
-                '/strong',
+            '<strong',
+            $value,
+            '/strong',
             '/p'
         ];
         $this->assertHtml($pattern, $input);
@@ -64,14 +64,14 @@ class AssertHtmlTestCase extends TestCase
         $input = '<p><strong>' . $value . '</strong></p><p><strong>' . $value . '</strong></p>';
         $pattern = [
             '<p',
-                '<strong',
-                    $value,
-                '/strong',
+            '<strong',
+            $value,
+            '/strong',
             '/p',
             '<p',
-                '<strong',
-                    $value,
-                '/strong',
+            '<strong',
+            $value,
+            '/strong',
             '/p',
         ];
         $this->assertHtml($pattern, $input);
@@ -79,14 +79,14 @@ class AssertHtmlTestCase extends TestCase
         $input = '<p><strong>' . $value . '</strong></p><p id="' . $value . '"><strong>' . $value . '</strong></p>';
         $pattern = [
             '<p',
-                '<strong',
-                    $value,
-                '/strong',
+            '<strong',
+            $value,
+            '/strong',
             '/p',
             'p' => ['id' => $value],
-                '<strong',
-                    $value,
-                '/strong',
+            '<strong',
+            $value,
+            '/strong',
             '/p',
         ];
         $this->assertHtml($pattern, $input);

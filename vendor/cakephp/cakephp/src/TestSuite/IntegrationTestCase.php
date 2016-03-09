@@ -385,8 +385,8 @@ abstract class IntegrationTestCase extends TestCase
     protected function _buildRequest($url, $method, $data)
     {
         $sessionConfig = (array)Configure::read('Session') + [
-            'defaults' => 'php',
-        ];
+                'defaults' => 'php',
+            ];
         $session = Session::create($sessionConfig);
         $session->write($this->_session);
         list ($url, $query) = $this->_url($url);
@@ -717,6 +717,7 @@ abstract class IntegrationTestCase extends TestCase
         }
         $this->assertNotEmpty((string)$this->_response->body(), $message);
     }
+
     /**
      * Assert response content is empty.
      *

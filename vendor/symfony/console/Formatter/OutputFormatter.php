@@ -37,12 +37,12 @@ class OutputFormatter implements OutputFormatterInterface
     /**
      * Initializes console output formatter.
      *
-     * @param bool                            $decorated Whether this formatter should actually decorate strings
-     * @param OutputFormatterStyleInterface[] $styles    Array of "name => FormatterStyle" instances
+     * @param bool $decorated Whether this formatter should actually decorate strings
+     * @param OutputFormatterStyleInterface[] $styles Array of "name => FormatterStyle" instances
      */
     public function __construct($decorated = false, array $styles = array())
     {
-        $this->decorated = (bool) $decorated;
+        $this->decorated = (bool)$decorated;
 
         $this->setStyle('error', new OutputFormatterStyle('white', 'red'));
         $this->setStyle('info', new OutputFormatterStyle('green'));
@@ -63,7 +63,7 @@ class OutputFormatter implements OutputFormatterInterface
      */
     public function setDecorated($decorated)
     {
-        $this->decorated = (bool) $decorated;
+        $this->decorated = (bool)$decorated;
     }
 
     /**
@@ -79,7 +79,7 @@ class OutputFormatter implements OutputFormatterInterface
     /**
      * Sets a new style.
      *
-     * @param string                        $name  The style name
+     * @param string $name The style name
      * @param OutputFormatterStyleInterface $style The style instance
      */
     public function setStyle($name, OutputFormatterStyleInterface $style)
@@ -126,7 +126,7 @@ class OutputFormatter implements OutputFormatterInterface
      */
     public function format($message)
     {
-        $message = (string) $message;
+        $message = (string)$message;
         $offset = 0;
         $output = '';
         $tagRegex = '[a-z][a-z0-9_=;-]*';

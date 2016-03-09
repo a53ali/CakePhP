@@ -52,7 +52,7 @@ foreach ($files as $file) {
             $startLine = $e->getStartLine();
             $endLine = $e->getEndLine();
             $startColumn = $e->getStartColumn($code);
-            $endColumn   = $e->getEndColumn($code);
+            $endColumn = $e->getEndColumn($code);
             $message .= $e->getRawMessage() . " from $startLine:$startColumn to $endLine:$endColumn";
         } else {
             $message = $e->getMessage();
@@ -81,7 +81,8 @@ foreach ($files as $file) {
     }
 }
 
-function showHelp($error) {
+function showHelp($error)
+{
     die($error . "\n\n" .
         <<<OUTPUT
 Usage: php php-parse.php [operations] file1.php [file2.php ...]
@@ -107,7 +108,8 @@ OUTPUT
     );
 }
 
-function parseArgs($args) {
+function parseArgs($args)
+{
     $operations = array();
     $files = array();
     $attributes = array(

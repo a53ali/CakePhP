@@ -180,7 +180,7 @@ class Validator implements ArrayAccess, IteratorAggregate, Countable
      * If called with no arguments, it will return the provider stored under that name if
      * it exists, otherwise it returns this instance of chaining.
      *
-     * @param string $name  The name under which the provider should be set.
+     * @param string $name The name under which the provider should be set.
      * @param null|object|string $object Provider object or class name.
      * @return $this|object|string|null
      */
@@ -512,7 +512,7 @@ class Validator implements ArrayAccess, IteratorAggregate, Countable
      *
      * @param string $field the name of the field
      * @param string $message The validation message to show if the field is not
-     * @param bool|string|callable $when  Indicates when the field is not allowed
+     * @param bool|string|callable $when Indicates when the field is not allowed
      * to be empty. Valid values are true (always), 'create', 'update'. If a
      * callable is passed then the field will allowed be empty only when
      * the callback returns false.

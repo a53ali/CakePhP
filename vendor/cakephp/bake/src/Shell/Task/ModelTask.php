@@ -469,7 +469,7 @@ class ModelTask extends BakeTask
             if ($entityClass === '\Cake\ORM\Entity') {
                 $namespace = Configure::read('App.namespace');
 
-                list($plugin, ) = pluginSplit($association->target()->registryAlias());
+                list($plugin,) = pluginSplit($association->target()->registryAlias());
                 if ($plugin !== null) {
                     $namespace = $plugin;
                 }

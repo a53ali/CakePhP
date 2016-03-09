@@ -299,7 +299,8 @@ class RouteBuilder
         }
 
         $connectOptions = $options['connectOptions'];
-        $urlName = Inflector::{$options['inflect']}($name);
+        $urlName = Inflector::{
+        $options['inflect']}($name);
         $resourceMap = array_merge(static::$_resourceMap, $options['map']);
 
         $only = (array)$options['only'];
@@ -324,10 +325,10 @@ class RouteBuilder
                 '_method' => $params['method'],
             ];
             $routeOptions = $connectOptions + [
-                'id' => $options['id'],
-                'pass' => ['id'],
-                '_ext' => $ext,
-            ];
+                    'id' => $options['id'],
+                    'pass' => ['id'],
+                    '_ext' => $ext,
+                ];
             $this->connect($url, $params, $routeOptions);
         }
 

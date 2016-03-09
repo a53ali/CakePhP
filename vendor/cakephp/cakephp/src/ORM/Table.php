@@ -1262,11 +1262,11 @@ class Table implements RepositoryInterface, EventListenerInterface, EventDispatc
     {
         return (bool)count(
             $this->find('all')
-            ->select(['existing' => 1])
-            ->where($conditions)
-            ->limit(1)
-            ->hydrate(false)
-            ->toArray()
+                ->select(['existing' => 1])
+                ->where($conditions)
+                ->limit(1)
+                ->hydrate(false)
+                ->toArray()
         );
     }
 
@@ -1356,12 +1356,12 @@ class Table implements RepositoryInterface, EventListenerInterface, EventDispatc
     public function save(EntityInterface $entity, $options = [])
     {
         $options = new ArrayObject($options + [
-            'atomic' => true,
-            'associated' => true,
-            'checkRules' => true,
-            'checkExisting' => true,
-            '_primary' => true
-        ]);
+                'atomic' => true,
+                'associated' => true,
+                'checkRules' => true,
+                'checkExisting' => true,
+                '_primary' => true
+            ]);
 
         if ($entity->errors()) {
             return false;
@@ -1636,10 +1636,10 @@ class Table implements RepositoryInterface, EventListenerInterface, EventDispatc
     public function delete(EntityInterface $entity, $options = [])
     {
         $options = new ArrayObject($options + [
-            'atomic' => true,
-            'checkRules' => true,
-            '_primary' => true,
-        ]);
+                'atomic' => true,
+                'checkRules' => true,
+                '_primary' => true,
+            ]);
 
         $process = function () use ($entity, $options) {
             return $this->_processDelete($entity, $options);
@@ -1817,7 +1817,7 @@ class Table implements RepositoryInterface, EventListenerInterface, EventDispatc
         } elseif ($hasOr !== false) {
             $fields = explode('_or_', $fields);
             $conditions = [
-            'OR' => $makeConditions($fields, $args)
+                'OR' => $makeConditions($fields, $args)
             ];
         } elseif ($hasAnd !== false) {
             $fields = explode('_and_', $fields);

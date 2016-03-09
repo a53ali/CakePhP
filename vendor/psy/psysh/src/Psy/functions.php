@@ -27,13 +27,13 @@ if (!function_exists('Psy\info')) {
         $config = new Configuration();
 
         $core = array(
-            'PsySH version'      => Shell::VERSION,
-            'PHP version'        => PHP_VERSION,
-            'default includes'   => $config->getDefaultIncludes(),
+            'PsySH version' => Shell::VERSION,
+            'PHP version' => PHP_VERSION,
+            'default includes' => $config->getDefaultIncludes(),
             'require semicolons' => $config->requireSemicolons(),
-            'config file'        => array(
+            'config file' => array(
                 'default config file' => $config->getConfigFile(),
-                'PSYSH_CONFIG env'    => getenv('PSYSH_CONFIG'),
+                'PSYSH_CONFIG env' => getenv('PSYSH_CONFIG'),
             ),
             // 'config dir'  => $config->getConfigDir(),
             // 'data dir'    => $config->getDataDir(),
@@ -45,9 +45,9 @@ if (!function_exists('Psy\info')) {
 
             $readline = array(
                 'readline available' => true,
-                'readline enabled'   => $config->useReadline(),
-                'readline service'   => get_class($config->getReadline()),
-                'readline library'   => $info['library_version'],
+                'readline enabled' => $config->useReadline(),
+                'readline service' => get_class($config->getReadline()),
+                'readline library' => $info['library_version'],
             );
 
             if ($info['readline_name'] !== '') {
@@ -65,13 +65,13 @@ if (!function_exists('Psy\info')) {
         );
 
         $history = array(
-            'history file'     => $config->getHistoryFile(),
-            'history size'     => $config->getHistorySize(),
+            'history file' => $config->getHistoryFile(),
+            'history size' => $config->getHistorySize(),
             'erase duplicates' => $config->getEraseDuplicates(),
         );
 
         $docs = array(
-            'manual db file'   => $config->getManualDbFile(),
+            'manual db file' => $config->getManualDbFile(),
             'sqlite available' => true,
         );
 
@@ -105,7 +105,7 @@ if (!function_exists('Psy\info')) {
 
         $autocomplete = array(
             'tab completion enabled' => $config->getTabCompletion(),
-            'custom matchers'        => array_map('get_class', $config->getTabCompletionMatchers()),
+            'custom matchers' => array_map('get_class', $config->getTabCompletionMatchers()),
         );
 
         return array_merge($core, compact('pcntl', 'readline', 'history', 'docs', 'autocomplete'));
@@ -126,10 +126,10 @@ if (!function_exists('Psy\bin')) {
             $input = new ArgvInput();
             try {
                 $input->bind(new InputDefinition(array(
-                    new InputOption('help',    'h',  InputOption::VALUE_NONE),
-                    new InputOption('config',  'c',  InputOption::VALUE_REQUIRED),
-                    new InputOption('version', 'v',  InputOption::VALUE_NONE),
-                    new InputOption('cwd',     null, InputOption::VALUE_REQUIRED),
+                    new InputOption('help', 'h', InputOption::VALUE_NONE),
+                    new InputOption('config', 'c', InputOption::VALUE_REQUIRED),
+                    new InputOption('version', 'v', InputOption::VALUE_NONE),
+                    new InputOption('cwd', null, InputOption::VALUE_REQUIRED),
 
                     new InputArgument('include', InputArgument::IS_ARRAY),
                 )));
@@ -153,7 +153,7 @@ if (!function_exists('Psy\bin')) {
                 }
 
                 $version = $shell->getVersion();
-                $name    = basename(reset($_SERVER['argv']));
+                $name = basename(reset($_SERVER['argv']));
                 echo <<<EOL
 $version
 

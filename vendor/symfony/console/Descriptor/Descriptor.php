@@ -62,7 +62,7 @@ abstract class Descriptor implements DescriptorInterface
      * Writes content to output.
      *
      * @param string $content
-     * @param bool   $decorated
+     * @param bool $decorated
      */
     protected function write($content, $decorated = false)
     {
@@ -73,7 +73,7 @@ abstract class Descriptor implements DescriptorInterface
      * Describes an InputArgument instance.
      *
      * @param InputArgument $argument
-     * @param array         $options
+     * @param array $options
      *
      * @return string|mixed
      */
@@ -83,7 +83,7 @@ abstract class Descriptor implements DescriptorInterface
      * Describes an InputOption instance.
      *
      * @param InputOption $option
-     * @param array       $options
+     * @param array $options
      *
      * @return string|mixed
      */
@@ -93,7 +93,7 @@ abstract class Descriptor implements DescriptorInterface
      * Describes an InputDefinition instance.
      *
      * @param InputDefinition $definition
-     * @param array           $options
+     * @param array $options
      *
      * @return string|mixed
      */
@@ -103,7 +103,7 @@ abstract class Descriptor implements DescriptorInterface
      * Describes a Command instance.
      *
      * @param Command $command
-     * @param array   $options
+     * @param array $options
      *
      * @return string|mixed
      */
@@ -113,7 +113,7 @@ abstract class Descriptor implements DescriptorInterface
      * Describes an Application instance.
      *
      * @param Application $application
-     * @param array       $options
+     * @param array $options
      *
      * @return string|mixed
      */

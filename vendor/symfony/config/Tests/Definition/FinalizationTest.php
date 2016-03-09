@@ -22,24 +22,23 @@ class FinalizationTest extends \PHPUnit_Framework_TestCase
         $tb = new TreeBuilder();
         $tree = $tb
             ->root('config', 'array')
-                ->children()
-                    ->node('level1', 'array')
-                        ->canBeUnset()
-                        ->children()
-                            ->node('level2', 'array')
-                                ->canBeUnset()
-                                ->children()
-                                    ->node('somevalue', 'scalar')->end()
-                                    ->node('anothervalue', 'scalar')->end()
-                                ->end()
-                            ->end()
-                            ->node('level1_scalar', 'scalar')->end()
-                        ->end()
-                    ->end()
-                ->end()
+            ->children()
+            ->node('level1', 'array')
+            ->canBeUnset()
+            ->children()
+            ->node('level2', 'array')
+            ->canBeUnset()
+            ->children()
+            ->node('somevalue', 'scalar')->end()
+            ->node('anothervalue', 'scalar')->end()
             ->end()
-            ->buildTree()
-        ;
+            ->end()
+            ->node('level1_scalar', 'scalar')->end()
+            ->end()
+            ->end()
+            ->end()
+            ->end()
+            ->buildTree();
 
         $a = array(
             'level1' => array(

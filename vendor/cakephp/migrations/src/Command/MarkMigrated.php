@@ -300,8 +300,8 @@ class MarkMigrated extends AbstractCommand
     protected function invalidOnlyOrExclude()
     {
         return ($this->hasExclude() && $this->hasOnly()) ||
-            ($this->hasExclude() || $this->hasOnly()) &&
-            $this->input->getOption('target') === null;
+        ($this->hasExclude() || $this->hasOnly()) &&
+        $this->input->getOption('target') === null;
     }
 
     /**

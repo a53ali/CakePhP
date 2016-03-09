@@ -91,7 +91,8 @@ class ColumnParser
 
             if (in_array($type, ['primary', 'primary_key']) ||
                 in_array($indexType, ['primary', 'primary_key']) ||
-                $indexType === null) {
+                $indexType === null
+            ) {
                 continue;
             }
 

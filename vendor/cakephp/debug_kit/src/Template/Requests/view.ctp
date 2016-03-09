@@ -12,16 +12,16 @@ use Cake\Core\Configure;
 
 <ul id="toolbar" class="toolbar">
     <?php foreach ($toolbar->panels as $panel): ?>
-    <li class="panel hidden" data-id="<?= $panel->id ?>">
+        <li class="panel hidden" data-id="<?= $panel->id ?>">
         <span class="panel-button">
             <?= h($panel->title) ?>
         </span>
-        <?php if (strlen($panel->summary)): ?>
-        <span class="panel-summary">
+            <?php if (strlen($panel->summary)): ?>
+                <span class="panel-summary">
             <?= h($panel->summary) ?>
         </span>
-        <?php endif ?>
-    </li>
+            <?php endif ?>
+        </li>
     <?php endforeach; ?>
     <li id="panel-button">
         <?= $this->Html->image('DebugKit.cake.icon.png', [

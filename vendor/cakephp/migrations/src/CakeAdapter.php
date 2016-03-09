@@ -185,7 +185,7 @@ class CakeAdapter implements AdapterInterface
      * Write a Phinx command to the output.
      *
      * @param string $command Command Name
-     * @param array  $args    Command Args
+     * @param array $args Command Args
      * @return void
      */
     public function writeCommand($command, $args = array())
@@ -403,7 +403,7 @@ class CakeAdapter implements AdapterInterface
      * Renames the specified database table.
      *
      * @param string $tableName Table Name
-     * @param string $newName   New Name
+     * @param string $newName New Name
      * @return void
      */
     public function renameTable($tableName, $newName)
@@ -436,7 +436,7 @@ class CakeAdapter implements AdapterInterface
     /**
      * Checks to see if a column exists.
      *
-     * @param string $tableName  Table Name
+     * @param string $tableName Table Name
      * @param string $columnName Column Name
      * @return bool
      */
@@ -448,7 +448,7 @@ class CakeAdapter implements AdapterInterface
     /**
      * Adds the specified column to a database table.
      *
-     * @param Table  $table  Table
+     * @param Table $table Table
      * @param Column $column Column
      * @return void
      */
@@ -473,9 +473,9 @@ class CakeAdapter implements AdapterInterface
     /**
      * Change a table column type.
      *
-     * @param string $tableName  Table Name
+     * @param string $tableName Table Name
      * @param string $columnName Column Name
-     * @param Column $newColumn  New Column
+     * @param Column $newColumn New Column
      * @return Table
      */
     public function changeColumn($tableName, $columnName, Column $newColumn)
@@ -499,7 +499,7 @@ class CakeAdapter implements AdapterInterface
      * Checks to see if an index exists.
      *
      * @param string $tableName Table Name
-     * @param mixed  $columns   Column(s)
+     * @param mixed $columns Column(s)
      * @return bool
      */
     public function hasIndex($tableName, $columns)
@@ -523,7 +523,7 @@ class CakeAdapter implements AdapterInterface
      * Drops the specified index from a database table.
      *
      * @param string $tableName
-     * @param mixed  $columns Column(s)
+     * @param mixed $columns Column(s)
      * @return void
      */
     public function dropIndex($tableName, $columns)
@@ -546,9 +546,9 @@ class CakeAdapter implements AdapterInterface
     /**
      * Checks to see if a foreign key exists.
      *
-     * @param string   $tableName
-     * @param string[] $columns    Column(s)
-     * @param string   $constraint Constraint name
+     * @param string $tableName
+     * @param string[] $columns Column(s)
+     * @param string $constraint Constraint name
      * @return bool
      */
     public function hasForeignKey($tableName, $columns, $constraint = null)
@@ -559,7 +559,7 @@ class CakeAdapter implements AdapterInterface
     /**
      * Adds the specified foreign key to a database table.
      *
-     * @param Table      $table
+     * @param Table $table
      * @param ForeignKey $foreignKey
      * @return void
      */

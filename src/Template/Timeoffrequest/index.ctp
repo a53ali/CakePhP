@@ -21,34 +21,34 @@
                 <th><?= $this->Paginator->sort('Message') ?></th>
                 <th class="actions"><?= __('Actions') ?></th>
             </tr>
-        </thead>
-        <tbody>
+            </thead>
+            <tbody>
             <?php foreach ($timeoffrequest as $timeoffrequest): ?>
-            <tr>
-                <td><?= $timeoffrequest->has('user') ? $this->Html->link($timeoffrequest->user->username, ['controller' => 'Users', 'action' => 'view', $timeoffrequest->user->id]) : '' ?></td>
-                <td><?=  str_replace("/","-", substr($timeoffrequest->start, 0, -10)) ?></td>
-                <td><?= str_replace("/","-", substr($timeoffrequest->end, 0, -10)) ?></td>
-                <td><?= h($timeoffrequest->created) ?></td>
-                <td><?= h($timeoffrequest->modified) ?></td>
-                <td><?= h($timeoffrequest->sMessage) ?></td>
-                <td class="actions">
-                    <?= $this->Html->link(__('View'),
-                        ['action' => 'view', $timeoffrequest->id,
-                         'class' => 'icon-eye-open']) ?>
-                    <?= $this->Html->link(__('Edit'), ['action' => 'edit', $timeoffrequest->id]) ?>
-                    <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $timeoffrequest->id], ['confirm' => __('Are you sure you want to delete # {0}?', $timeoffrequest->id)]) ?>
-                </td>
-            </tr>
+                <tr>
+                    <td><?= $timeoffrequest->has('user') ? $this->Html->link($timeoffrequest->user->username, ['controller' => 'Users', 'action' => 'view', $timeoffrequest->user->id]) : '' ?></td>
+                    <td><?= str_replace("/", "-", substr($timeoffrequest->start, 0, -10)) ?></td>
+                    <td><?= str_replace("/", "-", substr($timeoffrequest->end, 0, -10)) ?></td>
+                    <td><?= h($timeoffrequest->created) ?></td>
+                    <td><?= h($timeoffrequest->modified) ?></td>
+                    <td><?= h($timeoffrequest->sMessage) ?></td>
+                    <td class="actions">
+                        <?= $this->Html->link(__('View'),
+                            ['action' => 'view', $timeoffrequest->id,
+                                'class' => 'icon-eye-open']) ?>
+                        <?= $this->Html->link(__('Edit'), ['action' => 'edit', $timeoffrequest->id]) ?>
+                        <?= $this->Form->postLink(__('Delete'), ['action' => 'delete', $timeoffrequest->id], ['confirm' => __('Are you sure you want to delete # {0}?', $timeoffrequest->id)]) ?>
+                    </td>
+                </tr>
             <?php endforeach; ?>
-        </tbody>
-    </table>
-    <div class="paginator">
-        <ul class="pagination">
-            <?= $this->Paginator->prev('< ' . __('previous')) ?>
-            <?= $this->Paginator->numbers() ?>
-            <?= $this->Paginator->next(__('next') . ' >') ?>
-        </ul>
-        <p><?= $this->Paginator->counter() ?></p>
+            </tbody>
+        </table>
+        <div class="paginator">
+            <ul class="pagination">
+                <?= $this->Paginator->prev('< ' . __('previous')) ?>
+                <?= $this->Paginator->numbers() ?>
+                <?= $this->Paginator->next(__('next') . ' >') ?>
+            </ul>
+            <p><?= $this->Paginator->counter() ?></p>
+        </div>
     </div>
-</div>
 </div>

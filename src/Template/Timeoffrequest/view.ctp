@@ -25,7 +25,7 @@
             </tr>
             <tr>
                 <th><?= __('Approval Status') ?></th>
-                <td><?=  $timeoffrequest->kApprovalStatus == '1' ?  'Pending': 'Approved' ?></td>
+                <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : 'Approved' ?></td>
             </tr>
             <tr>
                 <th><?= __('Start') ?></th>

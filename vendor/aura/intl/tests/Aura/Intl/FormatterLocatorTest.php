@@ -6,11 +6,11 @@ class FormatterLocatorTest extends \PHPUnit_Framework_TestCase
     public function test__constructAndGet()
     {
         $formatters = new FormatterLocator([
-            'mock' => function() {
+            'mock' => function () {
                 return new \Aura\Intl\MockFormatter;
             },
         ]);
-        
+
         $expect = 'Aura\Intl\MockFormatter';
         $actual = $formatters->get('mock');
         $this->assertInstanceOf($expect, $actual);
@@ -22,12 +22,12 @@ class FormatterLocatorTest extends \PHPUnit_Framework_TestCase
         $formatters->set('mock', function () {
             return new \Aura\Intl\MockFormatter;
         });
-        
+
         $expect = 'Aura\Intl\MockFormatter';
         $actual = $formatters->get('mock');
         $this->assertInstanceOf($expect, $actual);
     }
-    
+
     public function testGet_noSuchFormatter()
     {
         $formatters = new FormatterLocator;

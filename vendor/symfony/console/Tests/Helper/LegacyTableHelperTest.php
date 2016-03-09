@@ -41,8 +41,7 @@ class LegacyTableHelperTest extends \PHPUnit_Framework_TestCase
         $table
             ->setHeaders($headers)
             ->setRows($rows)
-            ->setLayout($layout)
-        ;
+            ->setLayout($layout);
         $table->render($output = $this->getOutputStream());
 
         $this->assertEquals($expected, $this->getOutputContent($output));
@@ -57,8 +56,7 @@ class LegacyTableHelperTest extends \PHPUnit_Framework_TestCase
         $table
             ->setHeaders($headers)
             ->addRows($rows)
-            ->setLayout($layout)
-        ;
+            ->setLayout($layout);
         $table->render($output = $this->getOutputStream());
 
         $this->assertEquals($expected, $this->getOutputContent($output));
@@ -72,8 +70,7 @@ class LegacyTableHelperTest extends \PHPUnit_Framework_TestCase
         $table = new TableHelper();
         $table
             ->setHeaders($headers)
-            ->setLayout($layout)
-        ;
+            ->setLayout($layout);
         foreach ($rows as $row) {
             $table->addRow($row);
         }
@@ -96,8 +93,8 @@ class LegacyTableHelperTest extends \PHPUnit_Framework_TestCase
                 array('ISBN', 'Title', 'Author'),
                 $books,
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+---------------+--------------------------+------------------+
+                <<<TABLE
+                +---------------+--------------------------+------------------+
 | ISBN          | Title                    | Author           |
 +---------------+--------------------------+------------------+
 | 99921-58-10-7 | Divine Comedy            | Dante Alighieri  |
@@ -112,8 +109,8 @@ TABLE
                 array('ISBN', 'Title', 'Author'),
                 $books,
                 TableHelper::LAYOUT_COMPACT,
-<<<TABLE
- ISBN          Title                    Author           
+                <<<TABLE
+                 ISBN          Title                    Author
  99921-58-10-7 Divine Comedy            Dante Alighieri  
  9971-5-0210-0 A Tale of Two Cities     Charles Dickens  
  960-425-059-0 The Lord of the Rings    J. R. R. Tolkien 
@@ -125,8 +122,8 @@ TABLE
                 array('ISBN', 'Title', 'Author'),
                 $books,
                 TableHelper::LAYOUT_BORDERLESS,
-<<<TABLE
- =============== ========================== ================== 
+                <<<TABLE
+                 =============== ========================== ==================
   ISBN            Title                      Author            
  =============== ========================== ================== 
   99921-58-10-7   Divine Comedy              Dante Alighieri   
@@ -146,8 +143,8 @@ TABLE
                     array('80-902734-1-6', 'And Then There Were None', 'Agatha Christie'),
                 ),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+---------------+--------------------------+------------------+
+                <<<TABLE
+                +---------------+--------------------------+------------------+
 | ISBN          | Title                    |                  |
 +---------------+--------------------------+------------------+
 | 99921-58-10-7 | Divine Comedy            | Dante Alighieri  |
@@ -167,8 +164,8 @@ TABLE
                     array('80-902734-1-6', 'And Then There Were None', 'Agatha Christie'),
                 ),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+---------------+--------------------------+------------------+
+                <<<TABLE
+                +---------------+--------------------------+------------------+
 | 99921-58-10-7 | Divine Comedy            | Dante Alighieri  |
 | 9971-5-0210-0 |                          |                  |
 | 960-425-059-0 | The Lord of the Rings    | J. R. R. Tolkien |
@@ -186,8 +183,8 @@ TABLE
                     array('960-425-059-0', 'The Lord of the Rings', "J. R. R.\nTolkien"),
                 ),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+---------------+----------------------------+-----------------+
+                <<<TABLE
+                +---------------+----------------------------+-----------------+
 | ISBN          | Title                      | Author          |
 +---------------+----------------------------+-----------------+
 | 99921-58-10-7 | Divine                     | Dante Alighieri |
@@ -206,8 +203,8 @@ TABLE
                 array('ISBN', 'Title'),
                 array(),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+------+-------+
+                <<<TABLE
+                +------+-------+
 | ISBN | Title |
 +------+-------+
 
@@ -226,8 +223,8 @@ TABLE
                     array('9971-5-0210-0', 'A Tale of Two Cities', '<info>Charles Dickens</>'),
                 ),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+---------------+----------------------+-----------------+
+                <<<TABLE
+                +---------------+----------------------+-----------------+
 | ISBN          | Title                | Author          |
 +---------------+----------------------+-----------------+
 | 99921-58-10-7 | Divine Comedy        | Dante Alighieri |
@@ -243,8 +240,8 @@ TABLE
                     array('9971-5-0210-0', 'A Tale of Two Cities', 'Charles Dickens'),
                 ),
                 TableHelper::LAYOUT_DEFAULT,
-<<<TABLE
-+----------------------------------+----------------------+-----------------+
+                <<<TABLE
+                +----------------------------------+----------------------+-----------------+
 | ISBN                             | Title                | Author          |
 +----------------------------------+----------------------+-----------------+
 | <strong>99921-58-10-700</strong> | <f>Divine Com</f>    | Dante Alighieri |
@@ -265,13 +262,12 @@ TABLE
         $table
             ->setHeaders(array('■■'))
             ->setRows(array(array(1234)))
-            ->setLayout(TableHelper::LAYOUT_DEFAULT)
-        ;
+            ->setLayout(TableHelper::LAYOUT_DEFAULT);
         $table->render($output = $this->getOutputStream());
 
         $expected =
-<<<TABLE
-+------+
+            <<<TABLE
+            +------+
 | ■■   |
 +------+
 | 1234 |
@@ -291,8 +287,7 @@ TABLE;
         $table
             ->setHeaders(array('あいうえお'))
             ->setRows(array(array(1234567890)))
-            ->setLayout(TableHelper::LAYOUT_DEFAULT)
-        ;
+            ->setLayout(TableHelper::LAYOUT_DEFAULT);
         $table->render($output = $this->getOutputStream());
 
         $expected =

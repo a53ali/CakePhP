@@ -103,8 +103,8 @@ trait SqlserverDialectTrait
 
         $query = clone $original;
         $query->select([
-                '_cake_page_rownum_' => new UnaryExpression('ROW_NUMBER() OVER', $order)
-            ])->limit(null)
+            '_cake_page_rownum_' => new UnaryExpression('ROW_NUMBER() OVER', $order)
+        ])->limit(null)
             ->offset(null)
             ->order([], true);
 

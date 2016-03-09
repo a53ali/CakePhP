@@ -27,7 +27,7 @@ if (!empty($prefix)) {
     $prefix .= DS;
 }
 if (empty($plugin)) {
-    $path = APP_DIR . DS . 'Controller' . DS . $prefix . h($controller) . '.php' ;
+    $path = APP_DIR . DS . 'Controller' . DS . $prefix . h($controller) . '.php';
 } else {
     $path = Plugin::classPath($plugin) . 'Controller' . DS . $prefix . h($controller) . '.php';
 }
@@ -45,7 +45,7 @@ $this->start('file');
 ?>
 <p class="error">
     <strong>Error: </strong>
-    <?= sprintf('Create <em>%s::%s()</em> in file: %s.', h($controller),  h($action), $path); ?>
+    <?= sprintf('Create <em>%s::%s()</em> in file: %s.', h($controller), h($action), $path); ?>
 </p>
 
 <?php

@@ -79,7 +79,7 @@ class FixtureTask extends BakeTask
             'boolean' => true
         ])->addOption('records', [
             'help' => 'Generate a fixture with records from the non-test database.' .
-            ' Used with --count and --conditions to limit which records are added to the fixture.',
+                ' Used with --count and --conditions to limit which records are added to the fixture.',
             'short' => 'r',
             'boolean' => true
         ])->addOption('import-records', [

@@ -15,11 +15,11 @@
 ?>
 <CakePHPBakeOpenTagphp
 
-namespace <?= $namespace ?>\Controller;
+    namespace <?= $namespace ?>\Controller;
 
-use App\Controller\AppController as BaseController;
+    use App\Controller\AppController as BaseController;
 
-class AppController extends BaseController
-{
+    class AppController extends BaseController
+    {
 
-}
+    }

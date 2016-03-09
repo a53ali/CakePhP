@@ -37,7 +37,7 @@ use Phinx\Migration\MigrationInterface;
 class PostgresAdapter extends PdoAdapter implements AdapterInterface
 {
 
-    const INT_SMALL   = 65535;
+    const INT_SMALL = 65535;
     /**
      * Columns with comments
      *
@@ -144,7 +144,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
      */
     public function quoteColumnName($columnName)
     {
-        return '"'. $columnName . '"';
+        return '"' . $columnName . '"';
     }
 
     /**
@@ -174,13 +174,13 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
         $this->startCommandTimer();
         $options = $table->getOptions();
 
-         // Add the default primary key
+        // Add the default primary key
         $columns = $table->getPendingColumns();
         if (!isset($options['id']) || (isset($options['id']) && $options['id'] === true)) {
             $column = new Column();
             $column->setName('id')
-                   ->setType('integer')
-                   ->setIdentity(true);
+                ->setType('integer')
+                ->setIdentity(true);
 
             array_unshift($columns, $column);
             $options['primary_key'] = 'id';
@@ -189,8 +189,8 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
             // Handle id => "field_name" to support AUTO_INCREMENT
             $column = new Column();
             $column->setName($options['id'])
-                   ->setType('integer')
-                   ->setIdentity(true);
+                ->setType('integer')
+                ->setIdentity(true);
 
             array_unshift($columns, $column);
             $options['primary_key'] = $options['id'];
@@ -210,7 +210,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
             }
         }
 
-         // set the primary key(s)
+        // set the primary key(s)
         if (isset($options['primary_key'])) {
             $sql = rtrim($sql);
             $sql .= sprintf(' CONSTRAINT %s_pkey PRIMARY KEY (', $table->getName());
@@ -311,12 +311,12 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
         foreach ($columnsInfo as $columnInfo) {
             $column = new Column();
             $column->setName($columnInfo['column_name'])
-                   ->setType($this->getPhinxType($columnInfo['data_type']))
-                   ->setNull($columnInfo['is_nullable'] == 'YES')
-                   ->setDefault($columnInfo['column_default'])
-                   ->setIdentity($columnInfo['is_identity'] == 'YES')
-                   ->setPrecision($columnInfo['numeric_precision'])
-                   ->setScale($columnInfo['numeric_scale']);
+                ->setType($this->getPhinxType($columnInfo['data_type']))
+                ->setNull($columnInfo['is_nullable'] == 'YES')
+                ->setDefault($columnInfo['column_default'])
+                ->setIdentity($columnInfo['is_identity'] == 'YES')
+                ->setPrecision($columnInfo['numeric_precision'])
+                ->setScale($columnInfo['numeric_scale']);
 
             if (preg_match('/\bwith time zone$/', $columnInfo['data_type'])) {
                 $column->setTimezone(true);
@@ -344,7 +344,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
         );
 
         $result = $this->fetchRow($sql);
-        return  $result['count'] > 0;
+        return $result['count'] > 0;
     }
 
     /**
@@ -379,7 +379,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
             $columnName
         );
         $result = $this->fetchRow($sql);
-        if (!(bool) $result['column_exists']) {
+        if (!(bool)$result['column_exists']) {
             throw new \InvalidArgumentException("The specified column does not exist: $columnName");
         }
         $this->writeCommand('renameColumn', array($tableName, $columnName, $newColumnName));
@@ -437,8 +437,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
                     $this->getDefaultValueDefinition($newColumn->getDefault())
                 )
             );
-        }
-        else {
+        } else {
             //drop default
             $this->execute(
                 sprintf(
@@ -857,7 +856,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
     {
         $sql = sprintf("SELECT count(*) FROM pg_database WHERE datname = '%s'", $databaseName);
         $result = $this->fetchRow($sql);
-        return  $result['count'] > 0;
+        return $result['count'] > 0;
     }
 
     /**
@@ -945,8 +944,8 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
     {
         // passing 'null' is to remove column comment
         $comment = (strcasecmp($column->getComment(), 'NULL') !== 0)
-                 ? $this->getConnection()->quote($column->getComment())
-                 : 'NULL';
+            ? $this->getConnection()->quote($column->getComment())
+            : 'NULL';
 
         return sprintf(
             'COMMENT ON COLUMN %s.%s IS %s;',
@@ -959,7 +958,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
     /**
      * Gets the PostgreSQL Index Definition for an Index object.
      *
-     * @param Index  $index Index
+     * @param Index $index Index
      * @param string $tableName Table name
      * @return string
      */
@@ -988,7 +987,7 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
      * Gets the MySQL Foreign Key Definition for an ForeignKey object.
      *
      * @param ForeignKey $foreignKey
-     * @param string     $tableName  Table name
+     * @param string $tableName Table name
      * @return string
      */
     protected function getForeignKeySqlDefinition(ForeignKey $foreignKey, $tableName)
@@ -1020,9 +1019,9 @@ class PostgresAdapter extends PdoAdapter implements AdapterInterface
         return parent::createSchemaTable();
     }
 
-     /**
-      * {@inheritdoc}
-      */
+    /**
+     * {@inheritdoc}
+     */
     public function migrated(MigrationInterface $migration, $direction, $startTime, $endTime)
     {
         if (strcasecmp($direction, MigrationInterface::UP) === 0) {

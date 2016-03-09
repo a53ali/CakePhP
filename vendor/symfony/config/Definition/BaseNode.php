@@ -35,7 +35,7 @@ abstract class BaseNode implements NodeInterface
     /**
      * Constructor.
      *
-     * @param string        $name   The name of the node
+     * @param string $name The name of the node
      * @param NodeInterface $parent The parent of this node
      *
      * @throws \InvalidArgumentException if the name contains a period.
@@ -138,7 +138,7 @@ abstract class BaseNode implements NodeInterface
      */
     public function setRequired($boolean)
     {
-        $this->required = (bool) $boolean;
+        $this->required = (bool)$boolean;
     }
 
     /**
@@ -148,7 +148,7 @@ abstract class BaseNode implements NodeInterface
      */
     public function setAllowOverwrite($allow)
     {
-        $this->allowOverwrite = (bool) $allow;
+        $this->allowOverwrite = (bool)$allow;
     }
 
     /**
@@ -201,7 +201,7 @@ abstract class BaseNode implements NodeInterface
         $path = $this->name;
 
         if (null !== $this->parent) {
-            $path = $this->parent->getPath().'.'.$path;
+            $path = $this->parent->getPath() . '.' . $path;
         }
 
         return $path;
@@ -222,8 +222,8 @@ abstract class BaseNode implements NodeInterface
         if (!$this->allowOverwrite) {
             throw new ForbiddenOverwriteException(sprintf(
                 'Configuration path "%s" cannot be overwritten. You have to '
-               .'define all options for this path, and any of its sub-paths in '
-               .'one configuration section.',
+                . 'define all options for this path, and any of its sub-paths in '
+                . 'one configuration section.',
                 $this->getPath()
             ));
         }

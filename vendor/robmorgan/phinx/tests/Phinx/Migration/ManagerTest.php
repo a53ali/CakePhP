@@ -47,12 +47,12 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
                 'default_migration_table' => 'phinxlog',
                 'default_database' => 'production',
                 'production' => array(
-                    'adapter'   => 'mysql',
-                    'host'      => TESTS_PHINX_DB_ADAPTER_MYSQL_HOST,
-                    'name'      => TESTS_PHINX_DB_ADAPTER_MYSQL_DATABASE,
-                    'user'      => TESTS_PHINX_DB_ADAPTER_MYSQL_USERNAME,
-                    'pass'      => TESTS_PHINX_DB_ADAPTER_MYSQL_PASSWORD,
-                    'port'      => TESTS_PHINX_DB_ADAPTER_MYSQL_PORT
+                    'adapter' => 'mysql',
+                    'host' => TESTS_PHINX_DB_ADAPTER_MYSQL_HOST,
+                    'name' => TESTS_PHINX_DB_ADAPTER_MYSQL_DATABASE,
+                    'user' => TESTS_PHINX_DB_ADAPTER_MYSQL_USERNAME,
+                    'pass' => TESTS_PHINX_DB_ADAPTER_MYSQL_PASSWORD,
+                    'port' => TESTS_PHINX_DB_ADAPTER_MYSQL_PORT
                 )
             )
         );
@@ -68,8 +68,8 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
         // stub environment
         $envStub = $this->getMock('\Phinx\Migration\Manager\Environment', array(), array('mockenv', array()));
         $envStub->expects($this->once())
-                ->method('getVersions')
-                ->will($this->returnValue(array('20120111235330', '20120116183504')));
+            ->method('getVersions')
+            ->will($this->returnValue(array('20120111235330', '20120116183504')));
 
         $this->manager->setEnvironments(array('mockenv' => $envStub));
         $this->manager->printStatus('mockenv');
@@ -104,8 +104,8 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
         // stub environment
         $envStub = $this->getMock('\Phinx\Migration\Manager\Environment', array(), array('mockenv', array()));
         $envStub->expects($this->once())
-                ->method('getVersions')
-                ->will($this->returnValue(array('20120103083300', '20120815145812')));
+            ->method('getVersions')
+            ->will($this->returnValue(array('20120103083300', '20120815145812')));
 
         $this->manager->setEnvironments(array('mockenv' => $envStub));
         $this->manager->printStatus('mockenv');
@@ -180,8 +180,8 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
         // stub environment
         $envStub = $this->getMock('\Phinx\Migration\Manager\Environment', array(), array('mockenv', array()));
         $envStub->expects($this->once())
-                ->method('getVersions')
-                ->will($this->returnValue($availableMigrations));
+            ->method('getVersions')
+            ->will($this->returnValue($availableMigrations));
 
         $this->manager->setEnvironments(array('mockenv' => $envStub));
         $this->manager->migrateToDateTime('mockenv', new \DateTime($dateString));
@@ -205,8 +205,8 @@ class ManagerTest extends \PHPUnit_Framework_TestCase
         // stub environment
         $envStub = $this->getMock('\Phinx\Migration\Manager\Environment', array(), array('mockenv', array()));
         $envStub->expects($this->any())
-                ->method('getVersions')
-                ->will($this->returnValue($availableRollbacks));
+            ->method('getVersions')
+            ->will($this->returnValue($availableRollbacks));
 
         $this->manager->setEnvironments(array('mockenv' => $envStub));
         $this->manager->rollbackToDateTime('mockenv', new \DateTime($dateString));

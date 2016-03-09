@@ -86,7 +86,7 @@ class BakeHelper extends Helper
             $join .= $start;
             $end = "\n" . str_repeat($options['tab'], $options['indent'] - 1);
         }
-        
+
         if ($options['trailingComma']) {
             $end = "," . $end;
         }

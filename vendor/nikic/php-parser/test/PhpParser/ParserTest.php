@@ -11,7 +11,8 @@ class ParserTest extends CodeTestAbstract
     /**
      * @dataProvider provideTestParse
      */
-    public function testParse($name, $code, $expected) {
+    public function testParse($name, $code, $expected)
+    {
         $lexer = new Lexer\Emulative(array('usedAttributes' => array(
             'startLine', 'endLine', 'startFilePos', 'endFilePos'
         )));
@@ -35,14 +36,16 @@ class ParserTest extends CodeTestAbstract
         $this->assertSame($this->canonicalize($expected), $this->canonicalize($output), $name);
     }
 
-    public function provideTestParse() {
+    public function provideTestParse()
+    {
         return $this->getTests(__DIR__ . '/../code/parser', 'test');
     }
 
-    private function formatErrorMessage(Error $e, $code) {
+    private function formatErrorMessage(Error $e, $code)
+    {
         if ($e->hasColumnInfo()) {
             return $e->getRawMessage() . ' from ' . $e->getStartLine() . ':' . $e->getStartColumn($code)
-                . ' to ' . $e->getEndLine() . ':' . $e->getEndColumn($code);
+            . ' to ' . $e->getEndLine() . ':' . $e->getEndColumn($code);
         } else {
             return $e->getMessage();
         }
@@ -52,7 +55,8 @@ class ParserTest extends CodeTestAbstract
      * @expectedException \PhpParser\Error
      * @expectedExceptionMessage Syntax error, unexpected EOF on line 1
      */
-    public function testParserThrowsSyntaxError() {
+    public function testParserThrowsSyntaxError()
+    {
         $parser = new Parser(new Lexer());
         $parser->parse('<?php foo');
     }
@@ -61,12 +65,14 @@ class ParserTest extends CodeTestAbstract
      * @expectedException \PhpParser\Error
      * @expectedExceptionMessage Cannot use foo as self because 'self' is a special class name on line 1
      */
-    public function testParserThrowsSpecialError() {
+    public function testParserThrowsSpecialError()
+    {
         $parser = new Parser(new Lexer());
         $parser->parse('<?php use foo as self;');
     }
 
-    public function testAttributeAssignment() {
+    public function testAttributeAssignment()
+    {
         $lexer = new Lexer(array(
             'usedAttributes' => array(
                 'comments', 'startLine', 'endLine',
@@ -139,15 +145,18 @@ EOC;
      * @expectedException \RangeException
      * @expectedExceptionMessage The lexer returned an invalid token (id=999, value=foobar)
      */
-    public function testInvalidToken() {
+    public function testInvalidToken()
+    {
         $lexer = new InvalidTokenLexer;
         $parser = new Parser($lexer);
         $parser->parse('dummy');
     }
 }
 
-class InvalidTokenLexer extends Lexer {
-    public function getNextToken(&$value = null, &$startAttributes = null, &$endAttributes = null) {
+class InvalidTokenLexer extends Lexer
+{
+    public function getNextToken(&$value = null, &$startAttributes = null, &$endAttributes = null)
+    {
         $value = 'foobar';
         return 999;
     }

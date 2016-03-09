@@ -8,13 +8,13 @@ if (elem) {
     elem = null;
 }
 
-$(document).ready(function() {
+$(document).ready(function () {
     toolbar = new Toolbar({
         button: $('#toolbar'),
         content: $('#panel-content-container'),
         panelButtons: $('.panel'),
         panelClose: $('#panel-close'),
-        keyboardScope : $(document),
+        keyboardScope: $(document),
         currentRequest: __debug_kit_id,
         originalRequest: __debug_kit_id,
         baseUrl: __debug_kit_base_url

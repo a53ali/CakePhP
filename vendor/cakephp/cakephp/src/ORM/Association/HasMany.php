@@ -293,12 +293,12 @@ class HasMany extends Association
             $sourceEntity->set(
                 $property,
                 (new Collection($sourceEntity->get($property)))
-                ->reject(
-                    function ($assoc) use ($targetEntities) {
-                        return in_array($assoc, $targetEntities);
-                    }
-                )
-                ->toList()
+                    ->reject(
+                        function ($assoc) use ($targetEntities) {
+                            return in_array($assoc, $targetEntities);
+                        }
+                    )
+                    ->toList()
             );
         }
 
@@ -383,12 +383,12 @@ class HasMany extends Association
                 return $ent->extract($primaryKey);
             }
         )
-        ->filter(
-            function ($v) {
-                return !in_array(null, array_values($v), true);
-            }
-        )
-        ->toArray();
+            ->filter(
+                function ($v) {
+                    return !in_array(null, array_values($v), true);
+                }
+            )
+            ->toArray();
 
         $conditions = $properties;
 
@@ -466,7 +466,7 @@ class HasMany extends Association
         $name = $this->alias();
         if ($options['foreignKey'] === false) {
             $msg = 'Cannot have foreignKey = false for hasMany associations. ' .
-                   'You must provide a foreignKey column.';
+                'You must provide a foreignKey column.';
             throw new RuntimeException($msg);
         }
 

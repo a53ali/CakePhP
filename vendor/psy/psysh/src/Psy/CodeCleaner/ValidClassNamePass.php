@@ -30,9 +30,9 @@ use Psy\Exception\FatalErrorException;
  */
 class ValidClassNamePass extends NamespaceAwarePass
 {
-    const CLASS_TYPE     = 'class';
+    const CLASS_TYPE = 'class';
     const INTERFACE_TYPE = 'interface';
-    const TRAIT_TYPE     = 'trait';
+    const TRAIT_TYPE = 'trait';
 
     protected $checkTraits;
 
@@ -179,7 +179,7 @@ class ValidClassNamePass extends NamespaceAwarePass
      * @throws FatalErrorException
      *
      * @param string $name
-     * @param Stmt   $stmt
+     * @param Stmt $stmt
      */
     protected function ensureClassExists($name, $stmt)
     {
@@ -195,7 +195,7 @@ class ValidClassNamePass extends NamespaceAwarePass
      *
      * @param string $class
      * @param string $name
-     * @param Stmt   $stmt
+     * @param Stmt $stmt
      */
     protected function ensureMethodExists($class, $name, $stmt)
     {
@@ -312,7 +312,7 @@ class ValidClassNamePass extends NamespaceAwarePass
      * Error creation factory.
      *
      * @param string $msg
-     * @param Stmt   $stmt
+     * @param Stmt $stmt
      *
      * @return FatalErrorException
      */

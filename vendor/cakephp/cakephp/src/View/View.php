@@ -306,7 +306,8 @@ class View implements EventDispatcherInterface
         Response $response = null,
         EventManager $eventManager = null,
         array $viewOptions = []
-    ) {
+    )
+    {
         if (isset($viewOptions['view'])) {
             $this->template($viewOptions['view']);
         }
@@ -610,7 +611,7 @@ class View implements EventDispatcherInterface
         }
 
         if (!empty($content)) {
-             $this->Blocks->set('content', $content);
+            $this->Blocks->set('content', $content);
         }
 
         $this->dispatchEvent('View.beforeLayout', [$layoutFileName]);

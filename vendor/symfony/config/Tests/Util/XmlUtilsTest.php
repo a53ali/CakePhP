@@ -17,47 +17,47 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
 {
     public function testLoadFile()
     {
-        $fixtures = __DIR__.'/../Fixtures/Util/';
+        $fixtures = __DIR__ . '/../Fixtures/Util/';
 
         try {
-            XmlUtils::loadFile($fixtures.'invalid.xml');
+            XmlUtils::loadFile($fixtures . 'invalid.xml');
             $this->fail();
         } catch (\InvalidArgumentException $e) {
             $this->assertContains('ERROR 77', $e->getMessage());
         }
 
         try {
-            XmlUtils::loadFile($fixtures.'document_type.xml');
+            XmlUtils::loadFile($fixtures . 'document_type.xml');
             $this->fail();
         } catch (\InvalidArgumentException $e) {
             $this->assertContains('Document types are not allowed', $e->getMessage());
         }
 
         try {
-            XmlUtils::loadFile($fixtures.'invalid_schema.xml', $fixtures.'schema.xsd');
+            XmlUtils::loadFile($fixtures . 'invalid_schema.xml', $fixtures . 'schema.xsd');
             $this->fail();
         } catch (\InvalidArgumentException $e) {
             $this->assertContains('ERROR 1845', $e->getMessage());
         }
 
         try {
-            XmlUtils::loadFile($fixtures.'invalid_schema.xml', 'invalid_callback_or_file');
+            XmlUtils::loadFile($fixtures . 'invalid_schema.xml', 'invalid_callback_or_file');
             $this->fail();
         } catch (\InvalidArgumentException $e) {
             $this->assertContains('XSD file or callable', $e->getMessage());
         }
 
-        $mock = $this->getMock(__NAMESPACE__.'\Validator');
+        $mock = $this->getMock(__NAMESPACE__ . '\Validator');
         $mock->expects($this->exactly(2))->method('validate')->will($this->onConsecutiveCalls(false, true));
 
         try {
-            XmlUtils::loadFile($fixtures.'valid.xml', array($mock, 'validate'));
+            XmlUtils::loadFile($fixtures . 'valid.xml', array($mock, 'validate'));
             $this->fail();
         } catch (\InvalidArgumentException $e) {
             $this->assertContains('is not valid', $e->getMessage());
         }
 
-        $this->assertInstanceOf('DOMDocument', XmlUtils::loadFile($fixtures.'valid.xml', array($mock, 'validate')));
+        $this->assertInstanceOf('DOMDocument', XmlUtils::loadFile($fixtures . 'valid.xml', array($mock, 'validate')));
         $this->assertSame(array(), libxml_get_errors());
     }
 
@@ -66,7 +66,7 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
         libxml_use_internal_errors(true);
 
         $this->assertSame(array(), libxml_get_errors());
-        $this->assertInstanceOf('DOMDocument', XmlUtils::loadFile(__DIR__.'/../Fixtures/Util/invalid_schema.xml'));
+        $this->assertInstanceOf('DOMDocument', XmlUtils::loadFile(__DIR__ . '/../Fixtures/Util/invalid_schema.xml'));
         $this->assertSame(array(), libxml_get_errors());
     }
 
@@ -76,7 +76,7 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
     public function testConvertDomToArray($expected, $xml, $root = false, $checkPrefix = true)
     {
         $dom = new \DOMDocument();
-        $dom->loadXML($root ? $xml : '<root>'.$xml.'</root>');
+        $dom->loadXML($root ? $xml : '<root>' . $xml . '</root>');
 
         $this->assertSame($expected, XmlUtils::convertDomElementToArray($dom->documentElement, $checkPrefix));
     }
@@ -146,8 +146,8 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
 
     public function testLoadEmptyXmlFile()
     {
-        $file = __DIR__.'/../Fixtures/foo.xml';
-        $this->setExpectedException('InvalidArgumentException', 'File '.$file.' does not contain valid XML, it is empty.');
+        $file = __DIR__ . '/../Fixtures/foo.xml';
+        $this->setExpectedException('InvalidArgumentException', 'File ' . $file . ' does not contain valid XML, it is empty.');
         XmlUtils::loadFile($file);
     }
 
@@ -161,7 +161,7 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
             throw new \Exception($errstr, $errno);
         });
 
-        $file = __DIR__.'/../Fixtures/foo.xml';
+        $file = __DIR__ . '/../Fixtures/foo.xml';
         try {
             try {
                 XmlUtils::loadFile($file);
@@ -187,7 +187,7 @@ class XmlUtilsTest extends \PHPUnit_Framework_TestCase
         $this->assertFalse($disableEntities);
 
         // should not throw an exception
-        XmlUtils::loadFile(__DIR__.'/../Fixtures/Util/valid.xml', __DIR__.'/../Fixtures/Util/schema.xsd');
+        XmlUtils::loadFile(__DIR__ . '/../Fixtures/Util/valid.xml', __DIR__ . '/../Fixtures/Util/schema.xsd');
     }
 }
 

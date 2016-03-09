@@ -541,8 +541,8 @@ class Debugger
         if ($depth > 0 && method_exists($var, '__debugInfo')) {
             try {
                 return $out . "\n" .
-                    substr(static::_array($var->__debugInfo(), $depth - 1, $indent), 1, -1) .
-                    $end . '}';
+                substr(static::_array($var->__debugInfo(), $depth - 1, $indent), 1, -1) .
+                $end . '}';
             } catch (Exception $e) {
                 $message = $e->getMessage();
                 return $out . "\n(unable to export object: $message)\n }";

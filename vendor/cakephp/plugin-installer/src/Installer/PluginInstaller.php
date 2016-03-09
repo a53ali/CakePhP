@@ -23,9 +23,9 @@ class PluginInstaller extends LibraryInstaller
      * Check usage upon construction
      *
      * @param IOInterface $io composer object
-     * @param Composer    $composer composer object
-     * @param string      $type what are we loading
-     * @param Filesystem  $filesystem composer object
+     * @param Composer $composer composer object
+     * @param string $type what are we loading
+     * @param Filesystem $filesystem composer object
      */
     public function __construct(IOInterface $io, Composer $composer, $type = 'library', Filesystem $filesystem = null)
     {

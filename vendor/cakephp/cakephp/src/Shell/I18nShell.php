@@ -148,10 +148,10 @@ class I18nShell extends Shell
             'help' => 'Extract the po translations from your application',
             'parser' => $this->Extract->getOptionParser()
         ])
-        ->addSubcommand('init', [
-            'help' => 'Init PO language file from POT file',
-            'parser' => $initParser
-        ]);
+            ->addSubcommand('init', [
+                'help' => 'Init PO language file from POT file',
+                'parser' => $initParser
+            ]);
 
         return $parser;
     }

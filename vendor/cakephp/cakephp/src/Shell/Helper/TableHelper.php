@@ -31,6 +31,7 @@ class TableHelper extends Helper
         'rowSeparator' => false,
         'headerStyle' => 'info',
     ];
+
     /**
      * Calculate the column widths
      *

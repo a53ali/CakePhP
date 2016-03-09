@@ -17,7 +17,7 @@
  */
 ?>
 <?php if (!empty($headers) && $headers['response']): ?>
-<h4>Warning</h4>
+    <h4>Warning</h4>
     <?= '<p class="warning">' . __d('debug_kit', 'Headers already sent at file {0} and line {1}.', [$headers['file'], $headers['line']]) . '</p>' ?>
 <?php endif; ?>
 

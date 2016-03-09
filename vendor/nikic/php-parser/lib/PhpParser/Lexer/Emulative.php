@@ -12,11 +12,11 @@ class Emulative extends \PhpParser\Lexer
     protected $newKeywords;
     protected $inObjectAccess;
 
-    const T_ELLIPSIS   = 1001;
-    const T_POW        = 1002;
-    const T_POW_EQUAL  = 1003;
-    const T_COALESCE   = 1004;
-    const T_SPACESHIP  = 1005;
+    const T_ELLIPSIS = 1001;
+    const T_POW = 1002;
+    const T_POW_EQUAL = 1003;
+    const T_COALESCE = 1004;
+    const T_SPACESHIP = 1005;
     const T_YIELD_FROM = 1006;
 
     const PHP_7_0 = '7.0.0dev';
@@ -24,19 +24,20 @@ class Emulative extends \PhpParser\Lexer
     const PHP_5_5 = '5.5.0beta1';
     const PHP_5_4 = '5.4.0beta1';
 
-    public function __construct(array $options = array()) {
+    public function __construct(array $options = array())
+    {
         parent::__construct($options);
 
         $newKeywordsPerVersion = array(
             self::PHP_5_5 => array(
-                'finally'       => Parser::T_FINALLY,
-                'yield'         => Parser::T_YIELD,
+                'finally' => Parser::T_FINALLY,
+                'yield' => Parser::T_YIELD,
             ),
             self::PHP_5_4 => array(
-                'callable'      => Parser::T_CALLABLE,
-                'insteadof'     => Parser::T_INSTEADOF,
-                'trait'         => Parser::T_TRAIT,
-                '__trait__'     => Parser::T_TRAIT_C,
+                'callable' => Parser::T_CALLABLE,
+                'insteadof' => Parser::T_INSTEADOF,
+                'trait' => Parser::T_TRAIT,
+                '__trait__' => Parser::T_TRAIT_C,
             ),
         );
 
@@ -59,12 +60,13 @@ class Emulative extends \PhpParser\Lexer
         if (version_compare(PHP_VERSION, self::PHP_5_6, '>=')) {
             return;
         }
-        $this->tokenMap[self::T_ELLIPSIS]  = Parser::T_ELLIPSIS;
-        $this->tokenMap[self::T_POW]       = Parser::T_POW;
+        $this->tokenMap[self::T_ELLIPSIS] = Parser::T_ELLIPSIS;
+        $this->tokenMap[self::T_POW] = Parser::T_POW;
         $this->tokenMap[self::T_POW_EQUAL] = Parser::T_POW_EQUAL;
     }
 
-    public function startLexing($code) {
+    public function startLexing($code)
+    {
         $this->inObjectAccess = false;
 
         $preprocessedCode = $this->preprocessCode($code);
@@ -86,14 +88,15 @@ class Emulative extends \PhpParser\Lexer
      * by real tokens or replaced with their original content (e.g. if they occurred
      * inside a string, i.e. a place where they don't have a special meaning).
      */
-    protected function preprocessCode($code) {
+    protected function preprocessCode($code)
+    {
         if (version_compare(PHP_VERSION, self::PHP_7_0, '>=')) {
             return $code;
         }
 
         $code = str_replace('??', '~__EMU__COALESCE__~', $code);
         $code = str_replace('<=>', '~__EMU__SPACESHIP__~', $code);
-        $code = preg_replace_callback('(yield[ \n\r\t]+from)', function($matches) {
+        $code = preg_replace_callback('(yield[ \n\r\t]+from)', function ($matches) {
             // Encoding $0 in order to preserve exact whitespace
             return '~__EMU__YIELDFROM__' . bin2hex($matches[0]) . '__~';
         }, $code);
@@ -118,7 +121,8 @@ class Emulative extends \PhpParser\Lexer
      * Replaces the ~__EMU__...~ sequences with real tokens or their original
      * value.
      */
-    protected function postprocessTokens() {
+    protected function postprocessTokens()
+    {
         // we need to manually iterate and manage a count because we'll change
         // the tokens array on the way
         for ($i = 0, $c = count($this->tokens); $i < $c; ++$i) {
@@ -168,10 +172,10 @@ class Emulative extends \PhpParser\Lexer
 
                 array_splice($this->tokens, $i, 3, $replace);
                 $c -= 3 - count($replace);
-            // for multichar tokens (e.g. strings) replace any ~__EMU__...~ sequences
-            // in their content with the original character sequence
+                // for multichar tokens (e.g. strings) replace any ~__EMU__...~ sequences
+                // in their content with the original character sequence
             } elseif (is_array($this->tokens[$i])
-                      && 0 !== strpos($this->tokens[$i][1], '__EMU__')
+                && 0 !== strpos($this->tokens[$i][1], '__EMU__')
             ) {
                 $this->tokens[$i][1] = preg_replace_callback(
                     '(~__EMU__([A-Z]++)__(?:([A-Za-z0-9]++)__)?~)',
@@ -186,7 +190,8 @@ class Emulative extends \PhpParser\Lexer
      * This method is a callback for restoring EMU sequences in
      * multichar tokens (like strings) to their original value.
      */
-    public function restoreContentCallback(array $matches) {
+    public function restoreContentCallback(array $matches)
+    {
         if ('BINARY' === $matches[1]) {
             return $matches[2];
         } else if ('ELLIPSIS' === $matches[1]) {
@@ -206,12 +211,14 @@ class Emulative extends \PhpParser\Lexer
         }
     }
 
-    private function hex2bin($str) {
+    private function hex2bin($str)
+    {
         // TODO Drop when removing support for PHP 5.3
         return pack('H*', $str);
     }
 
-    public function getNextToken(&$value = null, &$startAttributes = null, &$endAttributes = null) {
+    public function getNextToken(&$value = null, &$startAttributes = null, &$endAttributes = null)
+    {
         $token = parent::getNextToken($value, $startAttributes, $endAttributes);
 
         // replace new keywords by their respective tokens. This is not done

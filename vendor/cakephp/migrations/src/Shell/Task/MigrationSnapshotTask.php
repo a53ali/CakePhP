@@ -82,7 +82,7 @@ class MigrationSnapshotTask extends SimpleMigrationTask
     protected function markSnapshotApplied($path)
     {
         $fileName = pathinfo($path, PATHINFO_FILENAME);
-        list($version, ) = explode('_', $fileName, 2);
+        list($version,) = explode('_', $fileName, 2);
 
 
         $dispatchCommand = 'migrations mark_migrated -t ' . $version . ' -o';

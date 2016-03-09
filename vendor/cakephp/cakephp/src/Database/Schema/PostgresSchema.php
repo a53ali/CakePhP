@@ -38,7 +38,7 @@ class PostgresSchema extends BaseSchema
     public function describeColumnSql($tableName, $config)
     {
         $sql =
-        'SELECT DISTINCT table_schema AS schema, column_name AS name, data_type AS type,
+            'SELECT DISTINCT table_schema AS schema, column_name AS name, data_type AS type,
             is_nullable AS null, column_default AS default,
             character_maximum_length AS char_length,
             d.description as comment,

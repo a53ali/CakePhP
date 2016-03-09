@@ -33,13 +33,13 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     private $charsetConverter;
 
     /**
-     * @param callable|resource|string|null $output  A line dumper callable, an opened stream or an output path, defaults to static::$defaultOutput.
-     * @param string                        $charset The default character encoding to use for non-UTF8 strings.
+     * @param callable|resource|string|null $output A line dumper callable, an opened stream or an output path, defaults to static::$defaultOutput.
+     * @param string $charset The default character encoding to use for non-UTF8 strings.
      */
     public function __construct($output = null, $charset = null)
     {
         $this->setCharset($charset ?: ini_get('php.output_encoding') ?: ini_get('default_charset') ?: 'UTF-8');
-        $this->decimalPoint = (string) 0.5;
+        $this->decimalPoint = (string)0.5;
         $this->decimalPoint = $this->decimalPoint[1];
         $this->setOutput($output ?: static::$defaultOutput);
         if (!$output && is_string(static::$defaultOutput)) {
@@ -88,7 +88,9 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
         $charset = null === $charset || 'UTF-8' === $charset || 'UTF8' === $charset ? 'CP1252' : $charset;
 
         $supported = true;
-        set_error_handler(function () use (&$supported) {$supported = false;});
+        set_error_handler(function () use (&$supported) {
+            $supported = false;
+        });
 
         if (function_exists('mb_encoding_aliases') && mb_encoding_aliases($charset)) {
             $this->charset = $charset;
@@ -127,7 +129,7 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     /**
      * Dumps a Data object.
      *
-     * @param Data                          $data   A Data object.
+     * @param Data $data A Data object.
      * @param callable|resource|string|null $output A line dumper callable, an opened stream or an output path.
      */
     public function dump(Data $data, $output = null)
@@ -164,13 +166,13 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
     /**
      * Generic line dumper callback.
      *
-     * @param string $line  The line to write.
-     * @param int    $depth The recursive depth in the dumped structure.
+     * @param string $line The line to write.
+     * @param int $depth The recursive depth in the dumped structure.
      */
     protected function echoLine($line, $depth, $indentPad)
     {
         if (-1 !== $depth) {
-            fwrite($this->outputStream, str_repeat($indentPad, $depth).$line."\n");
+            fwrite($this->outputStream, str_repeat($indentPad, $depth) . $line . "\n");
         }
     }
 
@@ -188,7 +190,9 @@ abstract class AbstractDumper implements DataDumperInterface, DumperInterface
         }
         if ('iconv' === $this->charsetConverter) {
             $valid = true;
-            set_error_handler(function () use (&$valid) {$valid = false;});
+            set_error_handler(function () use (&$valid) {
+                $valid = false;
+            });
             $c = iconv($this->charset, 'UTF-8', $s);
             restore_error_handler();
             if ($valid) {

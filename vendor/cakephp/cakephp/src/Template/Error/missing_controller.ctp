@@ -31,7 +31,7 @@ if (!empty($plugin)) {
     $namespace = str_replace('/', '\\', $plugin);
 }
 if (empty($plugin)) {
-    $path = APP_DIR . DS . 'Controller' . DS . $prefixPath . h($class) . 'Controller.php' ;
+    $path = APP_DIR . DS . 'Controller' . DS . $prefixPath . h($class) . 'Controller.php';
 } else {
     $path = Plugin::classPath($plugin) . 'Controller' . DS . $prefixPath . h($class) . 'Controller.php';
 }

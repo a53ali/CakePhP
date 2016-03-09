@@ -384,9 +384,9 @@ class Table
     /**
      * Change a table column type.
      *
-     * @param string        $columnName    Column Name
+     * @param string $columnName Column Name
      * @param string|Column $newColumnType New Column Type
-     * @param array         $options       Options
+     * @param array $options Options
      * @return Table
      */
     public function changeColumn($columnName, $newColumnType, $options = array())
@@ -477,7 +477,7 @@ class Table
      * Checks to see if an index exists.
      *
      * @param string|array $columns Columns
-     * @param array        $options Options
+     * @param array $options Options
      * @return boolean
      */
     public function hasIndex($columns, $options = array())
@@ -492,7 +492,7 @@ class Table
      * on_update, constraint = constraint name.
      *
      * @param string|array $columns Columns
-     * @param string|Table $referencedTable   Referenced Table
+     * @param string|Table $referencedTable Referenced Table
      * @param string|array $referencedColumns Referenced Columns
      * @param array $options Options
      * @return Table
@@ -509,8 +509,8 @@ class Table
             $fk->setReferencedTable(new Table($referencedTable, array(), $this->adapter));
         }
         $fk->setColumns($columns)
-           ->setReferencedColumns($referencedColumns)
-           ->setOptions($options);
+            ->setReferencedColumns($referencedColumns)
+            ->setOptions($options);
         $this->foreignKeys[] = $fk;
 
         return $this;
@@ -519,8 +519,8 @@ class Table
     /**
      * Removes the given foreign key from the table.
      *
-     * @param string|array $columns    Column(s)
-     * @param null|string  $constraint Constraint names
+     * @param string|array $columns Column(s)
+     * @param null|string $constraint Constraint names
      * @return Table
      */
     public function dropForeignKey($columns, $constraint = null)
@@ -540,8 +540,8 @@ class Table
     /**
      * Checks to see if a foreign key exists.
      *
-     * @param  string|array $columns    Column(s)
-     * @param  null|string  $constraint Constraint names
+     * @param  string|array $columns Column(s)
+     * @param  null|string $constraint Constraint names
      * @return boolean
      */
     public function hasForeignKey($columns, $constraint = null)
@@ -557,13 +557,13 @@ class Table
     public function addTimestamps()
     {
         $this->addColumn('created_at', 'timestamp', array(
-                'default' => 'CURRENT_TIMESTAMP',
-                'update' => ''
-            ))
-             ->addColumn('updated_at', 'timestamp', array(
-                'null'    => true,
+            'default' => 'CURRENT_TIMESTAMP',
+            'update' => ''
+        ))
+            ->addColumn('updated_at', 'timestamp', array(
+                'null' => true,
                 'default' => null
-             ));
+            ));
 
         return $this;
     }

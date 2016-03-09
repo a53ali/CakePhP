@@ -6,17 +6,18 @@ $result = shell_exec($curl);
 $temp = json_decode($result);
 echo print_r($temp->{'content'});
 
-function read( $array ) {
-    foreach( (array) $array as $key => $value ) {
-        if( is_array( $value ) ) {
-            read( $array );
+function read($array)
+{
+    foreach ((array)$array as $key => $value) {
+        if (is_array($value)) {
+            read($array);
         }
         echo "$key = $value\n";
     }
 }
 
-foreach( $temp->{'content'} as $spot ) {
-    read( $spot );
+foreach ($temp->{'content'} as $spot) {
+    read($spot);
 }
 
 

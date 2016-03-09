@@ -14,7 +14,7 @@
 */
 %>
 <?php
-namespace <%= $namespace %>\Form;
+namespace < %= $namespace %>\Form;
 
 use Cake\Form\Form;
 use Cake\Form\Schema;
@@ -31,7 +31,8 @@ class <%= $name %>Form extends Form
      * @param Schema $schema From schema
      * @return $this
      */
-    protected function _buildSchema(Schema $schema)
+    protected
+    function _buildSchema(Schema $schema)
     {
         return $schema;
     }
@@ -42,7 +43,8 @@ class <%= $name %>Form extends Form
      * @param Validator $validator to use against the form
      * @return Validator
      */
-    protected function _buildValidator(Validator $validator)
+    protected
+    function _buildValidator(Validator $validator)
     {
         return $validator;
     }
@@ -52,7 +54,8 @@ class <%= $name %>Form extends Form
      *
      * @return bool
      */
-    protected function _execute(array $data)
+    protected
+    function _execute(array $data)
     {
         return true;
     }

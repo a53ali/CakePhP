@@ -94,26 +94,26 @@ class LoadTask extends Shell
         $parser = parent::getOptionParser();
 
         $parser->addOption('bootstrap', [
-                    'short' => 'b',
-                    'help' => 'Will load bootstrap.php from plugin.',
-                    'boolean' => true,
-                    'default' => false,
-                ])
-                ->addOption('routes', [
-                    'short' => 'r',
-                    'help' => 'Will load routes.php from plugin.',
-                    'boolean' => true,
-                    'default' => false,
-                ])
-                ->addOption('autoload', [
-                    'help' => 'Will autoload the plugin using CakePHP. ' .
-                        'Set to true if you are not using composer to autoload your plugin.',
-                    'boolean' => true,
-                    'default' => false,
-                ])
-                ->addArgument('plugin', [
-                    'help' => 'Name of the plugin to load.',
-                ]);
+            'short' => 'b',
+            'help' => 'Will load bootstrap.php from plugin.',
+            'boolean' => true,
+            'default' => false,
+        ])
+            ->addOption('routes', [
+                'short' => 'r',
+                'help' => 'Will load routes.php from plugin.',
+                'boolean' => true,
+                'default' => false,
+            ])
+            ->addOption('autoload', [
+                'help' => 'Will autoload the plugin using CakePHP. ' .
+                    'Set to true if you are not using composer to autoload your plugin.',
+                'boolean' => true,
+                'default' => false,
+            ])
+            ->addArgument('plugin', [
+                'help' => 'Name of the plugin to load.',
+            ]);
 
         return $parser;
     }

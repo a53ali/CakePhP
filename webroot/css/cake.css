@@ -9,13 +9,13 @@
     box-sizing: border-box;
 }
 
-
 .img-responsive {
     display: block;
     max-width: 100%;
     height: auto;
     margin: auto;
 }
+
 .panel {
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.75);
@@ -35,6 +35,7 @@ table {
     border-spacing: 0;
     font: normal 13px Arial, sans-serif;
 }
+
 table thead th {
     background-color: #DDEFEF;
     border: solid 1px #DDEEEE;
@@ -43,6 +44,7 @@ table thead th {
     text-align: left;
     text-shadow: 1px 1px 1px #fff;
 }
+
 table tbody td {
     border: solid 1px #DDEEEE;
     color: #333;

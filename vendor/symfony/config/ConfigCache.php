@@ -29,13 +29,13 @@ class ConfigCache implements ConfigCacheInterface
     private $file;
 
     /**
-     * @param string $file  The absolute cache path
-     * @param bool   $debug Whether debugging is enabled or not
+     * @param string $file The absolute cache path
+     * @param bool $debug Whether debugging is enabled or not
      */
     public function __construct($file, $debug)
     {
         $this->file = $file;
-        $this->debug = (bool) $debug;
+        $this->debug = (bool)$debug;
     }
 
     /**
@@ -99,7 +99,7 @@ class ConfigCache implements ConfigCacheInterface
     /**
      * Writes cache.
      *
-     * @param string              $content  The content to write in the cache
+     * @param string $content The content to write in the cache
      * @param ResourceInterface[] $metadata An array of ResourceInterface instances
      *
      * @throws \RuntimeException When cache file can't be written
@@ -133,6 +133,6 @@ class ConfigCache implements ConfigCacheInterface
      */
     private function getMetaFile()
     {
-        return $this->file.'.meta';
+        return $this->file . '.meta';
     }
 }

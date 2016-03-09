@@ -33,7 +33,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
 
     public function setNormalizeKeys($normalizeKeys)
     {
-        $this->normalizeKeys = (bool) $normalizeKeys;
+        $this->normalizeKeys = (bool)$normalizeKeys;
     }
 
     /**
@@ -103,7 +103,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      */
     public function setAddIfNotSet($boolean)
     {
-        $this->addIfNotSet = (bool) $boolean;
+        $this->addIfNotSet = (bool)$boolean;
     }
 
     /**
@@ -113,7 +113,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      */
     public function setAllowFalse($allow)
     {
-        $this->allowFalse = (bool) $allow;
+        $this->allowFalse = (bool)$allow;
     }
 
     /**
@@ -123,7 +123,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      */
     public function setAllowNewKeys($allow)
     {
-        $this->allowNewKeys = (bool) $allow;
+        $this->allowNewKeys = (bool)$allow;
     }
 
     /**
@@ -133,7 +133,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      */
     public function setPerformDeepMerging($boolean)
     {
-        $this->performDeepMerging = (bool) $boolean;
+        $this->performDeepMerging = (bool)$boolean;
     }
 
     /**
@@ -143,7 +143,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
      */
     public function setIgnoreExtraKeys($boolean)
     {
-        $this->ignoreExtraKeys = (bool) $boolean;
+        $this->ignoreExtraKeys = (bool)$boolean;
     }
 
     /**
@@ -341,7 +341,7 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
     /**
      * Merges values together.
      *
-     * @param mixed $leftSide  The left side to merge.
+     * @param mixed $leftSide The left side to merge.
      * @param mixed $rightSide The right side to merge.
      *
      * @return mixed The merged values
@@ -367,9 +367,9 @@ class ArrayNode extends BaseNode implements PrototypeNodeInterface
                 if (!$this->allowNewKeys) {
                     $ex = new InvalidConfigurationException(sprintf(
                         'You are not allowed to define new elements for path "%s". '
-                       .'Please define all elements for this path in one config file. '
-                       .'If you are trying to overwrite an element, make sure you redefine it '
-                       .'with the same name.',
+                        . 'Please define all elements for this path in one config file. '
+                        . 'If you are trying to overwrite an element, make sure you redefine it '
+                        . 'with the same name.',
                         $this->getPath()
                     ));
                     $ex->setPath($this->getPath());

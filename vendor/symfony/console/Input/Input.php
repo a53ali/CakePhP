@@ -102,7 +102,7 @@ abstract class Input implements InputInterface
      */
     public function setInteractive($interactive)
     {
-        $this->interactive = (bool) $interactive;
+        $this->interactive = (bool)$interactive;
     }
 
     /**
@@ -136,7 +136,7 @@ abstract class Input implements InputInterface
     /**
      * Sets an argument value by name.
      *
-     * @param string $name  The argument name
+     * @param string $name The argument name
      * @param string $value The argument value
      *
      * @throws \InvalidArgumentException When argument given doesn't exist
@@ -193,7 +193,7 @@ abstract class Input implements InputInterface
     /**
      * Sets an option value by name.
      *
-     * @param string      $name  The option name
+     * @param string $name The option name
      * @param string|bool $value The option value
      *
      * @throws \InvalidArgumentException When option given doesn't exist

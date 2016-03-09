@@ -256,8 +256,8 @@ abstract class Driver
             return str_replace(',', '.', strval($value));
         }
         if ((is_int($value) || $value === '0') || (
-            is_numeric($value) && strpos($value, ',') === false &&
-            $value[0] !== '0' && strpos($value, 'e') === false)
+                is_numeric($value) && strpos($value, ',') === false &&
+                $value[0] !== '0' && strpos($value, 'e') === false)
         ) {
             return $value;
         }

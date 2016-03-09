@@ -18,41 +18,41 @@
  */
 ?>
 <CakePHPBakeOpenTagphp
-namespace <?= $namespace ?>\Test\Fixture;
+    namespace <?= $namespace ?>\Test\Fixture;
 
-use Cake\TestSuite\Fixture\TestFixture;
+    use Cake\TestSuite\Fixture\TestFixture;
 
 /**
- * <?= $name ?>Fixture
- *
- */
+* <?= $name ?>Fixture
+*
+*/
 class <?= $name ?>Fixture extends TestFixture
 {
 <?php if ($table): ?>
 
     /**
-     * Table name
-     *
-     * @var string
-     */
+    * Table name
+    *
+    * @var string
+    */
     public $table = '<?= $table ?>';
 <?php endif; ?>
 <?php if ($import): ?>
 
     /**
-     * Import
-     *
-     * @var array
-     */
+    * Import
+    *
+    * @var array
+    */
     public $import = <?= $import ?>;
 <?php endif; ?>
 <?php if ($schema): ?>
 
     /**
-     * Fields
-     *
-     * @var array
-     */
+    * Fields
+    *
+    * @var array
+    */
     // @codingStandardsIgnoreStart
     public $fields = <?= $schema ?>;
     // @codingStandardsIgnoreEnd
@@ -60,10 +60,10 @@ class <?= $name ?>Fixture extends TestFixture
 <?php if ($records): ?>
 
     /**
-     * Records
-     *
-     * @var array
-     */
+    * Records
+    *
+    * @var array
+    */
     public $records = <?= $records ?>;
 <?php endif; ?>
 }

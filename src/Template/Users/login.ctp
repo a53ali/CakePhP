@@ -51,11 +51,11 @@
                     ));
                     ?>
 
-                <?php
-                echo $this->Html->link("Create New User", array(
-                    'action' => 'add',
-                ));
-                ?>
+                    <?php
+                    echo $this->Html->link("Create New User", array(
+                        'action' => 'add',
+                    ));
+                    ?>
                 </div>
                 <?= $this->Form->end() ?>
             </div>

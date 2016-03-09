@@ -28,7 +28,7 @@ class YamlTest extends \PHPUnit_Framework_TestCase
      */
     public function testLegacyParseFromFile()
     {
-        $filename = __DIR__.'/Fixtures/index.yml';
+        $filename = __DIR__ . '/Fixtures/index.yml';
         $contents = file_get_contents($filename);
         $parsedByFilename = Yaml::parse($filename);
         $parsedByContents = Yaml::parse($contents);

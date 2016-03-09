@@ -155,7 +155,7 @@ class Util
      */
     public static function isValidMigrationClassName($className)
     {
-        return (bool) preg_match('/^([A-Z][a-z0-9]+)+$/', $className);
+        return (bool)preg_match('/^([A-Z][a-z0-9]+)+$/', $className);
     }
 
     /**

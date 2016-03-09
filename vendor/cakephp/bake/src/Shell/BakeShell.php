@@ -282,7 +282,7 @@ class BakeShell extends Shell
             'help' => 'Bake a complete MVC skeleton.',
         ])->addOption('everything', [
             'help' => 'Bake a complete MVC skeleton, using all the available tables. ' .
-            'Usage: "bake all --everything"',
+                'Usage: "bake all --everything"',
             'default' => false,
             'boolean' => true,
         ])->addOption('connection', [

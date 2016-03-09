@@ -144,13 +144,16 @@ class SettersTest extends TestFixture
         try {
             $d->timezone = 'sdf';
             $this->fail('InvalidArgumentException was not been raised.');
-        } catch (InvalidArgumentException $expected) {}
+        } catch (InvalidArgumentException $expected) {
+        }
 
         try {
             $d->timezone('sdf');
             $this->fail('InvalidArgumentException was not been raised.');
-        } catch (InvalidArgumentException $expected) {}
+        } catch (InvalidArgumentException $expected) {
+        }
     }
+
     public function testTzWithInvalidTimezone()
     {
         $d = Carbon::now();
@@ -158,13 +161,16 @@ class SettersTest extends TestFixture
         try {
             $d->tz = 'sdf';
             $this->fail('InvalidArgumentException was not been raised.');
-        } catch (InvalidArgumentException $expected) {}
+        } catch (InvalidArgumentException $expected) {
+        }
 
         try {
             $d->tz('sdf');
             $this->fail('InvalidArgumentException was not been raised.');
-        } catch (InvalidArgumentException $expected) {}
+        } catch (InvalidArgumentException $expected) {
+        }
     }
+
     public function testSetTimezoneUsingString()
     {
         $d = Carbon::now();

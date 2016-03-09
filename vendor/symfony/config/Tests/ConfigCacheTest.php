@@ -26,7 +26,7 @@ class ConfigCacheTest extends \PHPUnit_Framework_TestCase
     {
         $this->resourceFile = tempnam(sys_get_temp_dir(), '_resource');
         $this->cacheFile = tempnam(sys_get_temp_dir(), 'config_');
-        $this->metaFile = $this->cacheFile.'.meta';
+        $this->metaFile = $this->cacheFile . '.meta';
 
         $this->makeCacheFresh();
         $this->generateMetaFile();

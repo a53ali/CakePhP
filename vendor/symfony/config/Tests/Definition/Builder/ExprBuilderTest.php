@@ -19,7 +19,7 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
     {
         $test = $this->getTestBuilder()
             ->always($this->returnClosure('new_value'))
-        ->end();
+            ->end();
 
         $this->assertFinalizedValueIs('new_value', $test);
     }
@@ -29,19 +29,23 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifTrue()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test, array('key' => true));
 
         $test = $this->getTestBuilder()
-            ->ifTrue(function ($v) { return true; })
+            ->ifTrue(function ($v) {
+                return true;
+            })
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test);
 
         $test = $this->getTestBuilder()
-            ->ifTrue(function ($v) { return false; })
+            ->ifTrue(function ($v) {
+                return false;
+            })
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('value', $test);
     }
 
@@ -50,13 +54,13 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifString()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test);
 
         $test = $this->getTestBuilder()
             ->ifString()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs(45, $test, array('key' => 45));
     }
 
@@ -65,13 +69,13 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifNull()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test, array('key' => null));
 
         $test = $this->getTestBuilder()
             ->ifNull()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('value', $test);
     }
 
@@ -80,13 +84,13 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifArray()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test, array('key' => array()));
 
         $test = $this->getTestBuilder()
             ->ifArray()
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('value', $test);
     }
 
@@ -95,13 +99,13 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifInArray(array('foo', 'bar', 'value'))
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test);
 
         $test = $this->getTestBuilder()
             ->ifInArray(array('foo', 'bar'))
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('value', $test);
     }
 
@@ -110,13 +114,13 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifNotInArray(array('foo', 'bar'))
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test);
 
         $test = $this->getTestBuilder()
             ->ifNotInArray(array('foo', 'bar', 'value_from_config'))
             ->then($this->returnClosure('new_value'))
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs('new_value', $test);
     }
 
@@ -125,7 +129,7 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifString()
             ->thenEmptyArray()
-        ->end();
+            ->end();
         $this->assertFinalizedValueIs(array(), $test);
     }
 
@@ -137,7 +141,7 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifString()
             ->thenInvalid('Invalid value')
-        ->end();
+            ->end();
         $this->finalizeTestBuilder($test);
     }
 
@@ -146,7 +150,7 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
         $test = $this->getTestBuilder()
             ->ifString()
             ->thenUnset()
-        ->end();
+            ->end();
         $this->assertEquals(array(), $this->finalizeTestBuilder($test));
     }
 
@@ -163,15 +167,14 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
             ->root('test')
             ->children()
             ->variableNode('key')
-            ->validate()
-        ;
+            ->validate();
     }
 
     /**
      * Close the validation process and finalize with the given config.
      *
      * @param TreeBuilder $testBuilder The tree builder to finalize
-     * @param array       $config      The config you want to use for the finalization, if nothing provided
+     * @param array $config The config you want to use for the finalization, if nothing provided
      *                                 a simple array('key'=>'value') will be used
      *
      * @return array The finalized config values
@@ -183,8 +186,7 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
             ->end()
             ->end()
             ->buildTree()
-            ->finalize(null === $config ? array('key' => 'value') : $config)
-        ;
+            ->finalize(null === $config ? array('key' => 'value') : $config);
     }
 
     /**
@@ -204,9 +206,9 @@ class ExprBuilderTest extends \PHPUnit_Framework_TestCase
     /**
      * Assert that the given test builder, will return the given value.
      *
-     * @param mixed       $value       The value to test
+     * @param mixed $value The value to test
      * @param TreeBuilder $treeBuilder The tree builder to finalize
-     * @param mixed       $config      The config values that new to be finalized
+     * @param mixed $config The config values that new to be finalized
      */
     protected function assertFinalizedValueIs($value, $treeBuilder, $config = null)
     {

@@ -3,6 +3,7 @@ namespace App\Controller;
 
 use App\Controller\AppController;
 use Cake\Event\Event;
+
 /**
  * Users Controller
  *
@@ -39,12 +40,12 @@ class UsersController extends AppController
 
         $this->loadModel('timeoffrequest');
         $tors = $this->timeoffrequest->find('all')
-        ->where(['user_id IS' => intval($id)]);
+            ->where(['user_id IS' => intval($id)]);
 
-/*foreach ($tors as $row) {
-    debug($row->user_id);
-    debug(intval($id));
-}*/
+        /*foreach ($tors as $row) {
+            debug($row->user_id);
+            debug(intval($id));
+        }*/
 
         $this->set('timeoffrequest', $this->paginate($tors));
         $this->set('_serialize', ['timeoffrequest']);
@@ -67,10 +68,10 @@ class UsersController extends AppController
                 $user = $this->Auth->identify();
                 $this->Auth->setUser($user);
                 return $this->redirect($this->Auth->redirectUrl(['action' => 'index']));
-            } else if($this->Users->save($user)){
+            } else if ($this->Users->save($user)) {
                 $this->Flash->success(__('The user has been saved.'));
                 return $this->redirect(['action' => 'index']);
-            }else {
+            } else {
                 $this->Flash->error(__('The user could not be saved. Please, try again.'));
             }
         }
@@ -115,11 +116,9 @@ class UsersController extends AppController
         //$this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
         pr($id);
-        if($this->request->session()->read('Auth.User.id') == $id)
-        {
+        if ($this->request->session()->read('Auth.User.id') == $id) {
             $this->Flash->error(__('You cannot delete yourself. Please ask another administrator to perform this task.'));
-        }
-        else if ($this->Users->delete($user)) {
+        } else if ($this->Users->delete($user)) {
             $this->Flash->success(__('The user has been deleted.'));
         } else {
             $this->Flash->error(__('The user could not be deleted. Please, try again.'));

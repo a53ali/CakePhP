@@ -3,20 +3,20 @@
  */
 
 /* simulates async login activity */
-var doLogin = function(ms,cb) {
-    setTimeout(function() {
-        if(typeof cb == 'function')
+var doLogin = function (ms, cb) {
+    setTimeout(function () {
+        if (typeof cb == 'function')
             cb();
     }, ms);
 };
 
-$('#btnLogin').click(function(){
+$('#btnLogin').click(function () {
     var btn = $(this);
     btn.button("loading");
 
     // perform login / async callback here
 
-    doLogin(3000,function(){
+    doLogin(3000, function () {
         btn.button("reset"); // reset button after login callback returns
     });
 

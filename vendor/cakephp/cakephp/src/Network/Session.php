@@ -545,8 +545,8 @@ class Session
     protected function _hasSession()
     {
         return !ini_get('session.use_cookies')
-            || isset($_COOKIE[session_name()])
-            || $this->_isCLI;
+        || isset($_COOKIE[session_name()])
+        || $this->_isCLI;
     }
 
     /**

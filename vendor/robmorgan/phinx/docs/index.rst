@@ -7,15 +7,15 @@ Contents
 ========
 
 .. toctree::
-   :maxdepth: 2
+:maxdepth: 2
 
-   intro
-   goals
-   install
-   migrations
-   commands
-   configuration
-   copyright
+       intro
+       goals
+       install
+       migrations
+       commands
+       configuration
+       copyright
 
 Indices and tables
 ==================

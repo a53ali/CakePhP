@@ -216,7 +216,8 @@ class Config implements ConfigInterface
      *
      * @return string|null
      */
-    public function getAlias($alias){
+    public function getAlias($alias)
+    {
         return !empty($this->values['aliases'][$alias]) ? $this->values['aliases'][$alias] : null;
     }
 
@@ -258,28 +259,28 @@ class Config implements ConfigInterface
      *
      * @return string|false
      */
-     public function getTemplateFile()
-     {
+    public function getTemplateFile()
+    {
         if (!isset($this->values['templates']['file'])) {
             return false;
         }
 
         return $this->values['templates']['file'];
-     }
+    }
 
     /**
      * Get the template class name.
      *
      * @return string|false
      */
-     public function getTemplateClass()
-     {
+    public function getTemplateClass()
+    {
         if (!isset($this->values['templates']['class'])) {
             return false;
         }
 
         return $this->values['templates']['class'];
-     }
+    }
 
     /**
      * Replace tokens in the specified array.

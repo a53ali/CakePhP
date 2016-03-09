@@ -11,7 +11,7 @@ $(window).load(function(){
             jQuery('#end').data("DateTimePicker").setMinDate(e.date);
         });
         jQuery("#end").on("dp.change",function (e) {
-            jQuery('#start').data("DateTimePicker").setMaxDate(e.date);
+            jQuery('#start').data("DateTimePicker").setMaxDate(e.date);<
         });
 
         $( "#end" ).change(function() {

@@ -48,10 +48,14 @@ class UsersController extends AppController
         $user = $this->Users->newEntity();
         if ($this->request->is('post')) {
             $user = $this->Users->patchEntity($user, $this->request->data);
-            if ($this->Users->save($user)) {
+            if ($this->Users->save($user) && is_null($this->request->session()->read('Auth.User.username'))) {
+                $user = $this->Auth->identify();
+                $this->Auth->setUser($user);
+                return $this->redirect($this->Auth->redirectUrl(['action' => 'index']));
+            } else if($this->Users->save($user)){
                 $this->Flash->success(__('The user has been saved.'));
                 return $this->redirect(['action' => 'index']);
-            } else {
+            }else {
                 $this->Flash->error(__('The user could not be saved. Please, try again.'));
             }
         }
@@ -93,9 +97,14 @@ class UsersController extends AppController
      */
     public function delete($id = null)
     {
-        $this->request->allowMethod(['post', 'delete']);
+        //$this->request->allowMethod(['post', 'delete']);
         $user = $this->Users->get($id);
-        if ($this->Users->delete($user)) {
+        pr($id);
+        if($this->request->session()->read('Auth.User.id') == $id)
+        {
+            $this->Flash->error(__('You cannot delete yourself. Please ask another administrator to perform this task.'));
+        }
+        else if ($this->Users->delete($user)) {
             $this->Flash->success(__('The user has been deleted.'));
         } else {
             $this->Flash->error(__('The user could not be deleted. Please, try again.'));

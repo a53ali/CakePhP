@@ -53124,3 +53124,684 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2016-03-09 02:23:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:23:28 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:23:28 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Request URL: /login
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(164): Cake\Datasource\ConnectionManager::get('default')
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/TableRegistry.php(109): Cake\ORM\Locator\TableLocator->get('Users', Array)
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(134): Cake\ORM\TableRegistry::get('Users')
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Auth/BaseAuthenticate.php(105): Cake\Auth\BaseAuthenticate->_query('admin')
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Auth/FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('admin', 'admin')
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php(764): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 /home/adil/CakePhP/src/Controller/UsersController.php(119): Cake\Controller\Component\AuthComponent->identify()
+#11 [internal function]: App\Controller\UsersController->login()
+#12 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#15 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 {main}
+
+
+2016-03-09 02:28:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:28:08 Error: [Cake\Database\Exception\MissingExtensionException] Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP extension or unmet dependency
+Exception Attributes: array (
+  'driver' => 'Cake\\Database\\Driver\\Mysql',
+)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(107): Cake\Database\Connection->driver('Cake\\Database\\D...', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Datasource/ConnectionRegistry.php(76): Cake\Database\Connection->__construct(Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Core/ObjectRegistry.php(93): Cake\Datasource\ConnectionRegistry->_create('Cake\\Database\\C...', 'default', Array)
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Datasource/ConnectionManager.php(195): Cake\Core\ObjectRegistry->load('default', Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Locator/TableLocator.php(164): Cake\Datasource\ConnectionManager::get('default')
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Datasource/ModelAwareTrait.php(114): Cake\ORM\Locator\TableLocator->get('Users')
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(346): Cake\Controller\Controller->loadModel('Users')
+#7 /home/adil/CakePhP/src/Controller/UsersController.php(48): Cake\Controller\Controller->__get('Users')
+#8 [internal function]: App\Controller\UsersController->add()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#12 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#13 {main}
+
+
+2016-03-09 02:30:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:30:39 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:30:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:30:40 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:30:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:30:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:30:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:30:49 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:53 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:54 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:54 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:55 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:56 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:31:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:31:57 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:32:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:32:18 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:32:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:32:19 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:32:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:32:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:32:24 Error: [PDOException] SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: NO)
+Request URL: /users/add
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', '', Array)
+#1 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Driver/Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Dialect/MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Database/Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Form/EntityContext.php(461): Cake\ORM\Table->schema()
+#9 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1157): Cake\View\Form\EntityContext->type('username')
+#10 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(1129): Cake\View\Helper\FormHelper->_inputType('username', Array)
+#11 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FormHelper.php(987): Cake\View\Helper\FormHelper->_parseOptions('username', Array)
+#12 /home/adil/CakePhP/src/Template/Users/add.ctp(26): Cake\View\Helper\FormHelper->input('username', Array)
+#13 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#14 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#15 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(579): Cake\View\View->_render('/home/adil/Cake...')
+#16 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#17 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#18 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#19 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#20 {main}
+
+
+2016-03-09 02:34:32 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:40 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:42 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:34:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:35:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:50 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:48:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:49:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:49:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:49:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:49:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:53:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 02:57:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:01:19 Warning: Warning (4096): Argument 1 passed to Cake\Controller\Component\AuthComponent::setUser() must be of the type array, object given, called in /home/adil/CakePhP/src/Controller/UsersController.php on line 54 and defined in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php, line 629]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Controller\Component\AuthComponent::setUser() - CORE/src/Controller/Component/AuthComponent.php, line 629
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:01:19 Warning: Warning (4096): Argument 1 passed to Cake\Auth\Storage\SessionStorage::write() must be of the type array, object given, called in /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Component/AuthComponent.php on line 631 and defined in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/Auth/Storage/SessionStorage.php, line 97]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+Cake\Auth\Storage\SessionStorage::write() - CORE/src/Auth/Storage/SessionStorage.php, line 97
+Cake\Controller\Component\AuthComponent::setUser() - CORE/src/Controller/Component/AuthComponent.php, line 631
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:01:19 Warning: Warning (2): Cannot modify header information - headers already sent by (output started at /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/Debugger.php:744) in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/Network/Session.php, line 573]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+setcookie - [internal], line ??
+Cake\Network\Session::renew() - CORE/src/Network/Session.php, line 573
+Cake\Auth\Storage\SessionStorage::write() - CORE/src/Auth/Storage/SessionStorage.php, line 101
+Cake\Controller\Component\AuthComponent::setUser() - CORE/src/Controller/Component/AuthComponent.php, line 631
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:01:19 Warning: Warning (2): session_regenerate_id() [<a href='http://php.net/function.session-regenerate-id'>function.session-regenerate-id</a>]: Cannot regenerate session id - headers already sent in [/home/adil/CakePhP/vendor/cakephp/cakephp/src/Network/Session.php, line 576]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 138
+session_regenerate_id - [internal], line ??
+Cake\Network\Session::renew() - CORE/src/Network/Session.php, line 576
+Cake\Auth\Storage\SessionStorage::write() - CORE/src/Auth/Storage/SessionStorage.php, line 101
+Cake\Controller\Component\AuthComponent::setUser() - CORE/src/Controller/Component/AuthComponent.php, line 631
+App\Controller\UsersController::add() - APP/Controller/UsersController.php, line 54
+Cake\Controller\Controller::invokeAction() - CORE/src/Controller/Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE/src/Routing/Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
+[main] - ROOT/webroot/index.php, line 37
+
+
+
+2016-03-09 03:01:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:21 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:02:37 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:03:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:03:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:03:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:03:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:19 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:22 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:04:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:05:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:05:02 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:07:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:07:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:07:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:07:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:07:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:08:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:08:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:08:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:08:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:08:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:09:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:09:53 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:09:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:10:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:39 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:41 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:43 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:11:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:12:58 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:03 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:07 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:30 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:30 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /users/delete/13
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 /home/adil/CakePhP/src/Controller/UsersController.php(101): Cake\ORM\Table->get('13')
+#2 [internal function]: App\Controller\UsersController->delete('13')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-09 03:13:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:54 Error: [Cake\Datasource\Exception\RecordNotFoundException] Record not found in table "users"
+Request URL: /users/delete/12
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/ORM/Table.php(1187): Cake\ORM\Query->firstOrFail()
+#1 /home/adil/CakePhP/src/Controller/UsersController.php(101): Cake\ORM\Table->get('12')
+#2 [internal function]: App\Controller\UsersController->delete('12')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(429): call_user_func_array(Array, Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#6 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#7 {main}
+
+
+2016-03-09 03:13:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:13:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:14:17 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:23 Error: Fatal Error (4): syntax error, unexpected ')', expecting ']' in [/home/adil/CakePhP/src/Controller/UsersController.php, line 102]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE/src/Error/BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE/src/Error/BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-03-09 03:16:23 Error: [Cake\Error\FatalErrorException] syntax error, unexpected ')', expecting ']'
+Request URL: /dashboard
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Error/BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', '/home/adil/Cake...', 102)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-03-09 03:16:29 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:33 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:36 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:47 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:49 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:51 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:55 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:56 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:16:59 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:17:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:17:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:19:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:19:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:20 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:23 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:26 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:21:38 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:22:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:22:31 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:22:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:22:35 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:00 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:23:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:46 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:52 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:54 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:24:57 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:25:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:25:01 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:26:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:26:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:26:14 Error: [Cake\View\Exception\MissingElementException] Element/Flash/warning.ctp
+Request URL: /dashboard
+Stack Trace:
+#0 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/Helper/FlashHelper.php(89): Cake\View\View->element('Flash/warning', Array)
+#1 /home/adil/CakePhP/src/Template/Layout/default.ctp(52): Cake\View\Helper\FlashHelper->render()
+#2 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(971): include('/home/adil/Cake...')
+#3 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(931): Cake\View\View->_evaluate('/home/adil/Cake...', Array)
+#4 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(625): Cake\View\View->_render('/home/adil/Cake...')
+#5 /home/adil/CakePhP/vendor/cakephp/cakephp/src/View/View.php(584): Cake\View\View->renderLayout('', 'default')
+#6 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Controller/Controller.php(611): Cake\View\View->render(NULL, NULL)
+#7 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(120): Cake\Controller\Controller->render()
+#8 /home/adil/CakePhP/vendor/cakephp/cakephp/src/Routing/Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#9 /home/adil/CakePhP/webroot/index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#10 {main}
+
+
+2016-03-09 03:26:18 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:28:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:28:12 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:24 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:27 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:44 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:30:48 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:08 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:11 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:14 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:31:45 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:32:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:32:04 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:32:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-03-09 03:32:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.

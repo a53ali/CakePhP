@@ -16,4 +16,25 @@ configuration relevant for your application.
 
 You should now be able to visit the web application at http://localhost:8765/
 
+Issues that you might face after installing
 
+1. Database driver Cake\Database\Driver\Mysql cannot be used due to a missing PHP
+    extension or unmet dependency
+    The above error will be displayed on browser, if Mysql database driver couldn't be used by app or
+     is missing. Type the following command in terminal :
+     sudo apt-get install php5-mysql
+     Now restart mysql using command service mysql restart then restart Apache using command
+     service apache2 restart
+     Refresh the browser now, the above error would have disappeared.
+
+
+Notes:
+
+To start server in Linux, user needs to insert relative path.
+
+root@adil:/home/adil/CakePhP/bin# cake -app /home/adil/CakePhP server
+
+
+To kill process using port 80:
+
+fuser -k 80/tcp

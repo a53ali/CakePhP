@@ -1,63 +1,74 @@
 <!-- File: src/Template/Users/login.ctp -->
+<script type="text/javascript" src="/js/typed.js"></script>
+<script>
+    $(function () {
 
-<div class="row vertical-offset-100">
-    <div class="col-md-4 col-md-offset-4">
-        <div class="panel panel-default">
+        $("#typed").typed({
+            strings: ["NetSuite is the world's leading provider of cloud-based business", "Who is core?", "Well....", "Core is responsible for developing all the software"],
+            typeSpeed: 30,
+            loop:true
+        });
 
-            <!-- Panel Heading -->
-            <div class="panel-heading">
-                <div class="row-fluid user-row">
-                    <img src="http://s11.postimg.org/7kzgji28v/logo_sm_2_mr_1.png" class="img-responsive"
-                         alt="Conxole Admin"/>
-                </div>
-            </div>
-            <!-- End panel heading -->
+    });
+</script>
+<link rel="stylesheet" href="/css/login.css">
 
-            <!-- Panel body -->
-            <div class="users form modal-body panel-body panel">
-                <legend><?= __('Sign In') ?></legend>
-                <?= $this->Form->create('BoostCake', array(
+<?php
+    $this->set('background', '../img/header-bg.jpg');
+    ?>
+
+<div class="row vertical-offset-100 header">
+    <div class="text-editor-wrap">
+        <div class="title-bar"><span class="title">typed.js — bash — 80x<span class="terminal-height">10</span></span>
+        </div>
+        <div class="text-body">
+            $ <span id="typed">NetSuite Core HRIS allows you to manage a global workforce.</span><span
+                class="typed-cursor"></span>
+        </div>
+
+
+        <div class="login">
+            <div class="login__form">
+                <div class="login__row">
+                    <?= $this->Form->create('BoostCake', array(
                     'inputDefaults' => array(
-                        'div' => 'form-group',
-                        'label' => false,
-                        'wrapInput' => false,
-                        'class' => 'form-control'
+                    'label' => false,
+                    'wrapInput' => false,
                     ),
                     'class' => 'form col-md-12 center-block'
-                )); ?>
-                <div class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span> </span>
+                    )); ?>
+                    <svg class="login__icon name svg-icon" viewBox="0 0 20 20">
+                        <path d="M0,20 a10,8 0 0,1 20,0z M10,0 a4,4 0 0,1 0,8 a4,4 0 0,1 0,-8"/>
+                    </svg>
                     <?= $this->Form->input('username', array(
-                        'label' => '',
-                        'class' => 'form-control',
-                        'placeholder' => 'Username'
+                    'label' => '',
+                    'class' => 'login__input name',
+                    'placeholder' => 'Username'
                     )); ?>
                 </div>
-
-                <div class="input-group">
-                    <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span> </span>
+                <div class="login__row">
+                    <svg class="login__icon pass svg-icon" viewBox="0 0 20 20">
+                        <path d="M0,20 20,20 20,8 0,8z M10,13 10,16z M4,8 a6,8 0 0,1 12,0"/>
+                    </svg>
                     <?= $this->Form->input('password', array(
-                        'label' => '',
-                        'class' => 'form-control',
-                        'div' => 'input-group input-password',
-                        'placeholder' => 'Password')); ?>
+                    'label' => '',
+                    'class' => 'login__input pass',
+                    'placeholder' => 'Password')); ?>
                 </div>
-                <div class="form-group">
-                    <?= $this->Form->button(__('Login'), array(
-                        'type' => 'submit',
-                        'class' => 'form-control btn btn-primary btn-lg pull-right btn badge badge-primary badge-btn',
-                        'escape' => false,
-                        'id' => 'btnLogin'
-                    ));
-                    ?>
-
+                <?= $this->Form->button(__('Login'), array(
+                'type' => 'submit',
+                'class' => 'login__submit',
+                'escape' => false,
+                'id' => 'btnLogin'
+                ));
+                ?>
+                <p class="login__signup">
                     <?php
-                    echo $this->Html->link("Create New User", array(
-                        'action' => 'add',
+                    echo $this->Html->link("Don't have an account? Sign up", array(
+                    'action' => 'add',
                     ));
                     ?>
-                </div>
-                <?= $this->Form->end() ?>
+                </p>
             </div>
         </div>
     </div>

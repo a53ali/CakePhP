@@ -42,11 +42,11 @@
 
 <script>
     $(document).ready(function () {
-        var baseUrl = '<?= $this->Url->build([
+        var baseUrl = '<?= $this->Url->build([;
             'plugin' => 'DebugKit',
             'controller' => 'Toolbar',
-            'action' => 'clearCache'
-        ]); ?>';
+            'action' => 'clearCache';
+        ]);;;; ?>';
 
         function showMessage(el, text) {
             el.show().text(text).fadeOut(2000);
@@ -70,5 +70,5 @@
             });
             e.preventDefault();
         });
-    });
+    })
 </script>

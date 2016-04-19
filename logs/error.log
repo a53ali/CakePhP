@@ -54531,3 +54531,57 @@ Cake\Routing\Dispatcher::dispatch() - CORE/src/Routing/Dispatcher.php, line 87
 2016-03-09 07:24:06 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-09 07:24:10 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
 2016-03-09 07:24:13 Warning: DebugKit not enabled. You need to either install pdo_sqlite, or define the "debug_kit" connection name.
+2016-04-19 01:57:34 Error: [PDOException] SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES)
+Request URL: /login
+Stack Trace:
+#0 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Driver\PDODriverTrait.php(48): PDO->__construct('mysql:host=loca...', 'root', 'latitude', Array)
+#1 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Driver\Mysql.php(90): Cake\Database\Driver\Mysql->_connect('mysql:host=loca...', Array)
+#2 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Schema\BaseSchema.php(45): Cake\Database\Driver\Mysql->connect()
+#3 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Dialect\MysqlDialectTrait.php(63): Cake\Database\Schema\BaseSchema->__construct(Object(Cake\Database\Driver\Mysql))
+#4 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Schema\Collection.php(52): Cake\Database\Driver\Mysql->schemaDialect()
+#5 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Schema\CachedCollection.php(43): Cake\Database\Schema\Collection->__construct(Object(Cake\Database\Connection))
+#6 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Database\Connection.php(315): Cake\Database\Schema\CachedCollection->__construct(Object(Cake\Database\Connection), true)
+#7 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\ORM\Table.php(422): Cake\Database\Connection->schemaCollection()
+#8 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\ORM\Query.php(173): Cake\ORM\Table->schema()
+#9 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\ORM\Query.php(131): Cake\ORM\Query->addDefaultTypes(Object(App\Model\Table\UsersTable))
+#10 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\ORM\Table.php(1228): Cake\ORM\Query->__construct(Object(Cake\Database\Connection), Object(App\Model\Table\UsersTable))
+#11 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\ORM\Table.php(931): Cake\ORM\Table->query()
+#12 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(147): Cake\ORM\Table->find('all', Array)
+#13 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Auth\BaseAuthenticate.php(105): Cake\Auth\BaseAuthenticate->_query('admin')
+#14 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Auth\FormAuthenticate.php(77): Cake\Auth\BaseAuthenticate->_findUser('admin', 'admin')
+#15 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Controller\Component\AuthComponent.php(764): Cake\Auth\FormAuthenticate->authenticate(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#16 C:\Users\Adil Ali\Desktop\CakePhP\src\Controller\UsersController.php(129): Cake\Controller\Component\AuthComponent->identify()
+#17 [internal function]: App\Controller\UsersController->login()
+#18 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Controller\Controller.php(429): call_user_func_array(Array, Array)
+#19 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(114): Cake\Controller\Controller->invokeAction()
+#20 C:\Users\Adil Ali\Desktop\CakePhP\vendor\cakephp\cakephp\src\Routing\Dispatcher.php(87): Cake\Routing\Dispatcher->_invoke(Object(App\Controller\UsersController))
+#21 C:\Users\Adil Ali\Desktop\CakePhP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#22 {main}
+
+
+2016-04-19 02:31:59 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/typed
+Stack Trace:
+#0 C:\Users\Adil Ali\Desktop\CakePhP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+
+2016-04-19 02:32:05 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Js could not be found.
+Exception Attributes: array (
+  'class' => 'Js',
+  'plugin' => NULL,
+  'prefix' => NULL,
+  '_ext' => NULL,
+)
+Request URL: /js/typed
+Stack Trace:
+#0 C:\Users\Adil Ali\Desktop\CakePhP\webroot\index.php(37): Cake\Routing\Dispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#1 {main}
+
+

@@ -93,7 +93,7 @@ var fluid = {
             "background": "#fff"
         });
     }
-}
+};
 jQuery(function ($) {
     if ($("#accordion").length) {
         fluid.Accordion();

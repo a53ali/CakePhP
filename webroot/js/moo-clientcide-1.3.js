@@ -1483,8 +1483,7 @@ String.implement({
  ...
  */
 
-;(function () {
-
+(function () {
     var parsed,
         separatorIndex,
         combinatorIndex,
@@ -1699,8 +1698,7 @@ String.implement({
         }
 
         return '';
-    };
-
+    }
 // Slick NS
 
     var Slick = (this.Slick || {});
@@ -1726,8 +1724,7 @@ String.implement({
  ...
  */
 
-;(function () {
-
+(function () {
     var local = {},
         featuresCache = {},
         toString = Object.prototype.toString;
@@ -1803,8 +1800,6 @@ String.implement({
             features.isHTMLDocument = !!document.getElementById(id);
         } catch (e) {
         }
-        ;
-
         if (features.isHTMLDocument) {
 
             testNode.style.display = 'none';
@@ -1820,8 +1815,6 @@ String.implement({
                 starSelectsClosed = (selected && !!selected.length && selected[0].nodeName.charAt(0) == '/');
             } catch (e) {
             }
-            ;
-
             features.brokenStarGEBTN = starSelectsComments || starSelectsClosed;
 
             // IE returns elements with the name instead of just id for getElementsById for some documents
@@ -1830,8 +1823,6 @@ String.implement({
                 features.idGetsName = document.getElementById(id) === testNode.firstChild;
             } catch (e) {
             }
-            ;
-
             if (testNode.getElementsByClassName) {
 
                 // Safari 3.2 getElementsByClassName caches results
@@ -1842,16 +1833,12 @@ String.implement({
                     cachedGetElementsByClassName = (testNode.getElementsByClassName('b').length != 2);
                 } catch (e) {
                 }
-                ;
-
                 // Opera 9.6 getElementsByClassName doesnt detects the class if its not the first one
                 try {
                     testNode.innerHTML = '<a class="a"></a><a class="f b a"></a>';
                     brokenSecondClassNameGEBCN = (testNode.getElementsByClassName('a').length != 2);
                 } catch (e) {
                 }
-                ;
-
                 features.brokenGEBCN = cachedGetElementsByClassName || brokenSecondClassNameGEBCN;
             }
 
@@ -1863,32 +1850,24 @@ String.implement({
                     features.starSelectsClosedQSA = (selected && !!selected.length && selected[0].nodeName.charAt(0) == '/');
                 } catch (e) {
                 }
-                ;
-
                 // Safari 3.2 querySelectorAll doesnt work with mixedcase on quirksmode
                 try {
                     testNode.innerHTML = '<a class="MiX"></a>';
                     features.brokenMixedCaseQSA = !testNode.querySelectorAll('.MiX').length;
                 } catch (e) {
                 }
-                ;
-
                 // Webkit and Opera dont return selected options on querySelectorAll
                 try {
                     testNode.innerHTML = '<select><option selected="selected">a</option></select>';
                     features.brokenCheckedQSA = (testNode.querySelectorAll(':checked').length == 0);
                 } catch (e) {
                 }
-                ;
-
                 // IE returns incorrect results for attr[*^$]="" selectors on querySelectorAll
                 try {
                     testNode.innerHTML = '<a class=""></a>';
                     features.brokenEmptyAttributeQSA = (testNode.querySelectorAll('[class*=""]').length != 0);
                 } catch (e) {
                 }
-                ;
-
             }
 
             // IE6-7, if a form has an input of id x, form.getAttribute(x) returns a reference to the input
@@ -1897,8 +1876,6 @@ String.implement({
                 brokenFormAttributeGetter = (testNode.firstChild.getAttribute('action') != 's');
             } catch (e) {
             }
-            ;
-
             // native matchesSelector function
 
             features.nativeMatchesSelector = root.matchesSelector || /*root.msMatchesSelector ||*/ root.mozMatchesSelector || root.webkitMatchesSelector;
@@ -1908,8 +1885,6 @@ String.implement({
                 features.nativeMatchesSelector = null;
             } catch (e) {
             }
-            ;
-
         }
 
         try {
@@ -7931,7 +7906,7 @@ var dbug = {
                 dbug[method] = defaultFunction;
             }
         }
-    };
+    }
     set(debugMethods, dbug.log);
     set(otherMethods, function () {
     });
@@ -10313,7 +10288,7 @@ var Collapsable = Collapsible;
         refreshAPI: function () {
             delete this.options;
             this.setDefault(this.defaults);
-            return;
+            
         },
 
         /******************
@@ -15262,7 +15237,6 @@ StickyWin.UI.Pointy = new Class({
                         backgroundPosition: '100%'
                     };
             }
-            ;
         };
         this.pointer = new Element('div', {
             styles: Object.append({
@@ -15362,7 +15336,6 @@ StickyWin.UI.Pointy = new Class({
                 };
                 break;
         }
-        ;
         var putItBack = this.expose();
         this.pointer.position(Object.append({
             relativeTo: this.pointyWrapper,
@@ -15504,7 +15477,6 @@ StickyWin.PointyTip = new Class({
                     }
                 };
         }
-        ;
     },
     setContent: function () {
         var args = this.getArgs(arguments);

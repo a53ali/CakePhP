@@ -27,7 +27,7 @@ if (elem) {
             iframe.width = '100%';
             iframe.height = '100%';
             doc.body.style.overflow = 'hidden';
-            return;
+            
         }
     };
 
@@ -66,7 +66,7 @@ if (elem) {
                     method: this._arguments[0],
                     url: this._arguments[1],
                     type: this.getResponseHeader('Content-Type')
-                }
+                };
                 iframe.contentWindow.postMessage('ajax-completed$$' + JSON.stringify(params), window.location.origin);
             }
             if (original) {

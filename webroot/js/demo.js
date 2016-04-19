@@ -155,7 +155,7 @@ demo = {
                 "stylers": [{"visibility": "simplified"}]
             }]
 
-        }
+        };
         var map = new google.maps.Map(document.getElementById("map"), mapOptions);
 
         var marker = new google.maps.Marker({
@@ -185,5 +185,5 @@ demo = {
     }
 
 
-}
+};
 

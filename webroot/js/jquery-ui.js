@@ -1249,7 +1249,7 @@
                         this._proportionallyResize()
                     }
                     if (!b(this.handles[l]).length) {
-                        continue
+                        
                     }
                 }
             };

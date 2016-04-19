@@ -25,7 +25,7 @@ this.switchTab = function (action, index, trigger) {
     if (trigger.get('data-trigger-type') === 'result') {
         loadResult();
     }
-}
+};
 
 window.addEvents({
     load: function () {

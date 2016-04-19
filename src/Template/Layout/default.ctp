@@ -48,10 +48,16 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
         });
     </script>
 </head>
+<style type="text/css">
+    body{
+        <?= 'background: url("'.$background.'")'; ?>
+    }
+</style>
 <body>
 <div id="alert"> <?= $this->Flash->render() ?></div>
 <div class="wrapper">
-    <div class="sidebar" data-color="purple" data-image="http://media.tumblr.com/tumblr_mc5glr2tsY1qefhwn.jpg">
+
+    <div id="sidebar-default" class="sidebar" data-color="blue">
         <div class="sidebar-wrapper">
             <div class="logo">
                 <a href="#" class="simple-text">
@@ -60,8 +66,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             </div>
 
             <ul class="nav">
-                <li class="active">
-
+                <li>
                     <a href="#">
                         <i class="pe-7s-graph"></i>
 
@@ -71,25 +76,33 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <li>
                     <?php
                     if (!is_null($this->request->session()->read('Auth.User.username'))) {
-                        echo '<a href="/users/view/';
+                    echo '<a href="/users/view/';
                         echo $this->request->session()->read('Auth.User.id');
                         echo '">';
-                        echo '<i class="pe-7s-user"></i>';
-                        echo '<p>User Profile</p>';
+                    echo '<i class="pe-7s-user"></i>';
+                    echo '<p>User Profile</p>';
                     } else {
-                        echo '<a href="/login"';
+                    echo '<a href="/login"';
                     }
                     ?>
-                    </a>
+                </a>
                 </li>
             </ul>
         </div>
     </div>
 
-    <div class="main-panel">
-        <nav class="navbar navbar-default navbar-fixed">
+    <?php
+                    if (is_null($this->request->session()->read('Auth.User.username'))) {
+    ?>
+    <script type="text/javascript">document.getElementById('sidebar-default').style.display = 'none';</script>
+    <?php
+    }
+    ?>
+
+    <div class="main-panel" id="main-panel">
+        <nav id="navheader" class="navbar navbar-default navbar-fixed">
             <div class="container-fluid">
-                <div class="navbar-header">
+                <div class="navbar-header" id="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                             data-target="#navigation-example-2">
                         <span class="sr-only">Toggle navigation</span>
@@ -102,23 +115,28 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
                         <li>
-                                <?php
+                            <?php
                                 if (!is_null($this->request->session()->read('Auth.User.username'))) {
-                                    echo '<a href="/users/view/';
+                            echo '<a href="/users/view/';
                                     echo $this->request->session()->read('Auth.User.id');
                                     echo '">';
-                                    echo 'Account';
-                                }
-                                ?>
-                            </a>
+                            echo 'Account';
+                            }
+                            ?>
+                        </a>
                         </li>
                         <?php
                         if (!is_null($this->request->session()->read('Auth.User.username'))) {
-                            echo '<li><a href="/dashboard">User</a></li>
-                           <li><a href="/timeoffrequest">Time Off Request</a></li>';
-                            echo '<li>';
+                        echo '
+                        <li><a href="/dashboard">User</a></li>
+                        <li><a href="/timeoffrequest">Time Off Request</a></li>
+                        ';
+                        echo '
+                        <li>';
                             echo $this->Html->link(('Logout'), array('controller'=>'users', 'action'=>'logout'));
-                            echo '</li>';
+                            echo '
+                        </li>
+                        ';
                         }
                         ?>
                     </ul>
@@ -126,21 +144,21 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
             </div>
         </nav>
 
+
+
+        <?php
+                    if (is_null($this->request->session()->read('Auth.User.username'))) {
+        ?>
+        <script type="text/javascript">document.getElementById('navheader').style.display = 'none';</script>
+        <?php
+    }
+    ?>
+
         <div class="content">
             <section class="container clearfix">
                 <?= $this->fetch('content') ?>
             </section>
         </div>
-
-
-        <footer class="footer">
-            <div class="container-fluid">
-                <p class="copyright pull-right">
-                    &copy; 2015 made with love for a better web
-                </p>
-            </div>
-        </footer>
-
     </div>
 </div>
 

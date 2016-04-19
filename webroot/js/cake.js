@@ -21,4 +21,4 @@ $('#btnLogin').click(function () {
     });
 
 
-})
+});

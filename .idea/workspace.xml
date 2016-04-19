@@ -2,30 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7ce353bb-1855-4d29-aca0-743e4cdc83d6" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_panels" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_debug_kit_requests" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_timeoffrequest" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_timeoffrequest" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_users" afterPath="$PROJECT_DIR$/tmp/cache/models/myapp_cake_model_default_users" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_cake_en__u_s" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_debug_kit_en__u_s" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" afterPath="$PROJECT_DIR$/tmp/cache/persistent/myapp_cake_core_translations_default_en__u_s" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tmp/debug_kit.sqlite" afterPath="$PROJECT_DIR$/tmp/debug_kit.sqlite" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/debug.log" afterPath="$PROJECT_DIR$/logs/debug.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/error.log" afterPath="$PROJECT_DIR$/logs/error.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/plugins/Twit/webroot/js/bootstrap.js" afterPath="$PROJECT_DIR$/plugins/Twit/webroot/js/bootstrap.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Layout/default.ctp" afterPath="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/login.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/login.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Element/cache_panel.ctp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar.js" afterPath="$PROJECT_DIR$/vendor/cakephp/debug_kit/webroot/js/toolbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/css/dashboard.css" afterPath="$PROJECT_DIR$/webroot/css/dashboard.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/analytics.js" afterPath="$PROJECT_DIR$/webroot/js/analytics.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/webroot/js/bootstrap-checkbox-radio-switch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/cake.js" afterPath="$PROJECT_DIR$/webroot/js/cake.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/demo.js" afterPath="$PROJECT_DIR$/webroot/js/demo.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/embeddable.js" afterPath="$PROJECT_DIR$/webroot/js/embeddable.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/jquery-fluid16.js" afterPath="$PROJECT_DIR$/webroot/js/jquery-fluid16.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/jquery-ui.js" afterPath="$PROJECT_DIR$/webroot/js/jquery-ui.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/webroot/js/light-bootstrap-dashboard.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/webroot/js/moo-clientcide-1.3.js" afterPath="$PROJECT_DIR$/webroot/js/moo-clientcide-1.3.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp" afterPath="$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp" afterPath="$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Template/Users/view.ctp" afterPath="$PROJECT_DIR$/src/Template/Users/view.ctp" />
     </list>
     <ignored path="cakeItUp.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -47,6 +36,26 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="UsersController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="263">
+              <caret line="53" column="90" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="90" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.ctp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/Template/Users/view.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="57" selection-start-line="11" selection-start-column="60" selection-end-line="15" selection-end-column="83" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="login.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Users/login.ctp">
           <provider selected="true" editor-type-id="text-editor">
@@ -57,7 +66,17 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="8" selection-start-line="4" selection-start-column="12" selection-end-line="5" selection-end-column="107" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/webroot/css/login.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="713">
@@ -67,14 +86,32 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="add.ctp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="default.ctp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-68">
-              <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-              <folding>
-                <element signature="n#div#1;n#div#0;n#nav#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-              </folding>
+            <state relative-caret-position="458">
+              <caret line="130" column="24" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="66" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -128,23 +165,23 @@
         <option value="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Layout/toolbar.ctp" />
         <option value="$PROJECT_DIR$/vendor/cakephp/debug_kit/src/Template/Requests/view.ctp" />
         <option value="$PROJECT_DIR$/webroot/css/light-bootstrap-dashboard.css" />
-        <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Users/edit.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/edit.ctp" />
         <option value="$PROJECT_DIR$/webroot/js/date.js" />
         <option value="$PROJECT_DIR$/src/Template/Users/add.ctp" />
         <option value="$PROJECT_DIR$/src/Controller/TimeoffrequestController.php" />
         <option value="$PROJECT_DIR$/src/Controller/UsersController.php" />
-        <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/view.ctp" />
         <option value="$PROJECT_DIR$/src/Template/Users/index.ctp" />
-        <option value="$PROJECT_DIR$/src/Template/Users/view.ctp" />
         <option value="$PROJECT_DIR$/config/app.php" />
-        <option value="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
         <option value="$PROJECT_DIR$/webroot/css/style.css" />
         <option value="$PROJECT_DIR$/src/Template/Users/login.ctp" />
         <option value="$PROJECT_DIR$/webroot/css/dashboard.css" />
         <option value="$PROJECT_DIR$/webroot/css/login.css" />
+        <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Layout/default.ctp" />
+        <option value="$PROJECT_DIR$/src/Template/Users/view.ctp" />
       </list>
     </option>
   </component>
@@ -256,7 +293,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="css&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/style.css&#10;layout.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/layout.css&#10;style.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/style.css&#10;s&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/log/css/style.css&#10;dash&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/dashboard.css&#10;defaul&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Layout/default.ctp&#10;login&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Users/login.ctp&#10;app.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/config/app.php&#10;view&#9;FILE&#9;file:///home/adil/CakePhP/src/Template/Users/view.ctp&#10;index&#9;FILE&#9;file:///home/adil/CakePhP/src/Template/Users/index.ctp&#10;ind&#9;FILE&#9;file:///home/adil/CakePhP/src/Template/Timeoffrequest/index.ctp&#10;user&#9;FILE&#9;file:///home/adil/CakePhP/src/Controller/UsersController.php&#10;timeo&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;add.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/add.ctp&#10;date&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/date.js&#10;edit.c&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/edit.ctp&#10;timeoff&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;default&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;edit&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/edit.ctp&#10;add&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/add.ctp&#10;edi&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/edit.ctp&#10;usercon&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/UsersController.php&#10;log&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;routes&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/config/routes.php&#10;logi&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;valida&#9;null&#9;null&#10;li&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/light-bootstrap-dashboard.css&#10;cake&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/cake.css&#10;dat&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/date.js&#10;def&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;cak&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;ight&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/light-bootstrap-dashboard.js&#10;cake.js&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;contr&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;defa&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;cake.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;view.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/view.ctp&#10;add.ctp&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/add.ctp&#10;userc&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/UsersController.php&#10;login.ct&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;default.c&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;reset.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/reset.css&#10;defau&#9;FILE&#9;file://C:/Users/adil/Desktop/cakeweb_dev/cakeItUp/src/Template/Layout/default.ctp&#10;user.php&#9;FILE&#9;file://C:/Users/adil/Desktop/cakeweb_dev/cakeItUp/src/Model/Entity/User.php&#10;Appcontrol&#9;null&#9;null&#10;UserCont&#9;null&#9;null&#10;Userta&#9;null&#9;null&#10;usertable&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="view&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Users/view.ctp&#10;def&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Layout/default.ctp&#10;index&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Timeoffrequest/index.ctp&#10;user&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Controller/UsersController.php&#10;appcon&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Controller/AppController.php&#10;ctp&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Timeoffrequest/add.ctp&#10;css&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/style.css&#10;layout.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/layout.css&#10;style.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/style.css&#10;s&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/log/css/style.css&#10;dash&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/webroot/css/dashboard.css&#10;defaul&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Layout/default.ctp&#10;login&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/src/Template/Users/login.ctp&#10;app.&#9;FILE&#9;file://C:/Users/Adil Ali/Desktop/CakePhP/config/app.php&#10;ind&#9;FILE&#9;file:///home/adil/CakePhP/src/Template/Timeoffrequest/index.ctp&#10;timeo&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;add.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/add.ctp&#10;date&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/date.js&#10;edit.c&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/edit.ctp&#10;timeoff&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;default&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;edit&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/edit.ctp&#10;add&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/add.ctp&#10;edi&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/edit.ctp&#10;usercon&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/UsersController.php&#10;log&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;routes&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/config/routes.php&#10;logi&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;valida&#9;null&#9;null&#10;li&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/light-bootstrap-dashboard.css&#10;cake&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/cake.css&#10;dat&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/date.js&#10;cak&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;ight&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/light-bootstrap-dashboard.js&#10;cake.js&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;contr&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/TimeoffrequestController.php&#10;defa&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;cake.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/js/cake.js&#10;view.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/view.ctp&#10;add.ctp&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Timeoffrequest/add.ctp&#10;userc&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Controller/UsersController.php&#10;login.ct&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Users/login.ctp&#10;default.c&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/src/Template/Layout/default.ctp&#10;reset.&#9;FILE&#9;file://C:/Users/adali/IdeaProjects/cakeWD/webroot/css/reset.css&#10;defau&#9;FILE&#9;file://C:/Users/adil/Desktop/cakeweb_dev/cakeItUp/src/Template/Layout/default.ctp&#10;user.php&#9;FILE&#9;file://C:/Users/adil/Desktop/cakeweb_dev/cakeItUp/src/Model/Entity/User.php&#10;Appcontrol&#9;null&#9;null&#10;UserCont&#9;null&#9;null&#10;Userta&#9;null&#9;null&#10;usertable&#9;null&#9;null" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="recentsLimit" value="5" />
@@ -340,12 +377,12 @@
       <workItem from="1450190574991" duration="7767000" />
       <workItem from="1451885079088" duration="304000" />
       <workItem from="1456025344739" duration="37000" />
-      <workItem from="1461031785595" duration="11780000" />
+      <workItem from="1461031785595" duration="13106000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129676000" />
+    <option name="totallyTimeSpent" value="131002000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
@@ -473,13 +510,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="479" column="9" selection-start-line="479" selection-start-column="9" selection-end-line="479" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
         </state>
       </provider>
     </entry>
@@ -672,32 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="6" column="9" selection-start-line="6" selection-start-column="9" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Controller/TimeoffrequestController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="69" column="10" selection-start-line="69" selection-start-column="10" selection-end-line="69" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="40" column="8" selection-start-line="40" selection-start-column="8" selection-end-line="40" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Users/view.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="113" column="68" selection-start-line="113" selection-start-column="68" selection-end-line="113" selection-end-column="68" />
           <folding />
         </state>
       </provider>
@@ -706,14 +714,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="218" column="27" selection-start-line="218" selection-start-column="27" selection-end-line="218" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="349">
-          <caret line="30" column="72" selection-start-line="30" selection-start-column="72" selection-end-line="30" selection-end-column="72" />
           <folding />
         </state>
       </provider>
@@ -774,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-68">
-          <caret line="53" column="5" selection-start-line="53" selection-start-column="5" selection-end-line="53" selection-end-column="5" />
-          <folding>
-            <element signature="n#div#1;n#div#0;n#nav#0;n#div#1;n#div#1;n#body#0;n#html#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/webroot/css/dashboard.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="666">
@@ -796,6 +786,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="628" column="0" selection-start-line="628" selection-start-column="0" selection-end-line="628" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/add.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="26" column="79" selection-start-line="26" selection-start-column="79" selection-end-line="26" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/AppController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="52" column="34" selection-start-line="52" selection-start-column="34" selection-end-line="52" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/UsersController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="53" column="90" selection-start-line="53" selection-start-column="86" selection-end-line="53" selection-end-column="90" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Timeoffrequest/index.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="12" selection-end-line="5" selection-end-column="107" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Layout/default.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="130" column="24" selection-start-line="130" selection-start-column="28" selection-end-line="130" selection-end-column="66" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Template/Users/view.ctp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="57" selection-start-line="11" selection-start-column="60" selection-end-line="15" selection-end-column="83" />
           <folding />
         </state>
       </provider>

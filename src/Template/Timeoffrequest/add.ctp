@@ -2,8 +2,8 @@
     <ul class="nav">
         <li class="heading"><?= __('Actions') ?></li>
         <li><?= $this->Html->link(__('List Time Off Request'), ['action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>
-        <li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>
+        <!--<li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>-->
+        <!--<li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>-->
     </ul>
 </div>
 <!-- main area -->
@@ -24,7 +24,7 @@
         echo $this->Form->input('kApprovalStatus', array(
             'class' => 'form-control',
             'label' => 'Approval Status',
-            'options' => ['1' => 'Pending', '2' => 'Approved'],
+            'options' => ['1' => 'Pending', '2' => 'Approved', '3' => 'Rejected'],
             'default' => '1'));
         echo '</div></div></div>';
 

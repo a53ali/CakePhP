@@ -128,7 +128,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         <?php
                         if (!is_null($this->request->session()->read('Auth.User.username'))) {
                         echo '
-                        <li><a href="/dashboard">User</a></li>
+                        <!--<li><a href="/dashboard">User</a></li>-->
                         <li><a href="/timeoffrequest">Time Off Request</a></li>
                         ';
                         echo '

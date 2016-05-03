@@ -1789,3 +1789,3272 @@ Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
 
 
 
+2016-04-19 05:55:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-04-19 06:23:39 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 01:05:11 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 01:05:22 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 01:05:29 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 01:05:41 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:18:14 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:20:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:21:00 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:22:34 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:23:08 Notice: Notice (8): Undefined variable: tor in [C:\Users\Adil Ali\Desktop\CakePhP\src\Controller\TimeoffrequestController.php, line 162]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TimeoffrequestController::getUserRole() - APP/Controller\TimeoffrequestController.php, line 162
+App\Controller\TimeoffrequestController::index() - APP/Controller\TimeoffrequestController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:23:08 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Controller\TimeoffrequestController.php, line 162]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TimeoffrequestController::getUserRole() - APP/Controller\TimeoffrequestController.php, line 162
+App\Controller\TimeoffrequestController::index() - APP/Controller\TimeoffrequestController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:23:08 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:25:14 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Controller\TimeoffrequestController.php, line 162]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TimeoffrequestController::getUserRole() - APP/Controller\TimeoffrequestController.php, line 162
+App\Controller\TimeoffrequestController::index() - APP/Controller\TimeoffrequestController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:25:15 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:26:19 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Controller\TimeoffrequestController.php, line 162]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+App\Controller\TimeoffrequestController::getUserRole() - APP/Controller\TimeoffrequestController.php, line 162
+App\Controller\TimeoffrequestController::index() - APP/Controller\TimeoffrequestController.php, line 25
+Cake\Controller\Controller::invokeAction() - CORE\src\Controller\Controller.php, line 429
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 114
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:26:19 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:26:53 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:27:41 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:28:18 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:28:51 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:29:34 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:31:20 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:31:51 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:32:05 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:08 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:12 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:35 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:42 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:33:48 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:34:08 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:35:07 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:35:26 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:36:36 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:36:50 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:37:08 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:38:32 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:39:38 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:40:42 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:41:39 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:41:50 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:44:49 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:44:55 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:45:21 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:45:33 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:45:46 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:45:56 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:47:06 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:47:29 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:48:02 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:49:25 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:49:59 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:50:09 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:50:32 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:50:54 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:51:57 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:55:57 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:56:52 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:57:49 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 02:59:41 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:00:41 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:04:46 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:06:49 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:06:59 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:07:05 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:07:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:07:47 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:08:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:08:37 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:08:47 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:08:53 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:09:22 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:10:03 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:10:09 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:10:15 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:10:19 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:12:41 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:13:47 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:13:55 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:14:23 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:14:23 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:14:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:17:30 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:17:53 Notice: Notice (8): Object of class App\View\AppView to string conversion in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:17:53 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 28]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 28
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:18:19 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:20:35 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:20:47 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:21:38 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:22:38 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:23:33 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:24:00 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:26:31 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:27:44 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:29:56 Notice: Notice (8): Array to string conversion in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 38]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 38
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:29:56 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:30:13 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:31:48 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:32:44 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:33:36 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:33:39 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:33:49 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:34:09 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:34:17 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:34:31 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:38:24 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:39:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:40:10 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:48:59 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:50:48 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 03:51:37 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:01:13 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:01:30 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:01:53 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:02:18 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:03:13 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:04:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:04:35 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:05:47 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:06:55 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:07:31 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:08:03 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:08:20 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:08:58 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:09:07 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:09:30 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:10:14 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:10:42 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:11:10 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:11:42 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:12:50 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:14:03 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:14:09 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:14:52 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:16:38 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:16:46 Notice: Notice (8): Undefined variable: timeoffrequestapproved in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 82]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 82
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:16:46 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:17:28 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:18:12 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:19:05 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:21:25 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:24:01 Notice: Notice (8): Use of undefined constant timeoffrequestrejected - assumed 'timeoffrequestrejected' in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 136
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:24:02 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:24:42 Notice: Notice (8): Use of undefined constant timeoffrequestrejected - assumed 'timeoffrequestrejected' in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 136]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 136
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:24:43 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:25:21 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:25:54 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:26:16 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:26:35 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:27:11 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:28:31 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:29:14 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:30:43 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:31:20 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:31:32 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:32:23 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:32:23 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:32:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:04 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:04 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:04 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:05 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:05 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:05 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:11 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:11 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:11 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:44 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:44 Notice: Notice (8): Trying to get property of non-object in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Timeoffrequest\index.ctp, line 36]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Timeoffrequest\index.ctp, line 36
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:44 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:33:55 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:35:30 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:35:53 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:36:10 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:36:30 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:36:37 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:36:51 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:39:36 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:39:48 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:40:59 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:41:06 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:41:17 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:41:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:41:56 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:42:16 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:44:22 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:45:11 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:45:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:45:57 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:46:23 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:46:39 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:46:59 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:47:04 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:47:26 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:47:33 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:47:45 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:48:16 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:48:18 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:48:52 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:49:03 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:50:24 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:50:34 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:50:40 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:52:18 Notice: Notice (8): Use of undefined constant kApprovalStatus - assumed 'kApprovalStatus' in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Users\view.ctp, line 142]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Users\view.ctp, line 142
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::render() - CORE\src\View\View.php, line 580
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:52:18 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:53:20 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:53:40 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:53:44 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:56:52 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:57:01 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:57:14 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:57:19 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:59:07 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 04:59:27 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 05:00:02 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 05:00:14 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 05:00:19 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+
+2016-05-03 05:00:22 Notice: Notice (8): Undefined variable: background in [C:\Users\Adil Ali\Desktop\CakePhP\src\Template\Layout\default.ctp, line 53]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE\src\Error\BaseErrorHandler.php, line 138
+include - APP/Template\Layout\default.ctp, line 53
+Cake\View\View::_evaluate() - CORE\src\View\View.php, line 972
+Cake\View\View::_render() - CORE\src\View\View.php, line 932
+Cake\View\View::renderLayout() - CORE\src\View\View.php, line 626
+Cake\View\View::render() - CORE\src\View\View.php, line 585
+Cake\Controller\Controller::render() - CORE\src\Controller\Controller.php, line 611
+Cake\Routing\Dispatcher::_invoke() - CORE\src\Routing\Dispatcher.php, line 120
+Cake\Routing\Dispatcher::dispatch() - CORE\src\Routing\Dispatcher.php, line 87
+[main] - ROOT\webroot\index.php, line 37
+
+
+

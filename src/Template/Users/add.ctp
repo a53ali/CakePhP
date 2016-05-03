@@ -31,7 +31,7 @@
                                 'placeholder' => 'Password'
                             ));
                             echo $this->Form->input('role', array(
-                                'options' => ['admin' => 'Admin', 'author' => 'Author'],
+                                'options' => ['manager' => 'Manager', 'employee' => 'Employee'],
                                 'label' => '',
                                 'class' => 'form-control',
                                 'before' => '<span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>',

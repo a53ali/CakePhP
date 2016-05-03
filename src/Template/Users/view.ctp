@@ -139,7 +139,7 @@
                                         </td>
                                         <td><?= $timeoffrequest->start->format('d, M Y'); ?></td>
                                         <td><?= $timeoffrequest->end->format('d, M Y') ?></td>
-                                        <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : 'Approved' ?></td>
+                                        <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : ($timeoffrequest->kApprovalStatus == '2' ? 'Approved': 'Rejected') ?></td>
                                     </tr>
                                 <?php endforeach; ?>
                                 </tbody>

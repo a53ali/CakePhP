@@ -67,7 +67,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
 
             <ul class="nav">
                 <li>
-                    <a href="#">
+                    <a href="/timeoff">
                         <i class="pe-7s-graph"></i>
 
                         <p>Dashboard</p>

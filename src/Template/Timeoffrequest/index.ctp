@@ -1,13 +1,9 @@
-<div class="col-xs-6 col-sm-3 sidebar-offcanvas" id="sidebar" role="navigation">
-    <ul class="nav">
-        <li class="heading"><?= __('Actions') ?></li>
-        <li><?= $this->Html->link(__('New Time Off Request'), ['action' => 'add']) ?></li>
-        <!--<li><?= $this->Html->link(__('List Users'), ['controller' => 'Users', 'action' => 'index']) ?></li>-->
-        <!--<li><?= $this->Html->link(__('New User'), ['controller' => 'Users', 'action' => 'add']) ?></li>-->
-    </ul>
-</div>
 <!-- main area -->
 <div class="col-xs-12 col-sm-9">
+
+    <a href="/timeoffrequest/add" class="btn btn-primary btn-success">
+        <span class="glyphicon glyphicon-time"></span> New Time Off Request
+    </a>
     <h2 class="sub-header"><?= __('Time Off Request') ?></h2>
 
     <ul class="nav nav-tabs">

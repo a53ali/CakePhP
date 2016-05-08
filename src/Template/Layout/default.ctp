@@ -155,7 +155,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
     ?>
 
         <div class="content">
-            <section class="container clearfix">
+            <section class="clearfix">
                 <?= $this->fetch('content') ?>
             </section>
         </div>

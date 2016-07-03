@@ -17,16 +17,18 @@
         echo '<div class="form-group">';
         echo $this->Form->input('user_id', array(
             'class' => 'form-control',
-            'options' => $users
+            'options' => $users,
+            'label' => 'User *'
         ));
         echo '</div>';
         echo '</div><div class="col-md-6">';
         echo $this->Form->input('kApprovalStatus', array(
             'class' => 'form-control',
-            'label' => 'Approval Status',
+            'label' => 'Approval Status *',
             'options' => ['1' => 'Pending', '2' => 'Approved', '3' => 'Rejected'],
             'default' => '1'));
         echo '</div></div></div>';
+
 
         echo '<div class="col-xs-12 col-sm-9"><div class="row"> <div class="col-md-6">';
         echo '<label>Start Date</label>';
@@ -58,6 +60,14 @@
         echo '</div>';
         echo '<div class="form-group">';
         ?>
+        <div class="form-group">
+          <label for="timeofftype">Time Off Type</label>
+        <select class="form-control" id="timeofftype">
+                      <option value="sick"> Sick</option>
+                      <option value="vacation"> Vacation</option>
+                      <option value="fd"> Floater Day</option>
+        </select>
+        </div>
         <p>You are taking
             <input type="text" id="different" disabled/>
             days off.

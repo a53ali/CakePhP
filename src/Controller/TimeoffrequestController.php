@@ -111,7 +111,7 @@ class TimeoffrequestController extends AppController
             }
         }
         $users = $this->Timeoffrequest->Users->find('list', ['limit' => 200]);
-
+        //$timeoffrequest['start'] =(array_combine(array('year', 'month', 'day'), explode('/' , split( ',', $timeoffrequest['start']."time")[0])));
         $this->set(compact('timeoffrequest', 'users'));
         $this->set('_serialize', ['timeoffrequest']);
     }

@@ -32,8 +32,10 @@
                     <tbody>
                     <?php foreach ($timeoffrequestpending as $timeoffrequest): ?>
                     <tr>
-                        <td><?= $timeoffrequest->has('user') ? $this->Html->Link($timeoffrequest->user->username, ['controller' => 'Users', 'action' => 'view', $timeoffrequest->user->id]) : ' ' ?></td>
-                        <td><?= $timeoffrequest->start->format('m/d/y'); ?></td>
+                      <td><?= $timeoffrequest->has('user') ?
+                                                  $this->Text->autoParagraph($timeoffrequest->user->username,
+                                                  ['controller' => 'Users', 'action' => '', $timeoffrequest->user->id]) : '' ?>
+                        </td>  <td><?= $timeoffrequest->start->format('m/d/y'); ?></td>
                         <td><?= $timeoffrequest->end->format('m/d/y') ?></td>
                         <td><?= h($timeoffrequest->created->format('m/d/y')) ?></td>
                         <td><?= h($timeoffrequest->modified->format('m/d/y'))?></td>

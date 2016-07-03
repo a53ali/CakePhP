@@ -23,6 +23,7 @@
         echo '<div class="form-group">';
         echo $this->Form->input('user_id', array(
             'class' => 'form-control',
+            'disabled' => true,
             'options' => $users
         ));
         echo '</div>';
@@ -34,26 +35,28 @@
             'default' => '1'));
         echo '</div></div></div>';
 
+
         echo '<div class="col-xs-12 col-sm-9"><div class="row"> <div class="col-md-6">';
         echo '<label>Start Date</label>';
         echo '<div class="input-group date" id="start">';
-        echo $this->Form->input('start', array(
+        echo $this->Form->text('start', array(
             'class' => 'form-control',
-            'label' => '',
-            'id' => 'start',
+            'label' => 'Start Date',
             'disabled' => true,
-            'dateFormat' => 'MDY',
+            'id' => 'start'
         ));
+        echo '<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span></span>';
         echo '</div>';
         echo '</div><div class="col-md-6">';
         echo '<label>End Date</label>';
         echo '<div class="input-group date" id="end">';
-        echo $this->Form->input('end', array(
+        echo $this->Form->text('end', array(
             'class' => 'form-control',
-            'label' => '',
-            'id' => 'end',
-            'disabled' => true
+            'label' => 'End Date',
+            'disabled' => true,
+            'id' => 'end'
         ));
+        echo '<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span></span>';
         echo '</div></div></div>';
 
         echo '<div class="form-group">';
@@ -66,7 +69,7 @@
         echo '<div class="form-group">';
         ?>
         <p>You are taking
-            <input type="text" id="different" disabled/>
+            <input type="text" id="different" onload="diffDate()" disabled/>
             days off.
         </p>
     </fieldset>
@@ -76,5 +79,7 @@
     ));
     ?>
     <?= $this->Form->end() ?>
+    <script>
 
+    </script>
 </div>

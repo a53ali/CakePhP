@@ -33,4 +33,5 @@ $(window).load(function () {
             $("#different").val(days + 1);
         }
     }
+    diffDate();
 });

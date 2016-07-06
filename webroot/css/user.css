@@ -1,0 +1,74 @@
+.values_list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    float: left
+}
+
+.values_list li {
+    cursor: pointer;
+    display: block;
+    width: 40px;
+    height: 48px;
+    float: left;
+    margin: 20px;
+    background-image: url(../img/card_icons.png);
+    background-size: 378px;
+    background-position-y: -48px;
+    -webkit-transition: all .25s ease-out;
+    transition: all .25s ease-out
+}
+
+.values_list li:before {
+    content: attr(data-label);
+    opacity: 0
+}
+
+.values_list li.active[data-label=name] {
+    background-position: 0 -96px
+}
+
+.values_list li.active[data-label=email] {
+    background-position: -68px -96px
+}
+
+.values_list li.active[data-label=birthday] {
+    background-position: -135px -96px
+}
+
+.values_list li.active[data-label=location] {
+    background-position: -203px -96px
+}
+
+.values_list li.active[data-label=phone] {
+    background-position: -270px -96px
+}
+
+.values_list li.active[data-label=pass] {
+    background-position: -338px -96px
+}
+
+.values_list li[data-label=name] {
+    background-position: 0 -48px
+}
+
+.values_list li[data-label=email] {
+    background-position: -68px -48px
+}
+
+.values_list li[data-label=birthday] {
+    background-position: -135px -48px
+}
+
+.values_list li[data-label=location] {
+    background-position: -203px -48px
+}
+
+.values_list li[data-label=phone] {
+    background-position: -270px -48px
+}
+
+.values_list li[data-label=pass] {
+    background-position: -338px -48px
+}

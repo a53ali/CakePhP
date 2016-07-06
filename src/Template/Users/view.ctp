@@ -21,6 +21,16 @@
         <div class="col-md-6">
             <div class="panel panel-default">
                 <div class="panel-body">
+                    <ul class="values_list horizontal_center" id="values_list">
+                        <li data-title="Hi, My name is" data-value="" data-label="name" class="active"/>
+                        <li data-title="My email address is" data-value="" data-label="email" data-caps="false"
+                            class=""/>
+                        <li data-title="My birthday is" data-value="" data-label="birthday" class=""/>
+                        <li data-title="My address is" data-value="" data-label="location" class=" "/>
+                        <li data-title="My phone number is" data-value="" data-label="phone" class=""/>
+                        <li data-title="My password is" data-value="" data-label="pass" data-caps="false"
+                            class=" active"/>
+                    </ul>
                     <div class="row">
                         <div class="col-xs-12 col-sm-8">
                             <h2>Adil Ali</h2>
@@ -46,17 +56,17 @@
                         <div class="col-xs-12 col-sm-4 text-center">
                             <ul class="list-inline text-center" title="Social Links">
                                 <li><a href="http://twitter.com" title="Twitter Feed" rel="nofollow"><span
-                                            class="fa fa-twitter fa-lg"></span></a></li>
+                                    class="fa fa-twitter fa-lg"></span></a></li>
                                 <li><a href="http://www.facebook.com" title="Facebook Wall" rel="nofollow"><span
-                                            class="fa fa-facebook fa-lg"></span></a></li>
+                                    class="fa fa-facebook fa-lg"></span></a></li>
                                 <li><a href="http://www.linkedin.com" title="LinkedIn Profile" rel="nofollow"><span
-                                            class="fa fa-linkedin fa-lg"></span></a></li>
+                                    class="fa fa-linkedin fa-lg"></span></a></li>
                                 <li><a href="http://www.skype.com" title="Skype" rel="nofollow"><span
-                                            class="fa fa-skype fa-lg"></span></a></li>
+                                    class="fa fa-skype fa-lg"></span></a></li>
                             </ul>
                             <img
                                 src="http://lorempixel.com/600/600/people/"
-                                class="center-block img-circle img-responsive">
+                                class="center-block img-circle img-responsive">\
                             <ul class="list-inline ratings text-center" title="Ratings">
                                 <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                                 <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
@@ -109,6 +119,7 @@
                     </div>
                     <div class="form-group">
                         <label class="col-md-3 control-label"><?= __('Date Updated:') ?></label>
+
                         <div class="col-md-8">
                             <div class="form-control">
                                 <?= h($user->modified->format('m/d/y')) ?>
@@ -131,16 +142,18 @@
                                 </thead>
                                 <tbody>
                                 <?php foreach ($timeoffrequest as $timeoffrequest): ?>
-                                    <tr>
-                                        <td class="actions">
-                                            <?= $this->Html->link(__('View'),
-                                                ['controller' => 'timeoffrequest', 'action' => 'view', $timeoffrequest->id,
-                                                    'class' => 'icon-eye-open']) ?>
-                                        </td>
-                                        <td><?= $timeoffrequest->start->format('d, M Y'); ?></td>
-                                        <td><?= $timeoffrequest->end->format('d, M Y') ?></td>
-                                        <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' : ($timeoffrequest->kApprovalStatus == '2' ? 'Approved': 'Rejected') ?></td>
-                                    </tr>
+                                <tr>
+                                    <td class="actions">
+                                        <?= $this->Html->link(__('View'),
+                                        ['controller' => 'timeoffrequest', 'action' => 'view', $timeoffrequest->id,
+                                        'class' => 'icon-eye-open']) ?>
+                                    </td>
+                                    <td><?= $timeoffrequest->start->format('d, M Y'); ?></td>
+                                    <td><?= $timeoffrequest->end->format('d, M Y') ?></td>
+                                    <td><?= $timeoffrequest->kApprovalStatus == '1' ? 'Pending' :
+                                        ($timeoffrequest->kApprovalStatus == '2' ? 'Approved': 'Rejected') ?>
+                                    </td>
+                                </tr>
                                 <?php endforeach; ?>
                                 </tbody>
                             </table>

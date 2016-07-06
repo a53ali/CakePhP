@@ -55400,3 +55400,19 @@ Stack Trace:
 #14 {main}
 
 
+2016-07-06 14:18:04 Error: Fatal Error (1): Call to undefined function App\Controller\console_log() in [C:\webdev\CakePhP\src\Controller\TimeoffrequestController.php, line 58]
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 191
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 90
+[main] - [internal], line ??
+
+
+
+2016-07-06 14:18:06 Error: [Cake\Error\FatalErrorException] Call to undefined function App\Controller\console_log()
+Request URL: /timeoffrequest/add
+Stack Trace:
+#0 C:\webdev\CakePhP\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(90): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Call to undefin...', 'C:\\webdev\\CakeP...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+

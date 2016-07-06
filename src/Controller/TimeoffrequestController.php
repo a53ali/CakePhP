@@ -55,7 +55,10 @@ class TimeoffrequestController extends AppController
         if ($this->request->is('post')) {
             $this->request->data['start'] = array_combine(array('year', 'month', 'day'), explode('-', $this->request->data['start']));
             $this->request->data['end'] = array_combine(array('year', 'month', 'day'), explode('-', $this->request->data['end']));
-            //pr($this->request->data);
+            $this->request->data['start']['day']  =  $this->request->data['start']['day'] - 1;
+            $this->request->data['end']['day'] = $this->request->data['end']['day'] - 1;
+            //pr( $this->request->data['start']['day'] - 1);
+            //die;
             //exit;
             $timeoffrequest = $this->Timeoffrequest->patchEntity($timeoffrequest, $this->request->data);
             if ($this->Timeoffrequest->save($timeoffrequest)) {

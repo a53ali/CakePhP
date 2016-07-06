@@ -66,7 +66,7 @@
                             </ul>
                             <img
                                 src="http://lorempixel.com/600/600/people/"
-                                class="center-block img-circle img-responsive">\
+                                class="center-block img-circle img-responsive">
                             <ul class="list-inline ratings text-center" title="Ratings">
                                 <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>
                                 <li><a href="#"><span class="fa fa-star fa-lg"></span></a></li>

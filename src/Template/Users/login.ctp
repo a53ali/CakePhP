@@ -15,6 +15,7 @@
 
 <?php
     $this->set('background', '../img/header-bg.jpg');
+    $this->set('background-size', '100%');
     ?>
 
 <div class="row vertical-offset-100 header">

@@ -25,11 +25,11 @@
             </tr>
             <tr>
                 <th><?= __('Created') ?></th>
-                <td><?= h($timeoffrequest->created->format('m/d/y , h:i A')) ?></td>
+                <td><?= h($timeoffrequest->created->format('m/d/y')) ?></td>
             </tr>
             <tr>
                 <th><?= __('Modified') ?></th>
-                <td><?= h($timeoffrequest->modified->format('m/d/y , h:i A')) ?></td>
+                <td><?= h($timeoffrequest->modified->format('m/d/y')) ?></td>
             </tr>
             <tr>
                 <th><?= __('Approval Status') ?></th>

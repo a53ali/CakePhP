@@ -137,9 +137,10 @@ input, button {
 }
 .login__input {
   display: inline-block;
-  width: 22rem;
+    color: #1e90ff;
+    width: 22rem;
   height: 100%;
-  padding-left: 1.5rem;
+  padding-left: 2.5rem;
   font-size: 1.5rem;
   background: transparent;
 }

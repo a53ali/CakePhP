@@ -20,7 +20,7 @@
 
 <div class="row vertical-offset-100 header">
     <div class="text-editor-wrap">
-        <div class="title-bar"><span class="title">typed.js — bash — 80x<span class="terminal-height">10</span></span>
+        <div class="title-bar"><span class="title">NETSUITE<span class="terminal-height"></span></span>
         </div>
         <div class="text-body">
             $ <span id="typed">NetSuite Core HRIS allows you to manage a global workforce.</span><span

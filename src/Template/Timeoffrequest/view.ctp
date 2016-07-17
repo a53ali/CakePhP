@@ -16,19 +16,19 @@
     <div class="table-responsive">
         <table class="table table-striped">
             <tr>
-                <th><?= __('Start') ?></th>
+                <th><?= __('Start (MM/DD/YY)') ?></th>
                 <td id="start"><?= h($timeoffrequest->start->format('m/d/y')) ?></td>
             </tr>
             <tr>
-                <th><?= __('End') ?></th>
+                <th><?= __('End (MM/DD/YY)') ?></th>
                 <td id="end"><?= h($timeoffrequest->end->format('m/d/y')) ?></td>
             </tr>
             <tr>
-                <th><?= __('Created') ?></th>
+                <th><?= __('Created (MM/DD/YY)') ?></th>
                 <td><?= h($timeoffrequest->created->format('m/d/y')) ?></td>
             </tr>
             <tr>
-                <th><?= __('Modified') ?></th>
+                <th><?= __('Modified (MM/DD/YY)') ?></th>
                 <td><?= h($timeoffrequest->modified->format('m/d/y')) ?></td>
             </tr>
             <tr>

@@ -37,18 +37,18 @@
 
 
         echo '<div class="col-xs-12 col-sm-9"><div class="row"> <div class="col-md-6">';
-        echo '<label>Start Date</label>';
+        echo '<label>Start Date (MM/DD/YY)</label>';
         echo '<div class="input-group date" id="start">';
         echo $this->Form->text('start', array(
             'class' => 'form-control',
             'label' => 'Start Date',
             'disabled' => true,
-            'id' => 'start'
+            'id' => 'start',
         ));
         echo '<span class="input-group-addon"><span class="glyphicon-calendar glyphicon"></span></span>';
         echo '</div>';
         echo '</div><div class="col-md-6">';
-        echo '<label>End Date</label>';
+        echo '<label>End Date (MM/DD/YY)</label>';
         echo '<div class="input-group date" id="end">';
         echo $this->Form->text('end', array(
             'class' => 'form-control',

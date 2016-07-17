@@ -121,7 +121,6 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                             echo '<a href="/users/view/';
                                     echo $this->request->session()->read('Auth.User.id');
                                     echo '">';
-                            echo 'Account';
                             }
                             ?>
                         </a>
@@ -130,7 +129,7 @@ $cakeDescription = 'CakePHP: the rapid development php framework';
                         if (!is_null($this->request->session()->read('Auth.User.username'))) {
                         echo '
                         <!--<li><a href="/dashboard">User</a></li>-->
-                        <li><a href="/timeoffrequest">Time Off Request</a></li>
+                        <!--<li><a href="/timeoffrequest">Time Off Request</a></li>-->
                         ';
                         echo '
                         <li>';
